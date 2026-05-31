@@ -174,6 +174,8 @@ document.getElementById("startQuizBtn").addEventListener("click", async () => {
       isCorrect: false,
     }));
 
+    quizWords.sort(() => Math.random() - 0.5); //từ xuất hiện random
+
     currentQuizIndex = 0;
 
     document.getElementById("quizArea").style.display = "block";
@@ -256,13 +258,6 @@ function handleNextWordAction() {
     finishQuizAndCalculate();
   }
 }
-
-// Nút Từ tiếp theo (Chủ động bỏ qua hoặc chuyển câu khi viết xong)
-document.getElementById("nextQuizBtn").addEventListener("click", () => {
-  if (quizWords.length > 0) {
-    handleNextWordAction();
-  }
-});
 
 // Nút Kết thúc bài thi chủ động
 document.getElementById("finishQuizBtn").addEventListener("click", () => {
@@ -369,12 +364,10 @@ document.getElementById("nextQuizBtn").addEventListener("click", () => {
 document
   .getElementById("quizAnswer")
   .addEventListener("keydown", function (event) {
-    // Kiểm tra xem phím vừa nhấn có phải là phím Enter không
     if (event.key === "Enter") {
-      event.preventDefault(); // Ngăn hành vi tải lại trang mặc định của phím Enter (nếu có)
-
+      event.preventDefault();
       if (quizWords.length > 0) {
-        handleNextWordAction(); // Chạy lệnh chuyển từ hệt như khi bấm chuột
+        handleNextWordAction();
       }
     }
   });

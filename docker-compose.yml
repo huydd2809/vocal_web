@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  # Cấu hình cho dịch vụ Backend
+  backend:
+    build: ./backend
+    container_name: vocal_backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app # Gắn volume để khi bạn sửa code ở máy thật, code trong container tự cập nhật
+    environment:
+      - ENV=development
+
+  # Cấu hình cho dịch vụ Frontend
+  frontend:
+    build: ./frontend
+    container_name: vocal_frontend
+    ports:
+      - "8080:80" # Bản đồ hóa port 80 của container thành port 8080 trên máy thật của bạn
+    depends_on:
+      - backend # Chờ backend khởi động xong rồi mới khởi động frontend

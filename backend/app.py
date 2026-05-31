@@ -8,7 +8,11 @@ app = Flask(__name__)
 # Cho phép Frontend gọi API tới Backend
 CORS(app)
 
-DATA_FILE = 'vocabulary.json'
+# Lấy đường dẫn tuyệt đối của thư mục chứa file app.py hiện tại (tức là thư mục backend)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Ép đường dẫn file json luôn nằm trong thư mục backend này
+DATA_FILE = os.path.join(BASE_DIR, 'vocabulary.json')
 
 # Hàm đọc dữ liệu từ file JSON
 def load_data():
@@ -81,4 +85,4 @@ def update_level(word_id):
 
 # Chạy server
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(host='0.0.0.0', debug=True, port=5000)
