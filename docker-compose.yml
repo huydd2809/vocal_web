@@ -7,8 +7,8 @@ services:
     container_name: vocal_backend
     ports:
       - "5000:5000"
-    volumes:
-      - ./backend:/app # Gắn volume để khi bạn sửa code ở máy thật, code trong container tự cập nhật
+    #volumes:
+    #  - ./backend:/app # Gắn volume để khi bạn sửa code ở máy thật, code trong container tự cập nhật
     environment:
       - ENV=development
 
