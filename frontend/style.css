@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px 30px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.form-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+.btn-secondary {
+  background-color: #2ecc71;
+  color: white;
+}
+.btn-secondary:hover {
+  background-color: #27ae60;
+}
+
+/* CSS cho Flashcard 3D */
+.flashcard-container {
+  perspective: 1000px; /* Tạo chiều sâu 3D */
+  width: 100%;
+  height: 250px;
+  margin: 20px 0;
+}
+
+.flashcard {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+/* Class này sẽ được thêm bằng Javascript khi click */
+.flashcard.flipped {
+  transform: rotateX(180deg);
+}
+
+.flashcard .front,
+.flashcard .back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden; /* Giấu mặt sau khi thẻ đang úp */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.flashcard .back {
+  transform: rotateX(180deg);
+  background-color: #fcfcfc;
+}
+
+.english-text {
+  font-size: 32px;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+.click-hint {
+  font-size: 14px;
+  color: #95a5a6;
+  font-style: italic;
+}
+
+.fc-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.level-control {
+  background-color: #fdf2e9;
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* CSS cho Khu vực Quiz */
+.quiz-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Cho phép các nút tự động xuống dòng nếu màn hình nhỏ */
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.quiz-area {
+  background-color: #f9fbfd;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px dashed #bdc3c7;
+  text-align: center;
+  position: relative;
+}
+
+.level-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #e67e22;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.vietnamese-text {
+  font-size: 26px;
+  color: #e74c3c;
+  margin-bottom: 5px;
+}
+.hint-text {
+  color: #7f8c8d;
+  font-style: italic;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.pronunciation-text {
+  color: #8e44ad;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#quizAnswer {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.result-area {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* CSS cho Bảng danh sách từ vựng */
+.table-container {
+  overflow-x: auto; /* Tự động hiện thanh cuộn ngang nếu màn hình nhỏ */
+  margin-top: 15px;
+  max-height: 400px; /* Giới hạn chiều cao bảng, quá dài sẽ có thanh cuộn dọc */
+  overflow-y: auto;
+}
+
+.vocab-table {
+  width: 100%;
+  border-collapse: collapse; /* Gộp viền bảng lại cho thanh thoát */
+  text-align: left;
+  font-size: 16px;
+}
+
+.vocab-table th,
+.vocab-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.vocab-table th {
+  background-color: #34495e;
+  color: white;
+  position: sticky; /* Giữ cố định thanh tiêu đề khi cuộn chuột xem từ */
+  top: 0;
+}
+
+.vocab-table tr:hover {
+  background-color: #f5f7fa; /* Hiệu ứng đổi màu nhẹ khi rê chuột qua dòng */
+}
+
+/* Tùy biến lại Badge hiển thị cấp độ trong bảng */
+.table-level-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  background-color: #3498db;
+}

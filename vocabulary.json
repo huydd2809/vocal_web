@@ -1,0 +1,263 @@
+[
+    {
+        "id": "f5c78234-a12b-4391-8c4d-9e6b7a5f2c11",
+        "english": "artisan",
+        "vietnamese": "thợ thủ công",
+        "type": "noun",
+        "pronunciation": "/'ɑːtɪzæn/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "1e8d9a45-6b2c-4f71-a3d8-5c4e9b2f1a6d",
+        "english": "city centre",
+        "vietnamese": "trung tâm thành phố",
+        "type": "noun",
+        "pronunciation": "/'sɪti 'sentə/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "c3a4f812-7e9b-4562-b1c8-2d9f4a5e6b7c",
+        "english": "community",
+        "vietnamese": "cộng đồng",
+        "type": "noun",
+        "pronunciation": "/kə'mjuːnɪti/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "8b2d1c9f-4e6a-4b75-9c3d-1a8f5e2b7c4d",
+        "english": "craft",
+        "vietnamese": "thủ công mỹ nghệ",
+        "type": "noun",
+        "pronunciation": "/krɑːft/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "a9f5c2b1-6d8e-4a37-b4c9-7e1d8f5a2b3c",
+        "english": "delivery person",
+        "vietnamese": "người giao hàng",
+        "type": "noun",
+        "pronunciation": "/dɪ'lɪvəri 'pɜːsən/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "d4e7b1a5-9c2f-4831-a6b8-3f5c2d9e1a4b",
+        "english": "electrical wires",
+        "vietnamese": "dây điện",
+        "type": "noun",
+        "pronunciation": "/ɪ'lektrɪkəl waɪərz/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "7f1a8c3d-5b9e-4c26-8d1a-4e9b5f2c7a6d",
+        "english": "electrician",
+        "vietnamese": "thợ điện",
+        "type": "noun",
+        "pronunciation": "/ɪlek'trɪʃən/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "b6c9d2f4-1a8e-4753-9b2c-5d1a8f4e7c3b",
+        "english": "facilities",
+        "vietnamese": "cơ sở vật chất",
+        "type": "noun",
+        "pronunciation": "/fə'sɪlɪtiz/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "3a8f5d1c-7b4e-4926-a1c9-6e2d8b4f5a7c",
+        "english": "firefighter",
+        "vietnamese": "lính cứu hỏa",
+        "type": "noun",
+        "pronunciation": "/'faɪə faɪtə/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "e2d5a1b8-9c4f-4371-b6a8-4c7f1e9d2b5a",
+        "english": "fragrance",
+        "vietnamese": "hương thơm",
+        "type": "noun",
+        "pronunciation": "/'freɪɡrəns/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "9c4f2b1a-8e5d-4a63-b1c7-5a8d9e2f4c3b",
+        "english": "function",
+        "vietnamese": "chức năng",
+        "type": "noun",
+        "pronunciation": "/'fʌŋkʃən/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "1d8a5f2c-7b9e-4c31-a4b6-3e9d1f5c8a2b",
+        "english": "garbage collector",
+        "vietnamese": "người thu gom rác",
+        "type": "noun",
+        "pronunciation": "/'ɡɑːbɪdʒ kə'lektə/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "6a3f8d2b-1e9c-4754-a5b7-8c1d4e9f2a5b",
+        "english": "handicraft",
+        "vietnamese": "đồ thủ công",
+        "type": "noun",
+        "pronunciation": "/'hændɪkrɑːft/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "2e9b1a5f-8c4d-4631-b7a9-5f2c8d1e4b3a",
+        "english": "instruct",
+        "vietnamese": "hướng dẫn",
+        "type": "verb",
+        "pronunciation": "/ɪn'strʌkt/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "5f1c8a2b-9e7d-4a35-b4c6-1d9e5a2f8b7c",
+        "english": "local",
+        "vietnamese": "địa phương",
+        "type": "adjective",
+        "pronunciation": "/'ləʊkəl/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "8a2b5f1c-7d9e-4c34-a1b6-4e9d5f2c8a1b",
+        "english": "neighbourhood",
+        "vietnamese": "khu vực lân cận",
+        "type": "noun",
+        "pronunciation": "/'neɪbəhʊd/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "c7a9b1f2-8e4d-4521-b3c6-5a1d8e9f2b4a",
+        "english": "occasion",
+        "vietnamese": "dịp, cơ hội",
+        "type": "noun",
+        "pronunciation": "/ə'keɪʒən/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "1b8f5a2c-9d7e-4613-a4b7-2c9e1d5f8a3b",
+        "english": "original",
+        "vietnamese": "nguyên bản",
+        "type": "adjective",
+        "pronunciation": "/ə'rɪdʒɪnəl/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "9e2d5c1a-8b4f-4732-a1c8-5f9b2d1a4e7c",
+        "english": "police officer",
+        "vietnamese": "cảnh sát",
+        "type": "noun",
+        "pronunciation": "/pə'liːs 'ɒfɪsə/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "3c8a1f5b-7e9d-4c25-a4b6-1d9e2a5f8b7c",
+        "english": "pottery",
+        "vietnamese": "đồ gốm",
+        "type": "noun",
+        "pronunciation": "/'pɒtəri/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "7a1b5f2c-9d8e-4c31-a6b4-2e9d1f5a8c3b",
+        "english": "preserve",
+        "vietnamese": "bảo tồn",
+        "type": "verb",
+        "pronunciation": "/prɪ'zɜːv/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "5c9e2a1b-8d7f-4b36-a1c4-1f9d5a2b8e7c",
+        "english": "property",
+        "vietnamese": "tài sản",
+        "type": "noun",
+        "pronunciation": "/'prɒpəti/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "1f8a2b5c-9e7d-4c31-a4b6-5d9e1a2f8c3b",
+        "english": "shopping mall",
+        "vietnamese": "trung tâm mua sắm",
+        "type": "noun",
+        "pronunciation": "/'ʃɒpɪŋ mɔːlz/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "8b5f2c1a-7d9e-4a32-b1c4-2e9d1f5a8b7c",
+        "english": "shorten",
+        "vietnamese": "rút ngắn",
+        "type": "verb",
+        "pronunciation": "/'ʃɔːtn/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "2a1b8f5c-9d7e-4c35-a6b4-1d9e5a2f8c3b",
+        "english": "sort",
+        "vietnamese": "phân loại",
+        "type": "verb",
+        "pronunciation": "/sɔːrt/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "9e5a2b1f-8c7d-4a31-b4c6-5f9d1a2b8e7c",
+        "english": "speciality food",
+        "vietnamese": "đặc sản",
+        "type": "noun",
+        "pronunciation": "/ˌspeʃi'ælɪti fuːd/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "5f1a8c2b-9d7e-4c36-a1b4-2e9d1f5a8c3b",
+        "english": "suburb",
+        "vietnamese": "ngoại ô",
+        "type": "noun",
+        "pronunciation": "/'sʌbɜːb/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "1c8a5f2b-9e7d-4c31-a4b6-5d9e1a2b8f7c",
+        "english": "tourist attraction",
+        "vietnamese": "điểm thu hút khách du lịch",
+        "type": "noun",
+        "pronunciation": "/'tʊərɪst ə'trækʃən/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "8a2b5f1c-9d7e-4c35-a1b6-2e9d1f5a8c3b",
+        "english": "world-famous",
+        "vietnamese": "nổi tiếng thế giới",
+        "type": "adjective",
+        "pronunciation": "/ˌwɜːld 'feɪməs/",
+        "unit": "unit1",
+        "level": 3
+    }
+]

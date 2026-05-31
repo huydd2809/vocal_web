@@ -1,0 +1,20 @@
+[
+  {
+    "id": "e4b3c2a1-1234-5678-9abc-def012345678",
+    "english": "investigate",
+    "vietnamese": "điều tra",
+    "type": "Verb",
+    "pronunciation": "/ɪnˈves.tə.ɡeɪt/",
+    "unit": "unit1",
+    "level": 1
+  },
+  {
+    "id": "a1b2c3d4-8765-4321-cba9-0987654321fe",
+    "english": "environment",
+    "vietnamese": "môi trường",
+    "type": "Noun",
+    "pronunciation": "/ɪnˈvaɪ.rən.mənt/",
+    "unit": "unit2",
+    "level": 1
+  }
+]

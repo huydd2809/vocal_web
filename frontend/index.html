@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tự Ôn Từ Vựng</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quản Lý & Kiểm Tra Từ Vựng</h1>
+
+      <!-- KHU VỰC 1: Thêm từ vựng mới -->
+      <div class="card">
+        <h2>1. Thêm Từ Vựng Mới</h2>
+        <div class="form-group">
+          <input
+            type="text"
+            id="engWord"
+            placeholder="Từ tiếng Anh (VD: investigate)"
+            required
+          />
+          <input
+            type="text"
+            id="vieMeaning"
+            placeholder="Nghĩa tiếng Việt (VD: điều tra)"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            id="partOfSpeech"
+            placeholder="Từ loại (VD: Verb, Noun...)"
+            required
+          />
+          <input
+            type="text"
+            id="pronunciation"
+            placeholder="Phiên âm (VD: /ɪnˈves.tə.ɡeɪt/)"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <select id="unitSelect">
+            <!-- Danh sách Unit -->
+            <option value="unit1">Unit 1</option>
+            <option value="unit2">Unit 2</option>
+            <option value="unit3">Unit 3</option>
+            <option value="unit4">Unit 4</option>
+            <option value="unit5">Unit 5</option>
+            <option value="unit6">Unit 6</option>
+            <option value="unit7">Unit 7</option>
+            <option value="unit8">Unit 8</option>
+            <option value="unit9">Unit 9</option>
+            <option value="unit10">Unit 10</option>
+            <option value="unit11">Unit 11</option>
+            <option value="unit12">Unit 12</option>
+            <option value="other">Khác</option>
+          </select>
+          <!-- Mặc định từ mới sẽ ở mức 1 -->
+          <button id="addBtn" class="btn-primary">Lưu Từ Vựng</button>
+        </div>
+        <p id="addMessage" class="message"></p>
+      </div>
+
+      <!-- KHU VỰC 2: Học qua Flashcard (MỚI) -->
+      <div class="card">
+        <h2>2. Thẻ Bài (Flashcard) & Cập Nhật Mức Độ</h2>
+
+        <!-- Vùng hiển thị Flashcard -->
+        <div class="flashcard-container" id="flashcardContainer">
+          <div class="flashcard" id="flashcard">
+            <!-- Mặt trước: Tiếng Anh -->
+            <div class="front">
+              <h3 id="fcEngWord" class="english-text">investigate</h3>
+              <p class="click-hint">(Click để lật thẻ)</p>
+            </div>
+            <!-- Mặt sau: Nghĩa, Từ loại, Phiên âm -->
+            <div class="back">
+              <h3 id="fcVieMeaning" class="vietnamese-text">điều tra</h3>
+              <p id="fcPartOfSpeech" class="hint-text">Verb</p>
+              <p id="fcPronunciation" class="pronunciation-text">
+                /ɪnˈves.tə.ɡeɪt/
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Điều khiển Flashcard & Mức độ thủ công -->
+        <div class="fc-controls">
+          <button id="prevCardBtn" class="btn-secondary">Quay lại</button>
+          <button id="nextCardBtn" class="btn-secondary">Tiếp theo</button>
+        </div>
+
+        <div class="level-control">
+          <label for="manualLevel">Đánh giá mức độ thuộc:</label>
+          <select id="manualLevel">
+            <option value="1">Cấp 1 - Chưa thuộc</option>
+            <option value="2">Cấp 2 - Thuộc sơ</option>
+            <option value="3">Cấp 3 - Gần thuộc</option>
+            <option value="4">Cấp 4 - Đã thuộc</option>
+          </select>
+          <button id="updateLevelBtn" class="btn-primary">
+            Cập nhật thủ công
+          </button>
+        </div>
+      </div>
+
+      <!-- KHU VỰC 3: Kiểm tra từ vựng (Quiz) -->
+      <div class="card">
+            <h2>3. Kiểm Tra Từ Vựng (Viết)</h2>
+            <div class="quiz-controls">
+                <div class="filter-group">
+                    <label for="quizUnit">Chọn bài: </label>
+                    <select id="quizUnit">
+                        <option value="all">Tất cả</option>
+                        <option value="unit1">Unit 1</option>
+                        <option value="unit2">Unit 2</option>
+                        <option value="unit3">Unit 3</option>
+                        <option value="unit4">Unit 4</option>
+                        <option value="unit5">Unit 5</option>
+                        <option value="unit6">Unit 6</option>
+                        <option value="unit7">Unit 7</option>
+                        <option value="unit8">Unit 8</option>
+                        <option value="unit9">Unit 9</option>
+                        <option value="unit10">Unit 10</option>
+                        <option value="unit11">Unit 11</option>
+                        <option value="unit12">Unit 12</option>
+                        <option value="other">Khác</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="quizLevelFilter">Lọc cấp độ: </label>
+                    <select id="quizLevelFilter">
+                        <option value="all">Tất cả các mức</option>
+                        <option value="1">Cấp 1 - Chưa thuộc</option>
+                        <option value="2">Cấp 2 - Thuộc sơ</option>
+                        <option value="3">Cấp 3 - Gần thuộc</option>
+                        <option value="4">Cấp 4 - Đã thuộc</option>
+                    </select>
+                </div>
+
+                <button id="startQuizBtn" class="btn-secondary">Bắt đầu kiểm tra</button>
+            </div>
+
+            <div id="quizArea" class="quiz-area" style="display: none;">
+                <div class="quiz-header" style="display: flex; justify-content: space-between; align-items: center;">
+                    <span id="quizProgress" style="font-weight: bold; color: #7f8c8d;">Từ thứ 1/10</span>
+                    
+                    <div id="quizTimerContainer" style="font-size: 18px; font-weight: bold; color: #e74c3c; background: #fadbd8; padding: 5px 15px; border-radius: 15px;">
+                        Thời gian: <span id="countdownClock">10</span>s
+                    </div>
+
+                    <div class="level-badge" style="position: static;">Mức độ: <span id="quizCurrentLevel">1</span>/4</div>
+                </div>
+                
+                <h3 id="quizQuestion" class="vietnamese-text" style="margin-top: 20px;">Nghĩa tiếng Việt sẽ hiện ở đây</h3>
+                <p id="quizHint" class="hint-text">(Từ loại)</p>
+                
+                <div class="quiz-input-container" style="margin-bottom: 25px;">
+                    <input type="text" id="quizAnswer" placeholder="Nhập từ tiếng Anh tương ứng..." style="width: 80%; text-align: center;" autocomplete="off">
+                </div>
+                
+                <div class="quiz-nav-controls" style="display: flex; justify-content: space-between;">
+                    <button id="finishQuizBtn" class="btn-primary" style="padding: 8px 15px; font-size: 14px; background-color: #e74c3c;">Kết thúc bài thi 🏁</button>
+                    <button id="nextQuizBtn" class="btn-secondary" style="padding: 8px 15px; font-size: 14px; background-color: #3498db;">Từ tiếp theo →</button>
+                </div>
+            </div>
+
+            <div id="quizSummaryArea" class="quiz-summary-area" style="display: none; margin-top: 25px; padding-top: 20px; border-top: 2px dashed #bdc3c7;">
+                <h3 style="color: #2c3e50; text-align: center; margin-bottom: 5px;">KẾT QUẢ BÀI KIỂM TRA</h3>
+                <h4 id="summaryScore" style="text-align: center; font-size: 22px; color: #2ecc71; margin-top: 5px;">Bạn đúng: 0/0 từ</h4>
+                
+                <div class="table-container">
+                    <table class="vocab-table">
+                        <thead>
+                            <tr>
+                                <th>Từ tiếng Việt</th>
+                                <th>Đáp án đúng (Phiên âm)</th>
+                                <th>Từ bạn đã nhập</th>
+                                <th>Kết quả</th>
+                            </tr>
+                        </thead>
+                        <tbody id="summaryTableBody">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>4. Thống Kê & Xem Danh Sách Từ Vựng</h2>
+            <div class="quiz-controls">
+                <div class="filter-group">
+                    <label for="listUnit">Unit: </label>
+                    <select id="listUnit">
+                        <option value="all">Tất cả</option>
+                        <option value="unit1">Unit 1</option>
+                        <option value="unit2">Unit 2</option>
+                        <option value="unit3">Unit 3</option>
+                        <option value="unit4">Unit 4</option>
+                        <option value="unit5">Unit 5</option>
+                        <option value="unit6">Unit 6</option>
+                        <option value="unit7">Unit 7</option>
+                        <option value="unit8">Unit 8</option>
+                        <option value="unit9">Unit 9</option>
+                        <option value="unit10">Unit 10</option>
+                        <option value="unit11">Unit 11</option>
+                        <option value="unit12">Unit 12</option>
+                        <option value="other">Khác</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="listLevel">Cấp độ: </label>
+                    <select id="listLevel">
+                        <option value="all">Tất cả</option>
+                        <option value="1">Cấp 1 - Chưa thuộc</option>
+                        <option value="2">Cấp 2 - Thuộc sơ</option>
+                        <option value="3">Cấp 3 - Gần thuộc</option>
+                        <option value="4">Cấp 4 - Đã thuộc</option>
+                    </select>
+                </div>
+
+                <button id="viewListBtn" class="btn-primary">Xem Danh Sách</button>
+            </div>
+            
+            <div class="table-container">
+                <table class="vocab-table">
+                    <thead>
+                        <tr>
+                            <th>Từ tiếng Anh</th>
+                            <th>Phiên âm</th>
+                            <th>Từ loại</th>
+                            <th>Nghĩa tiếng Việt</th>
+                            <th>Bài học</th>
+                            <th>Mức độ thuộc</th>
+                        </tr>
+                    </thead>
+                    <tbody id="vocabTableBody">
+                        </tbody>
+                </table>
+            </div>
+        </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
