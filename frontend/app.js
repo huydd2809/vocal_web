@@ -10,6 +10,13 @@ document.getElementById("addBtn").addEventListener("click", async () => {
   const partOfSpeech = document.getElementById("partOfSpeech").value.trim();
   const pronunciation = document.getElementById("pronunciation").value.trim();
   const unit = document.getElementById("unitSelect").value;
+  // THÊM ĐOẠN NÀY ĐỂ LẤY DỮ LIỆU WORD FAMILY
+  const word_family = {
+    n: document.getElementById("wfNoun").value.trim(),
+    v: document.getElementById("wfVerb").value.trim(),
+    adj: document.getElementById("wfAdj").value.trim(),
+    adv: document.getElementById("wfAdv").value.trim(),
+  };
 
   if (!english || !vietnamese || !partOfSpeech || !pronunciation) {
     alert("Vui lòng nhập đầy đủ thông tin!");
@@ -22,6 +29,7 @@ document.getElementById("addBtn").addEventListener("click", async () => {
     type: partOfSpeech,
     pronunciation,
     unit,
+    word_family,
   };
 
   try {
@@ -427,3 +435,174 @@ window.onload = () => {
 
 // Tự động tải từ vựng khi vừa mở trang web
 window.onload = loadFlashcards;
+
+// ==========================================
+// 5. TÍNH NĂNG THI GIẤY TRƯỜNG TỪ VỰNG (MỚI)
+// ==========================================
+let wfExamWords = [];
+let wfGlobalInterval = null;
+let wfTimeLeftSeconds = 0;
+
+document
+  .getElementById("startWfQuizBtn")
+  .addEventListener("click", async () => {
+    const unit = document.getElementById("wfQuizUnit").value;
+    const timeMinutes = parseInt(document.getElementById("wfQuizTime").value);
+
+    clearInterval(wfGlobalInterval); // Reset đồng hồ cũ nếu có
+
+    try {
+      const response = await fetch(`${API_URL}?unit=${unit}&level=all`);
+      const words = await response.json();
+
+      // Lọc ra NHỮNG TỪ CÓ NHẬP ÍT NHẤT 1 TRƯỜNG TỪ VỰNG
+      wfExamWords = words.filter((w) => {
+        if (!w.word_family) return false;
+        return (
+          w.word_family.n ||
+          w.word_family.v ||
+          w.word_family.adj ||
+          w.word_family.adv
+        );
+      });
+
+      if (wfExamWords.length === 0) {
+        alert("Bài học này chưa có từ nào được nhập dữ liệu Trường từ vựng!");
+        document.getElementById("wfExamPaper").style.display = "none";
+        return;
+      }
+
+      // Đảo ngẫu nhiên thứ tự câu hỏi
+      wfExamWords.sort(() => Math.random() - 0.5);
+
+      renderWfExamPaper();
+
+      // Mở giấy thi, ẩn kết quả cũ
+      document.getElementById("wfExamPaper").style.display = "block";
+      document.getElementById("submitWfExamBtn").style.display = "block";
+      document.getElementById("wfFinalResult").style.display = "none";
+
+      // Khởi động đồng hồ
+      wfTimeLeftSeconds = timeMinutes * 60;
+      startWfGlobalTimer();
+    } catch (error) {
+      console.error(error);
+    }
+  });
+
+function renderWfExamPaper() {
+  const container = document.getElementById("wfQuestionsContainer");
+  container.innerHTML = "";
+
+  wfExamWords.forEach((word, index) => {
+    // Khung cho mỗi câu hỏi
+    const questionDiv = document.createElement("div");
+    questionDiv.style.cssText =
+      "background: #f9fbfd; padding: 15px; margin-bottom: 15px; border-radius: 6px; border: 1px solid #dcdde1;";
+
+    // Hiển thị từ gốc
+    let html = `<h4 style="margin: 0 0 10px 0; color: #2c3e50; font-size: 18px;">
+            Câu ${index + 1}: <span style="color:#2980b9;">${word.english}</span> <span style="font-weight:normal; color:#7f8c8d;">(${word.type}) - ${word.vietnamese}</span>
+        </h4>`;
+    html += `<div style="display: flex; flex-wrap: wrap; gap: 10px;" id="wf-answers-${word.id}">`;
+
+    // Render ô nhập cho những loại từ có tồn tại trong dữ liệu
+    const types = [
+      { key: "n", label: "Danh từ (n)" },
+      { key: "v", label: "Động từ (v)" },
+      { key: "adj", label: "Tính từ (adj)" },
+      { key: "adv", label: "Trạng từ (adv)" },
+    ];
+
+    types.forEach((t) => {
+      if (word.word_family && word.word_family[t.key]) {
+        html += `
+                <div style="display: flex; align-items: center; gap: 5px;">
+                    <label style="font-weight: bold; color: #8e44ad;">${t.label}:</label>
+                    <input type="text" data-word-id="${word.id}" data-type="${t.key}" class="wf-input-field" placeholder="Nhập ${t.key}..." style="padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+                </div>`;
+      }
+    });
+
+    html += `</div>`;
+    questionDiv.innerHTML = html;
+    container.appendChild(questionDiv);
+  });
+}
+
+function startWfGlobalTimer() {
+  updateTimerDisplay();
+  wfGlobalInterval = setInterval(() => {
+    wfTimeLeftSeconds--;
+    updateTimerDisplay();
+
+    if (wfTimeLeftSeconds <= 0) {
+      clearInterval(wfGlobalInterval);
+      alert("⏰ HẾT GIỜ! HỆ THỐNG TỰ ĐỘNG THU BÀI!");
+      submitWfExam(); // Tự động nộp bài
+    }
+  }, 1000);
+}
+
+function updateTimerDisplay() {
+  const minutes = Math.floor(wfTimeLeftSeconds / 60);
+  const seconds = wfTimeLeftSeconds % 60;
+  const formattedStr = `${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+  document.getElementById("wfGlobalTimer").innerText = formattedStr;
+}
+
+// Khi người dùng bấm nút Nộp Bài
+document.getElementById("submitWfExamBtn").addEventListener("click", () => {
+  if (confirm("Bạn có chắc chắn muốn nộp bài sớm không?")) {
+    clearInterval(wfGlobalInterval);
+    submitWfExam();
+  }
+});
+
+// Hàm chấm điểm toàn bộ tờ giấy thi
+function submitWfExam() {
+  document.getElementById("submitWfExamBtn").style.display = "none"; // Giấu nút nộp bài
+
+  let totalBlanks = 0;
+  let correctBlanks = 0;
+
+  const allInputs = document.querySelectorAll(".wf-input-field");
+
+  // Khóa tất cả các ô nhập liệu (không cho sửa nữa)
+  allInputs.forEach((input) => {
+    input.disabled = true;
+    totalBlanks++;
+
+    const wordId = input.getAttribute("data-word-id");
+    const wfType = input.getAttribute("data-type");
+
+    // Tìm lại từ gốc trong mảng wfExamWords
+    const wordData = wfExamWords.find((w) => w.id === wordId);
+    const correctAnswer = wordData.word_family[wfType].toLowerCase().trim();
+    const userAnswer = input.value.toLowerCase().trim();
+
+    if (userAnswer === correctAnswer) {
+      correctBlanks++;
+      input.style.backgroundColor = "#d5f5e3"; // Xanh lá nhạt
+      input.style.borderColor = "#2ecc71";
+      input.style.color = "#27ae60";
+      input.style.fontWeight = "bold";
+    } else {
+      input.style.backgroundColor = "#fadbd8"; // Đỏ nhạt
+      input.style.borderColor = "#e74c3c";
+      input.style.color = "#c0392b";
+      // In đáp án đúng ra bên cạnh ô bị sai
+      const correctSpan = document.createElement("span");
+      correctSpan.style.color = "#e74c3c";
+      correctSpan.style.fontWeight = "bold";
+      correctSpan.style.marginLeft = "5px";
+      correctSpan.innerText = `(Đúng: ${wordData.word_family[wfType]})`;
+      input.parentNode.appendChild(correctSpan);
+    }
+  });
+
+  // Hiển thị tổng kết
+  const resultDiv = document.getElementById("wfFinalResult");
+  resultDiv.style.display = "block";
+  resultDiv.innerHTML = `🎉 BẠN ĐÃ ĐIỀN ĐÚNG: ${correctBlanks} / ${totalBlanks} TỪ`;
+}

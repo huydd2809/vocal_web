@@ -41,6 +41,13 @@
             required
           />
         </div>
+        <div class="form-group word-family-inputs" style="background: #e8f8f5; padding: 15px; border-radius: 6px; flex-wrap: wrap;">
+                <p style="width: 100%; margin: 0 0 10px 0; font-weight: bold; color: #16a085;">Trường từ vựng (Để trống nếu không có):</p>
+                <input type="text" id="wfNoun" placeholder="Danh từ (n)">
+                <input type="text" id="wfVerb" placeholder="Động từ (v)">
+                <input type="text" id="wfAdj" placeholder="Tính từ (adj)">
+                <input type="text" id="wfAdv" placeholder="Trạng từ (adv)">
+        </div>
         <div class="form-group">
           <select id="unitSelect">
             <!-- Danh sách Unit -->
@@ -242,6 +249,53 @@
                     <tbody id="vocabTableBody">
                         </tbody>
                 </table>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>5. Bài Thi Trường Từ Vựng (Tổng Hợp)</h2>
+            <div class="quiz-controls">
+                <div class="filter-group">
+                    <label>Chọn bài: </label>
+                    <select id="wfQuizUnit">
+                        <option value="all">Tất cả</option>
+                        <option value="unit1">Unit 1</option>
+                        <option value="unit2">Unit 2</option>
+                        <option value="unit3">Unit 3</option>
+                        <option value="unit4">Unit 4</option>
+                        <option value="unit5">Unit 5</option>
+                        <option value="unit6">Unit 6</option>
+                        <option value="unit7">Unit 7</option>
+                        <option value="unit8">Unit 8</option>
+                        <option value="unit9">Unit 9</option>
+                        <option value="unit10">Unit 10</option>
+                        <option value="unit11">Unit 11</option>
+                        <option value="unit12">Unit 12</option>
+                        <option value="other">Khác</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Thời gian: </label>
+                    <select id="wfQuizTime">
+                        <option value="5">5 phút</option>
+                        <option value="7">7 phút</option>
+                        <option value="10" selected>10 phút</option>
+                        <option value="15">15 phút</option>
+                    </select>
+                </div>
+                <button id="startWfQuizBtn" class="btn-secondary">Phát đề thi</button>
+            </div>
+
+            <div id="wfExamPaper" style="display: none; border: 2px solid #bdc3c7; padding: 20px; border-radius: 8px; background: #fff;">
+                <div style="position: sticky; top: 0; background: #fdf2e9; padding: 10px; text-align: center; border-radius: 5px; border: 2px solid #e67e22; z-index: 10;">
+                    <h3 style="margin: 0; color: #d35400;">⏳ THỜI GIAN CÒN LẠI: <span id="wfGlobalTimer">10:00</span></h3>
+                </div>
+                
+                <div id="wfQuestionsContainer" style="margin-top: 20px;"></div>
+                
+                <button id="submitWfExamBtn" class="btn-primary" style="width: 100%; margin-top: 20px; font-size: 18px; padding: 15px; background-color: #e74c3c;">NỘP BÀI QUYẾT ĐỊNH</button>
+                
+                <div id="wfFinalResult" style="display: none; text-align: center; margin-top: 20px; font-size: 22px; font-weight: bold; color: #27ae60;"></div>
             </div>
         </div>
 

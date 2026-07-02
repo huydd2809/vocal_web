@@ -60,7 +60,9 @@ def add_word():
         "type": data.get('type'),
         "pronunciation": data.get('pronunciation'),
         "unit": data.get('unit'),
-        "level": 1 # Từ mới thêm vào mặc định là Cấp 1
+        "level": 1, # Từ mới thêm vào mặc định là Cấp 1
+        # MỚI: Thêm dữ liệu Trường từ vựng
+        "word_family": data.get('word_family', {})
     }
     
     words.append(new_word)
