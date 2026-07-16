@@ -33,7 +33,7 @@
         "type": "noun",
         "pronunciation": "/krɑːft/",
         "unit": "unit1",
-        "level": 2
+        "level": 4
     },
     {
         "id": "a9f5c2b1-6d8e-4a37-b4c9-7e1d8f5a2b3c",
@@ -42,7 +42,7 @@
         "type": "noun",
         "pronunciation": "/dɪ'lɪvəri 'pɜːsən/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "d4e7b1a5-9c2f-4831-a6b8-3f5c2d9e1a4b",
@@ -69,7 +69,7 @@
         "type": "noun",
         "pronunciation": "/fə'sɪlɪtiz/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "3a8f5d1c-7b4e-4926-a1c9-6e2d8b4f5a7c",
@@ -87,7 +87,7 @@
         "type": "noun",
         "pronunciation": "/'freɪɡrəns/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "9c4f2b1a-8e5d-4a63-b1c7-5a8d9e2f4c3b",
@@ -123,7 +123,7 @@
         "type": "verb",
         "pronunciation": "/ɪn'strʌkt/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "5f1c8a2b-9e7d-4a35-b4c6-1d9e5a2f8b7c",
@@ -150,7 +150,7 @@
         "type": "noun",
         "pronunciation": "/ə'keɪʒən/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "1b8f5a2c-9d7e-4613-a4b7-2c9e1d5f8a3b",
@@ -168,7 +168,7 @@
         "type": "noun",
         "pronunciation": "/pə'liːs 'ɒfɪsə/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "3c8a1f5b-7e9d-4c25-a4b6-1d9e2a5f8b7c",
@@ -186,7 +186,7 @@
         "type": "verb",
         "pronunciation": "/prɪ'zɜːv/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "5c9e2a1b-8d7f-4b36-a1c4-1f9d5a2b8e7c",
@@ -231,7 +231,7 @@
         "type": "noun",
         "pronunciation": "/ˌspeʃi'ælɪti fuːd/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "5f1a8c2b-9d7e-4c36-a1b4-2e9d1f5a8c3b",
@@ -240,7 +240,7 @@
         "type": "noun",
         "pronunciation": "/'sʌbɜːb/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "1c8a5f2b-9e7d-4c31-a4b6-5d9e1a2b8f7c",
@@ -249,7 +249,7 @@
         "type": "noun",
         "pronunciation": "/'tʊərɪst ə'trækʃən/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "8a2b5f1c-9d7e-4c35-a1b6-2e9d1f5a8c3b",
@@ -267,7 +267,7 @@
         "type": "adjective",
         "pronunciation": "/ˈsɪl.ki/",
         "unit": "unit1",
-        "level": 1
+        "level": 3
     },
     {
         "id": "a5d8f2c1-6b3e-4791-a4c8-2d9f5e3b1a6c",
@@ -483,7 +483,7 @@
         "type": "v",
         "pronunciation": "/əˈreɪndʒ/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "v": "rearrange",
             "n": "arrangement"
@@ -496,7 +496,7 @@
         "type": "v",
         "pronunciation": "/əˈraɪv/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "arrival"
         }
@@ -508,7 +508,7 @@
         "type": "adj",
         "pronunciation": "/brɔːd/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "breadth",
             "v": "broaden"
@@ -521,7 +521,7 @@
         "type": "n",
         "pronunciation": "/bredθ/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "5",
@@ -530,7 +530,7 @@
         "type": "v",
         "pronunciation": "/ˈbrɔːdən/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "6",
@@ -561,7 +561,7 @@
         "type": "v",
         "pronunciation": "/ˈdɪfər/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "different",
             "adv": "differently",
@@ -575,7 +575,7 @@
         "type": "v",
         "pronunciation": "/dəˈrekt/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "direction"
         }
@@ -587,7 +587,7 @@
         "type": "n",
         "pronunciation": "/dəˈrekʃən/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "11",
@@ -596,7 +596,7 @@
         "type": "n",
         "pronunciation": "/dəˈrektər/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "12",
@@ -605,7 +605,7 @@
         "type": "adj",
         "pronunciation": "/dəˈrekt/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "adj": "indirect",
             "adv": "directly, indirectly"
@@ -618,7 +618,7 @@
         "type": "adj",
         "pronunciation": "/ˈdɪstənt/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "adv": "distantly"
         }
@@ -639,7 +639,7 @@
         "type": "v",
         "pronunciation": "/ˈentər/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "entrance"
         }
@@ -651,7 +651,7 @@
         "type": "n",
         "pronunciation": "/ˈentrəns/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "17",
@@ -660,7 +660,7 @@
         "type": "v",
         "pronunciation": "/ɪnˈhæbɪt/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "inhabitant",
             "adj": "inhabitable"
@@ -673,7 +673,7 @@
         "type": "n",
         "pronunciation": "/ɪnˈhæbɪtənt/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "19",
@@ -691,7 +691,7 @@
         "type": "adj",
         "pronunciation": "/həˈbɪtʃuəl/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "21",
@@ -709,7 +709,7 @@
         "type": "n",
         "pronunciation": "/fəˈtɒɡrəfi/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "23",
@@ -718,7 +718,7 @@
         "type": "n",
         "pronunciation": "/fəˈtɒɡrəfər/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "24",
@@ -727,7 +727,7 @@
         "type": "adj",
         "pronunciation": "/ˌfəʊtəˈɡræfɪk/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "25",
@@ -736,7 +736,7 @@
         "type": "v",
         "pronunciation": "/ˈrekəɡnaɪz/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "recognisable, unrecognisable",
             "n": "recognition"
@@ -758,7 +758,7 @@
         "type": "n",
         "pronunciation": "/ˈtaɪmˌteɪbl/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "28",
@@ -767,7 +767,7 @@
         "type": "n,v",
         "pronunciation": "/tʊə(r)/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "29",
@@ -776,7 +776,7 @@
         "type": "n",
         "pronunciation": "/ˈtʊərɪzəm/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "30",
@@ -794,7 +794,7 @@
         "type": "n",
         "pronunciation": "/wɜːld/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "worldwide",
             "adv": "worldwide"
@@ -828,7 +828,7 @@
         "type": "v",
         "pronunciation": "/nəʊ/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "35",
@@ -837,7 +837,7 @@
         "type": "n",
         "pronunciation": "/ˈnɒl.ɪdʒ/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "adj": "knowledgeable"
         }
@@ -849,7 +849,7 @@
         "type": "adv",
         "pronunciation": "/ˈnəʊ.ɪŋ.li/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "37",
@@ -858,7 +858,7 @@
         "type": "adj",
         "pronunciation": "/ˌwelˈnəʊn/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "adj": "unknown"
         }
@@ -870,7 +870,7 @@
         "type": "adj",
         "pronunciation": "/ˌɒp.tɪˈmɪs.tɪk/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "adv": "optimistically"
         }
@@ -882,7 +882,7 @@
         "type": "n",
         "pronunciation": "/ˈɒp.tɪ.mɪst/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "40",
@@ -891,7 +891,7 @@
         "type": "n",
         "pronunciation": "/ˈɒp.tɪ.mɪ.zəm/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "41",
@@ -900,7 +900,7 @@
         "type": "v",
         "pronunciation": "/kənˈsɪd.ər/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "consideration"
         }
@@ -912,7 +912,7 @@
         "type": "adj",
         "pronunciation": "/kənˈsɪd.ər.ət/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "inconsiderate"
         }
@@ -924,7 +924,7 @@
         "type": "adj",
         "pronunciation": "/kənˈsɪd.ər.ə.bəl/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "44",
@@ -946,7 +946,7 @@
         "type": "n",
         "pronunciation": "/ˌdɪs.bɪˈliːf/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "46",
@@ -955,7 +955,7 @@
         "type": "adj",
         "pronunciation": "/bɪˈliː.və.bəl/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "unbelievable"
         }
@@ -967,7 +967,7 @@
         "type": "n,v",
         "pronunciation": "/daʊt/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "48",
@@ -976,7 +976,7 @@
         "type": "adj",
         "pronunciation": "/ˈdaʊt.fəl/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "adv": "doubtfully",
             "adj": "undoubted",
@@ -990,7 +990,7 @@
         "type": "adj",
         "pronunciation": "/waɪz/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "adv": "wisely",
             "adj": "unwise",
@@ -1025,7 +1025,7 @@
         "type": "adj",
         "pronunciation": "/kənˈfjuːzd/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "53",
@@ -1046,7 +1046,7 @@
         "type": "v",
         "pronunciation": "/ɪˈmædʒ.ɪn/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "imagination"
         }
@@ -1071,7 +1071,7 @@
         "type": "adj",
         "pronunciation": "/ɪˈmædʒ.ɪ.nər.i/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "57",
@@ -1105,7 +1105,7 @@
         "type": "n,adj",
         "pronunciation": "/ˈθɪŋ.kɪŋ/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "60",
@@ -1128,7 +1128,7 @@
         "type": "v",
         "pronunciation": "/dɪˈsaɪd/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "decision"
         }
@@ -1140,7 +1140,7 @@
         "type": "adj",
         "pronunciation": "/dɪˈsaɪ.sɪv/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "indecisive",
             "n": "decisiveness",
@@ -1166,7 +1166,7 @@
         "type": "n",
         "pronunciation": "/ˌkɒn.səˈveɪ.ʃən.ɪst/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "65",
@@ -1175,7 +1175,7 @@
         "type": "adj,n",
         "pronunciation": "/kənˈsɜː.və.tɪv/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "66",
@@ -1184,7 +1184,7 @@
         "type": "v",
         "pronunciation": "/meɪnˈteɪn/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "maintenance"
         }
@@ -1196,7 +1196,7 @@
         "type": "n",
         "pronunciation": "/meɪnˈteɪ.nər/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "68",
@@ -1205,7 +1205,7 @@
         "type": "adj",
         "pronunciation": "/meɪnˈteɪ.nə.bəl/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "69",
@@ -1214,7 +1214,7 @@
         "type": "adj",
         "pronunciation": "/ˈnɒv.əl/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "novelty"
         }
@@ -1226,7 +1226,7 @@
         "type": "n",
         "pronunciation": "/ˈnɒv.əl/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "novelist",
             "v": "novelize"
@@ -1239,7 +1239,7 @@
         "type": "n,v",
         "pronunciation": "/ˈɪn.flu.əns/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "72",
@@ -1260,7 +1260,7 @@
         "type": "n",
         "pronunciation": "/ˈɪn.flu.ən.sər/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "74",
@@ -1269,7 +1269,7 @@
         "type": "v",
         "pronunciation": "/ˈɪn.ə.veɪt/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "innovation"
         }
@@ -1281,7 +1281,7 @@
         "type": "adj",
         "pronunciation": "/ˈɪn.ə.və.tɪv/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "76",
@@ -1290,7 +1290,7 @@
         "type": "n",
         "pronunciation": "/ˈɪn.ə.veɪ.tər/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "77",
@@ -1299,7 +1299,7 @@
         "type": "n,v",
         "pronunciation": "/pleɪs/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "78",
@@ -1308,7 +1308,7 @@
         "type": "v",
         "pronunciation": "/rɪˈpleɪs/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "replacement",
             "adj": "replaceable, irreplaceable"
@@ -1321,7 +1321,7 @@
         "type": "n",
         "pronunciation": "/ˈpleɪs.mənt/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "80",
@@ -1339,7 +1339,7 @@
         "type": "v",
         "pronunciation": "/rɪˈnjuː/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "renewal",
             "adj": "renewable"
@@ -1352,7 +1352,7 @@
         "type": "adv",
         "pronunciation": "/əˈnjuː/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "83",
@@ -1379,7 +1379,7 @@
         "type": "n",
         "pronunciation": "/ɪˌlekˈtrɪʃ.ən/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "86",
@@ -1388,7 +1388,7 @@
         "type": "n",
         "pronunciation": "/ɪˌlekˈtrɪs.ə.ti/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "87",
@@ -1397,6 +1397,6 @@
         "type": "adj",
         "pronunciation": "/ɪˌlekˈtrɒn.ɪk/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     }
 ]
