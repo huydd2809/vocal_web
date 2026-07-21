@@ -15,7 +15,7 @@
         "type": "noun",
         "pronunciation": "/'sɪti 'sentə/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "c3a4f812-7e9b-4562-b1c8-2d9f4a5e6b7c",
@@ -33,7 +33,7 @@
         "type": "noun",
         "pronunciation": "/krɑːft/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "a9f5c2b1-6d8e-4a37-b4c9-7e1d8f5a2b3c",
@@ -51,7 +51,7 @@
         "type": "noun",
         "pronunciation": "/ɪ'lektrɪkəl waɪərz/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "7f1a8c3d-5b9e-4c26-8d1a-4e9b5f2c7a6d",
@@ -60,7 +60,7 @@
         "type": "noun",
         "pronunciation": "/ɪlek'trɪʃən/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "b6c9d2f4-1a8e-4753-9b2c-5d1a8f4e7c3b",
@@ -105,7 +105,7 @@
         "type": "noun",
         "pronunciation": "/'ɡɑːbɪdʒ kə'lektə/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "6a3f8d2b-1e9c-4754-a5b7-8c1d4e9f2a5b",
@@ -114,7 +114,7 @@
         "type": "noun",
         "pronunciation": "/'hændɪkrɑːft/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "2e9b1a5f-8c4d-4631-b7a9-5f2c8d1e4b3a",
@@ -150,7 +150,7 @@
         "type": "noun",
         "pronunciation": "/ə'keɪʒən/",
         "unit": "unit1",
-        "level": 4
+        "level": 2
     },
     {
         "id": "1b8f5a2c-9d7e-4613-a4b7-2c9e1d5f8a3b",
@@ -177,7 +177,7 @@
         "type": "noun",
         "pronunciation": "/'pɒtəri/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "7a1b5f2c-9d8e-4c31-a6b4-2e9d1f5a8c3b",
@@ -267,7 +267,7 @@
         "type": "adjective",
         "pronunciation": "/ˈsɪl.ki/",
         "unit": "unit1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "a5d8f2c1-6b3e-4791-a4c8-2d9f5e3b1a6c",
@@ -285,7 +285,7 @@
         "type": "noun",
         "pronunciation": "/pɒt/",
         "unit": "unit1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "e2b5d7a1-9c4f-4318-b6a9-8f2c1d5e4b3a",
@@ -496,7 +496,7 @@
         "type": "v",
         "pronunciation": "/əˈraɪv/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "arrival"
         }
@@ -691,7 +691,7 @@
         "type": "adj",
         "pronunciation": "/həˈbɪtʃuəl/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "21",
@@ -990,7 +990,7 @@
         "type": "adj",
         "pronunciation": "/waɪz/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adv": "wisely",
             "adj": "unwise",
@@ -1004,7 +1004,7 @@
         "type": "n",
         "pronunciation": "/ˈwɪz.dəm/",
         "unit": "week1",
-        "level": 1
+        "level": 2
     },
     {
         "id": "51",
@@ -1058,7 +1058,7 @@
         "type": "adj",
         "pronunciation": "/ɪˈmædʒ.ɪ.nə.tɪv/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "adj": "unimaginative",
             "adv": "imaginatively"
@@ -1105,7 +1105,7 @@
         "type": "n,adj",
         "pronunciation": "/ˈθɪŋ.kɪŋ/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "60",
@@ -1114,7 +1114,7 @@
         "type": "adj",
         "pronunciation": "/ˈθɔːt.fəl/",
         "unit": "week1",
-        "level": 1,
+        "level": 2,
         "word_family": {
             "n": "thoughtfulness",
             "adj": "thoughtless",
