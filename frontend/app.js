@@ -606,3 +606,189 @@ function submitWfExam() {
   resultDiv.style.display = "block";
   resultDiv.innerHTML = `🎉 BẠN ĐÃ ĐIỀN ĐÚNG: ${correctBlanks} / ${totalBlanks} TỪ`;
 }
+
+// ==========================================
+// 6. TÍNH NĂNG KIỂM TRA CỤM TỪ (PHRASES)
+// ==========================================
+let phraseQuizWords = [];
+let currentPhraseIndex = 0;
+let phraseTimerInterval = null;
+let phraseTimeLeft = 10; // Bạn có thể sửa thành 15 giây nếu muốn giống Khu vực 3
+
+document
+  .getElementById("startPhraseQuizBtn")
+  .addEventListener("click", async () => {
+    const unit = document.getElementById("phraseQuizUnit").value;
+    const level = document.getElementById("phraseQuizLevel").value;
+
+    try {
+      const response = await fetch(`${API_URL}?unit=${unit}&level=${level}`);
+      const words = await response.json();
+
+      // BỘ LỌC QUAN TRỌNG: Chỉ lấy những từ có type là 'phrase'
+      phraseQuizWords = words.filter((w) => w.type === "phrase");
+
+      if (phraseQuizWords.length === 0) {
+        alert("Không tìm thấy Cụm từ nào phù hợp với bộ lọc này!");
+        return;
+      }
+
+      // Đảo ngẫu nhiên danh sách cụm từ
+      phraseQuizWords.sort(() => Math.random() - 0.5);
+
+      // Khởi tạo trạng thái
+      phraseQuizWords = phraseQuizWords.map((w) => ({
+        ...w,
+        userAnswer: "",
+        isCorrect: false,
+      }));
+      currentPhraseIndex = 0;
+
+      document.getElementById("phraseQuizArea").style.display = "block";
+      document.getElementById("phraseQuizSummary").style.display = "none";
+
+      loadNextPhrase();
+    } catch (error) {
+      console.error(error);
+    }
+  });
+
+function loadNextPhrase() {
+  if (currentPhraseIndex >= phraseQuizWords.length) {
+    showPhraseSummary();
+    return;
+  }
+
+  const currentPhrase = phraseQuizWords[currentPhraseIndex];
+  document.getElementById("phraseMeaningDisplay").innerText =
+    currentPhrase.vietnamese;
+
+  const inputField = document.getElementById("phraseAnswerInput");
+  inputField.value = "";
+
+  // Xử lý lỗi bộ nhớ đệm bàn phím (IME BUG) tương tự Khu vực 3
+  inputField.blur();
+  setTimeout(() => {
+    inputField.focus();
+  }, 10);
+
+  startPhraseTimer();
+}
+
+function startPhraseTimer() {
+  clearInterval(phraseTimerInterval);
+  phraseTimeLeft = 10; // Reset lại thời gian cho mỗi cụm từ
+  document.getElementById("phraseTimerDisplay").innerText = phraseTimeLeft;
+
+  phraseTimerInterval = setInterval(() => {
+    phraseTimeLeft--;
+    document.getElementById("phraseTimerDisplay").innerText = phraseTimeLeft;
+
+    if (phraseTimeLeft <= 0) {
+      clearInterval(phraseTimerInterval);
+      checkPhraseAnswer(true); // true = Hết giờ / Bỏ qua
+    }
+  }, 1000);
+}
+
+// Xử lý khi bấm nút Trả lời hoặc Bỏ qua
+document
+  .getElementById("submitPhraseBtn")
+  .addEventListener("click", () => checkPhraseAnswer(false));
+document
+  .getElementById("skipPhraseBtn")
+  .addEventListener("click", () => checkPhraseAnswer(true));
+
+// Hỗ trợ bấm Enter để nộp bài
+document
+  .getElementById("phraseAnswerInput")
+  .addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      checkPhraseAnswer(false);
+    }
+  });
+
+async function checkPhraseAnswer(isSkipped) {
+  clearInterval(phraseTimerInterval);
+  const inputField = document.getElementById("phraseAnswerInput");
+  const userAnswer = inputField.value.trim().toLowerCase();
+  const currentPhrase = phraseQuizWords[currentPhraseIndex];
+  const correctAnswer = currentPhrase.english.toLowerCase().trim();
+
+  phraseQuizWords[currentPhraseIndex].userAnswer = inputField.value.trim();
+  let isAnyLevelChanged = false;
+
+  if (!isSkipped && userAnswer === correctAnswer) {
+    phraseQuizWords[currentPhraseIndex].isCorrect = true;
+
+    // ĐÚNG: Tăng level nếu < 4
+    if (currentPhrase.level < 4) {
+      try {
+        await fetch(`${API_URL}/${currentPhrase.id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ level: currentPhrase.level + 1 }),
+        });
+        isAnyLevelChanged = true;
+      } catch (e) {
+        console.error(e);
+      }
+    }
+  } else {
+    // SAI HOẶC BỎ QUA: Chỉ hạ xuống level 3 NẾU đang ở level 4
+    phraseQuizWords[currentPhraseIndex].isCorrect = false;
+
+    if (currentPhrase.level === 4) {
+      try {
+        await fetch(`${API_URL}/${currentPhrase.id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ level: 3 }),
+        });
+        isAnyLevelChanged = true;
+      } catch (e) {
+        console.error(e);
+      }
+    }
+  }
+
+  // Refresh lại dữ liệu ở các khu vực khác nếu có thay đổi level
+  if (isAnyLevelChanged) {
+    if (typeof loadFlashcards === "function") loadFlashcards();
+    if (typeof loadVocabList === "function") loadVocabList();
+  }
+
+  currentPhraseIndex++;
+  loadNextPhrase();
+}
+
+function showPhraseSummary() {
+  document.getElementById("phraseQuizArea").style.display = "none";
+  const summaryDiv = document.getElementById("phraseQuizSummary");
+  const contentDiv = document.getElementById("phraseSummaryContent");
+
+  let correctCount = 0;
+  let html = '<ul style="list-style-type: none; padding: 0;">';
+
+  phraseQuizWords.forEach((w) => {
+    if (w.isCorrect) correctCount++;
+
+    const color = w.isCorrect ? "#27ae60" : "#e74c3c";
+    const icon = w.isCorrect ? "✅" : "🔴";
+    const statusText = w.isCorrect ? "Đúng" : "Sai / Bỏ qua";
+
+    html += `<li style="margin-bottom: 10px; padding: 10px; border-radius: 5px; background: #f9fbfd; border-left: 5px solid ${color};">
+            ${icon} <strong style="color: #c0392b;">${w.vietnamese}</strong><br>
+            Đáp án đúng: <span style="color: #2980b9; font-weight: bold;">${w.english}</span><br>
+            Bạn nhập: <span style="font-style: italic; color: ${color}; text-decoration: ${w.isCorrect ? "none" : "line-through"};">${w.userAnswer || '<b style="color:#aaa;">Bỏ qua / Hết giờ</b>'}</span>
+        </li>`;
+  });
+  html += "</ul>";
+
+  // Phần tiêu đề tổng kết điểm số
+  const headerHtml = `<h4 style="color: #2c3e50; text-align: center; margin-bottom: 15px;">Bạn đã trả lời đúng: ${correctCount} / ${phraseQuizWords.length} cụm từ</h4>`;
+
+  contentDiv.innerHTML = headerHtml + html;
+  summaryDiv.style.display = "block";
+}
