@@ -149,27 +149,40 @@ document
   });
 
 // ==========================================
-// 3. TÍNH NĂNG KIỂM TRA TỪ VỰNG (CÓ ĐẾM NGƯỢC & PHẠT HẠ CẤP)
+// 3. TÍNH NĂNG KIỂM TRA TỪ VỰNG & CỤM TỪ (CÓ ĐẾM NGƯỢC & PHẠT HẠ CẤP)
 // ==========================================
 let quizWords = [];
 let currentQuizIndex = 0;
 let quizTimer = null; // Biến lưu trữ bộ đếm thời gian liên tục cục bộ
-let timeLeft = 10; // Mỗi câu có 10 giây
+let timeLeft = 10; // Mỗi câu có 10 giây (khởi tạo, sẽ được gán lại thành 15 ở hàm startCountdown)
 
 // Nút Bắt đầu kiểm tra
 document.getElementById("startQuizBtn").addEventListener("click", async () => {
   const unit = document.getElementById("quizUnit").value;
   const level = document.getElementById("quizLevelFilter").value;
 
+  // TÍNH NĂNG MỚI: Lấy giá trị của bộ lọc loại kiểm tra
+  const quizType = document.getElementById("quizTypeFilter").value;
+
   // Xóa bộ đếm cũ nếu có lượt thi trước đang chạy dở
   clearInterval(quizTimer);
 
   try {
     const response = await fetch(`${API_URL}?unit=${unit}&level=${level}`);
-    const words = await response.json();
+    let words = await response.json();
+
+    // TÍNH NĂNG MỚI: LỌC DỮ LIỆU THEO TỪ ĐƠN HOẶC CỤM TỪ
+    if (quizType === "vocab") {
+      // Chỉ lấy những từ KHÔNG phải là phrase
+      words = words.filter((w) => w.type !== "phrase");
+    } else if (quizType === "phrase") {
+      // Chỉ lấy những từ LÀ phrase
+      words = words.filter((w) => w.type === "phrase");
+    }
+    // Nếu quizType === "all", bỏ qua bước lọc để lấy cả 2 loại
 
     if (words.length === 0) {
-      alert("Không có từ vựng nào phù hợp với bộ lọc này!");
+      alert("Không có từ/cụm từ nào phù hợp với bộ lọc này!");
       document.getElementById("quizArea").style.display = "none";
       document.getElementById("quizSummaryArea").style.display = "none";
       return;
@@ -196,17 +209,20 @@ document.getElementById("startQuizBtn").addEventListener("click", async () => {
 });
 
 // Hàm hiển thị nội dung từ và khởi động đồng hồ đếm ngược
-// Hàm hiển thị nội dung từ và khởi động đồng hồ đếm ngược
 function displayQuizWord() {
   if (quizWords.length === 0) return;
 
   const currentWord = quizWords[currentQuizIndex];
 
   document.getElementById("quizProgress").innerText =
-    `Từ thứ ${currentQuizIndex + 1} / ${quizWords.length}`;
+    `Câu thứ ${currentQuizIndex + 1} / ${quizWords.length}`;
   document.getElementById("quizCurrentLevel").innerText = currentWord.level;
   document.getElementById("quizQuestion").innerText = currentWord.vietnamese;
-  document.getElementById("quizHint").innerText = `(${currentWord.type})`;
+
+  // Tùy chỉnh hiển thị Gợi ý cho hợp lý với cụm từ
+  let hintText = `(${currentWord.type})`;
+  if (currentWord.type === "phrase") hintText = "(Cụm từ)";
+  document.getElementById("quizHint").innerText = hintText;
 
   // ĐOẠN XỬ LÝ LỖI BỘ NHỚ ĐỆM BÀN PHÍM (IME BUG)
   const answerInput = document.getElementById("quizAnswer");
@@ -223,7 +239,7 @@ function displayQuizWord() {
   startCountdown();
 }
 
-// Hàm xử lý đếm ngược 10 giây
+// Hàm xử lý đếm ngược
 function startCountdown() {
   // Xóa bộ đếm của câu trước đó để không bị chạy lồng nhau
   clearInterval(quizTimer);
@@ -327,13 +343,13 @@ async function finishQuizAndCalculate() {
 
   // Nếu có bất kỳ sự thay đổi level nào (tăng hoặc tụt), cập nhật lại các bảng dữ liệu khác
   if (isAnyLevelChanged) {
-    loadFlashcards();
+    if (typeof loadFlashcards === "function") loadFlashcards();
     if (typeof loadVocabList === "function") loadVocabList();
   }
 
   // Hiển thị điểm số tổng kết
   document.getElementById("summaryScore").innerText =
-    `Bạn đã trả lời đúng: ${correctCount} / ${quizWords.length} từ`;
+    `Bạn đã trả lời đúng: ${correctCount} / ${quizWords.length} câu`;
 
   // Tạo bảng chi tiết so sánh đáp án
   const summaryTableBody = document.getElementById("summaryTableBody");
@@ -345,9 +361,15 @@ async function finishQuizAndCalculate() {
       ? '<span style="color:#2ecc71; font-weight:bold;">Đúng 🟢</span>'
       : '<span style="color:#e74c3c; font-weight:bold;">Sai / Hết giờ 🔴</span>';
 
+    // Bỏ hiển thị phiên âm nếu là phrase (vì phrase thường không nhập phiên âm)
+    const pronunciationDisplay =
+      word.type === "phrase" || !word.pronunciation
+        ? ""
+        : ` <span style="color:#8e44ad;">(${word.pronunciation})</span>`;
+
     row.innerHTML = `
             <td style="color: #c0392b; font-weight: bold;">${word.vietnamese}</td>
-            <td style="color: #2c3e50; font-weight: bold;">${word.english} <span style="color:#8e44ad;">(${word.pronunciation})</span></td>
+            <td style="color: #2c3e50; font-weight: bold;">${word.english}${pronunciationDisplay}</td>
             <td style="font-style: italic; color:#555;">${word.userAnswer || '<b style="color:#aaa;">Bỏ qua / Hết giờ</b>'}</td>
             <td>${statusHTML}</td>
         `;
