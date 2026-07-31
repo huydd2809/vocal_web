@@ -15,7 +15,7 @@
         "type": "noun",
         "pronunciation": "/'sɪti 'sentə/",
         "unit": "unit1",
-        "level": 3
+        "level": 2
     },
     {
         "id": "c3a4f812-7e9b-4562-b1c8-2d9f4a5e6b7c",
@@ -24,7 +24,7 @@
         "type": "noun",
         "pronunciation": "/kə'mjuːnɪti/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "8b2d1c9f-4e6a-4b75-9c3d-1a8f5e2b7c4d",
@@ -33,7 +33,7 @@
         "type": "noun",
         "pronunciation": "/krɑːft/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "a9f5c2b1-6d8e-4a37-b4c9-7e1d8f5a2b3c",
@@ -42,7 +42,7 @@
         "type": "noun",
         "pronunciation": "/dɪ'lɪvəri 'pɜːsən/",
         "unit": "unit1",
-        "level": 3
+        "level": 2
     },
     {
         "id": "d4e7b1a5-9c2f-4831-a6b8-3f5c2d9e1a4b",
@@ -60,7 +60,7 @@
         "type": "noun",
         "pronunciation": "/ɪlek'trɪʃən/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "b6c9d2f4-1a8e-4753-9b2c-5d1a8f4e7c3b",
@@ -69,7 +69,7 @@
         "type": "noun",
         "pronunciation": "/fə'sɪlɪtiz/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "3a8f5d1c-7b4e-4926-a1c9-6e2d8b4f5a7c",
@@ -96,7 +96,7 @@
         "type": "noun",
         "pronunciation": "/'fʌŋkʃən/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "1d8a5f2c-7b9e-4c31-a4b6-3e9d1f5c8a2b",
@@ -105,7 +105,7 @@
         "type": "noun",
         "pronunciation": "/'ɡɑːbɪdʒ kə'lektə/",
         "unit": "unit1",
-        "level": 3
+        "level": 2
     },
     {
         "id": "6a3f8d2b-1e9c-4754-a5b7-8c1d4e9f2a5b",
@@ -114,7 +114,7 @@
         "type": "noun",
         "pronunciation": "/'hændɪkrɑːft/",
         "unit": "unit1",
-        "level": 3
+        "level": 2
     },
     {
         "id": "2e9b1a5f-8c4d-4631-b7a9-5f2c8d1e4b3a",
@@ -123,7 +123,7 @@
         "type": "verb",
         "pronunciation": "/ɪn'strʌkt/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "5f1c8a2b-9e7d-4a35-b4c6-1d9e5a2f8b7c",
@@ -141,7 +141,7 @@
         "type": "noun",
         "pronunciation": "/'neɪbəhʊd/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "c7a9b1f2-8e4d-4521-b3c6-5a1d8e9f2b4a",
@@ -177,7 +177,7 @@
         "type": "noun",
         "pronunciation": "/'pɒtəri/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "7a1b5f2c-9d8e-4c31-a6b4-2e9d1f5a8c3b",
@@ -186,7 +186,7 @@
         "type": "verb",
         "pronunciation": "/prɪ'zɜːv/",
         "unit": "unit1",
-        "level": 3
+        "level": 2
     },
     {
         "id": "5c9e2a1b-8d7f-4b36-a1c4-1f9d5a2b8e7c",
@@ -195,7 +195,7 @@
         "type": "noun",
         "pronunciation": "/'prɒpəti/",
         "unit": "unit1",
-        "level": 1
+        "level": 3
     },
     {
         "id": "1f8a2b5c-9e7d-4c31-a4b6-5d9e1a2f8c3b",
@@ -240,7 +240,7 @@
         "type": "noun",
         "pronunciation": "/'sʌbɜːb/",
         "unit": "unit1",
-        "level": 3
+        "level": 2
     },
     {
         "id": "1c8a5f2b-9e7d-4c31-a4b6-5d9e1a2b8f7c",
@@ -249,7 +249,7 @@
         "type": "noun",
         "pronunciation": "/'tʊərɪst ə'trækʃən/",
         "unit": "unit1",
-        "level": 2
+        "level": 3
     },
     {
         "id": "8a2b5f1c-9d7e-4c35-a1b6-2e9d1f5a8c3b",
@@ -303,7 +303,7 @@
         "type": "noun",
         "pronunciation": "/fɔːˈmeɪ.ʃən/",
         "unit": "unit1",
-        "level": 1
+        "level": 3
     },
     {
         "id": "1b8f5d2c-7a9e-4c31-b6a4-2e9d1f5a8c3b",
@@ -483,7 +483,7 @@
         "type": "v",
         "pronunciation": "/əˈreɪndʒ/",
         "unit": "week1",
-        "level": 3,
+        "level": 4,
         "word_family": {
             "v": "rearrange",
             "n": "arrangement"
@@ -496,7 +496,7 @@
         "type": "v",
         "pronunciation": "/əˈraɪv/",
         "unit": "week1",
-        "level": 3,
+        "level": 4,
         "word_family": {
             "n": "arrival"
         }
@@ -530,7 +530,7 @@
         "type": "v",
         "pronunciation": "/ˈbrɔːdən/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "6",
@@ -561,7 +561,7 @@
         "type": "v",
         "pronunciation": "/ˈdɪfər/",
         "unit": "week1",
-        "level": 3,
+        "level": 4,
         "word_family": {
             "adj": "different",
             "adv": "differently",
@@ -630,7 +630,7 @@
         "type": "n",
         "pronunciation": "/ˈdɪstəns/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "15",
@@ -709,7 +709,7 @@
         "type": "n",
         "pronunciation": "/fəˈtɒɡrəfi/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "23",
@@ -718,7 +718,7 @@
         "type": "n",
         "pronunciation": "/fəˈtɒɡrəfər/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "24",
@@ -767,7 +767,7 @@
         "type": "n,v",
         "pronunciation": "/tʊə(r)/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "29",
@@ -807,7 +807,7 @@
         "type": "v",
         "pronunciation": "/ɪɡˈnɔː(r)/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "33",
@@ -816,7 +816,7 @@
         "type": "n",
         "pronunciation": "/ˈɪɡ.nər.əns/",
         "unit": "week1",
-        "level": 3,
+        "level": 4,
         "word_family": {
             "adj": "ignorant"
         }
@@ -828,7 +828,7 @@
         "type": "v",
         "pronunciation": "/nəʊ/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "35",
@@ -946,7 +946,7 @@
         "type": "n",
         "pronunciation": "/ˌdɪs.bɪˈliːf/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "46",
@@ -990,7 +990,7 @@
         "type": "adj",
         "pronunciation": "/waɪz/",
         "unit": "week1",
-        "level": 3,
+        "level": 4,
         "word_family": {
             "adv": "wisely",
             "adj": "unwise",
@@ -1013,7 +1013,7 @@
         "type": "v",
         "pronunciation": "/kənˈfjuːz/",
         "unit": "week1",
-        "level": 3,
+        "level": 4,
         "word_family": {
             "n": "confusion"
         }
@@ -1071,7 +1071,7 @@
         "type": "adj",
         "pronunciation": "/ɪˈmædʒ.ɪ.nər.i/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "57",
@@ -1080,7 +1080,7 @@
         "type": "n",
         "pronunciation": "/ˈlɒdʒ.ɪk/",
         "unit": "week1",
-        "level": 3,
+        "level": 4,
         "word_family": {
             "adj": "logical, illogical",
             "adv": "logically, illogically"
@@ -1105,7 +1105,7 @@
         "type": "n,adj",
         "pronunciation": "/ˈθɪŋ.kɪŋ/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "60",
@@ -1128,7 +1128,7 @@
         "type": "v",
         "pronunciation": "/dɪˈsaɪd/",
         "unit": "week1",
-        "level": 3,
+        "level": 4,
         "word_family": {
             "n": "decision"
         }
@@ -1196,7 +1196,7 @@
         "type": "n",
         "pronunciation": "/meɪnˈteɪ.nər/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "68",
@@ -1239,7 +1239,7 @@
         "type": "n,v",
         "pronunciation": "/ˈɪn.flu.əns/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "72",
@@ -1248,7 +1248,7 @@
         "type": "adj",
         "pronunciation": "/ˌɪn.fluˈen.ʃəl/",
         "unit": "week1",
-        "level": 3,
+        "level": 4,
         "word_family": {
             "adj": "influenced, uninfluenced"
         }
@@ -1379,7 +1379,7 @@
         "type": "n",
         "pronunciation": "/ɪˌlekˈtrɪʃ.ən/",
         "unit": "week1",
-        "level": 3
+        "level": 4
     },
     {
         "id": "86",
@@ -1406,7 +1406,7 @@
         "type": "phrase",
         "pronunciation": "/set ʌp/",
         "unit": "unit1",
-        "level": 2
+        "level": 4
     },
     {
         "id": "1e8d9a45-6b2c-4f71-a3d8-5c4e9b2f1a6d",
@@ -1514,7 +1514,7 @@
         "type": "phrase",
         "pronunciation": "/teɪk ˈəʊvə/",
         "unit": "unit1",
-        "level": 1
+        "level": 3
     },
     {
         "id": "6a3f8d2b-1e9c-4754-a5b7-8c1d4e9f2a5b",
