@@ -483,7 +483,7 @@
         "type": "v",
         "pronunciation": "/əˈreɪndʒ/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "v": "rearrange",
             "n": "arrangement"
@@ -496,7 +496,7 @@
         "type": "v",
         "pronunciation": "/əˈraɪv/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "arrival"
         }
@@ -508,7 +508,7 @@
         "type": "adj",
         "pronunciation": "/brɔːd/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "breadth",
             "v": "broaden"
@@ -521,7 +521,7 @@
         "type": "n",
         "pronunciation": "/bredθ/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "5",
@@ -530,7 +530,7 @@
         "type": "v",
         "pronunciation": "/ˈbrɔːdən/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "6",
@@ -552,7 +552,7 @@
         "type": "adj",
         "pronunciation": "/ˈkʌltʃəd/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "8",
@@ -561,7 +561,7 @@
         "type": "v",
         "pronunciation": "/ˈdɪfər/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "different",
             "adv": "differently",
@@ -575,7 +575,7 @@
         "type": "v",
         "pronunciation": "/dəˈrekt/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "direction"
         }
@@ -587,7 +587,7 @@
         "type": "n",
         "pronunciation": "/dəˈrekʃən/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "11",
@@ -596,7 +596,7 @@
         "type": "n",
         "pronunciation": "/dəˈrektər/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "12",
@@ -605,7 +605,7 @@
         "type": "adj",
         "pronunciation": "/dəˈrekt/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "indirect",
             "adv": "directly, indirectly"
@@ -618,7 +618,7 @@
         "type": "adj",
         "pronunciation": "/ˈdɪstənt/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adv": "distantly"
         }
@@ -630,7 +630,7 @@
         "type": "n",
         "pronunciation": "/ˈdɪstəns/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "15",
@@ -639,7 +639,7 @@
         "type": "v",
         "pronunciation": "/ˈentər/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "entrance"
         }
@@ -651,7 +651,7 @@
         "type": "n",
         "pronunciation": "/ˈentrəns/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "17",
@@ -660,7 +660,7 @@
         "type": "v",
         "pronunciation": "/ɪnˈhæbɪt/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "inhabitant",
             "adj": "inhabitable"
@@ -700,7 +700,7 @@
         "type": "n,v",
         "pronunciation": "/ˈfəʊtəɡrɑːf/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "22",
@@ -709,7 +709,7 @@
         "type": "n",
         "pronunciation": "/fəˈtɒɡrəfi/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "23",
@@ -718,7 +718,7 @@
         "type": "n",
         "pronunciation": "/fəˈtɒɡrəfər/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "24",
@@ -727,7 +727,7 @@
         "type": "adj",
         "pronunciation": "/ˌfəʊtəˈɡræfɪk/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "25",
@@ -736,7 +736,7 @@
         "type": "v",
         "pronunciation": "/ˈrekəɡnaɪz/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "recognisable, unrecognisable",
             "n": "recognition"
@@ -767,7 +767,7 @@
         "type": "n,v",
         "pronunciation": "/tʊə(r)/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "29",
@@ -785,7 +785,7 @@
         "type": "n",
         "pronunciation": "/ˈtʊərɪst/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "31",
@@ -794,7 +794,7 @@
         "type": "n",
         "pronunciation": "/wɜːld/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "worldwide",
             "adv": "worldwide"
@@ -807,7 +807,7 @@
         "type": "v",
         "pronunciation": "/ɪɡˈnɔː(r)/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "33",
@@ -816,7 +816,7 @@
         "type": "n",
         "pronunciation": "/ˈɪɡ.nər.əns/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "ignorant"
         }
@@ -828,7 +828,7 @@
         "type": "v",
         "pronunciation": "/nəʊ/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "35",
@@ -837,7 +837,7 @@
         "type": "n",
         "pronunciation": "/ˈnɒl.ɪdʒ/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "knowledgeable"
         }
@@ -849,7 +849,7 @@
         "type": "adv",
         "pronunciation": "/ˈnəʊ.ɪŋ.li/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "37",
@@ -858,7 +858,7 @@
         "type": "adj",
         "pronunciation": "/ˌwelˈnəʊn/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "unknown"
         }
@@ -882,7 +882,7 @@
         "type": "n",
         "pronunciation": "/ˈɒp.tɪ.mɪst/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "40",
@@ -900,7 +900,7 @@
         "type": "v",
         "pronunciation": "/kənˈsɪd.ər/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "consideration"
         }
@@ -924,7 +924,7 @@
         "type": "adj",
         "pronunciation": "/kənˈsɪd.ər.ə.bəl/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "44",
@@ -933,7 +933,7 @@
         "type": "v",
         "pronunciation": "/bɪˈliːv/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "belief",
             "v": "disbelieve"
@@ -946,7 +946,7 @@
         "type": "n",
         "pronunciation": "/ˌdɪs.bɪˈliːf/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "46",
@@ -955,7 +955,7 @@
         "type": "adj",
         "pronunciation": "/bɪˈliː.və.bəl/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "unbelievable"
         }
@@ -990,7 +990,7 @@
         "type": "adj",
         "pronunciation": "/waɪz/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adv": "wisely",
             "adj": "unwise",
@@ -1013,7 +1013,7 @@
         "type": "v",
         "pronunciation": "/kənˈfjuːz/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "confusion"
         }
@@ -1025,7 +1025,7 @@
         "type": "adj",
         "pronunciation": "/kənˈfjuːzd/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "53",
@@ -1034,7 +1034,7 @@
         "type": "adj",
         "pronunciation": "/kənˈfjuː.zɪŋ/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adv": "confusingly"
         }
@@ -1046,7 +1046,7 @@
         "type": "v",
         "pronunciation": "/ɪˈmædʒ.ɪn/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "imagination"
         }
@@ -1071,7 +1071,7 @@
         "type": "adj",
         "pronunciation": "/ɪˈmædʒ.ɪ.nər.i/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "57",
@@ -1080,7 +1080,7 @@
         "type": "n",
         "pronunciation": "/ˈlɒdʒ.ɪk/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "logical, illogical",
             "adv": "logically, illogically"
@@ -1105,7 +1105,7 @@
         "type": "n,adj",
         "pronunciation": "/ˈθɪŋ.kɪŋ/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "60",
@@ -1128,7 +1128,7 @@
         "type": "v",
         "pronunciation": "/dɪˈsaɪd/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "decision"
         }
@@ -1140,7 +1140,7 @@
         "type": "adj",
         "pronunciation": "/dɪˈsaɪ.sɪv/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "indecisive",
             "n": "decisiveness",
@@ -1154,7 +1154,7 @@
         "type": "v",
         "pronunciation": "/kənˈsɜːv/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "conservation"
         }
@@ -1184,7 +1184,7 @@
         "type": "v",
         "pronunciation": "/meɪnˈteɪn/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "maintenance"
         }
@@ -1196,7 +1196,7 @@
         "type": "n",
         "pronunciation": "/meɪnˈteɪ.nər/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "68",
@@ -1205,7 +1205,7 @@
         "type": "adj",
         "pronunciation": "/meɪnˈteɪ.nə.bəl/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "69",
@@ -1239,7 +1239,7 @@
         "type": "n,v",
         "pronunciation": "/ˈɪn.flu.əns/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "72",
@@ -1248,7 +1248,7 @@
         "type": "adj",
         "pronunciation": "/ˌɪn.fluˈen.ʃəl/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "adj": "influenced, uninfluenced"
         }
@@ -1260,7 +1260,7 @@
         "type": "n",
         "pronunciation": "/ˈɪn.flu.ən.sər/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "74",
@@ -1269,7 +1269,7 @@
         "type": "v",
         "pronunciation": "/ˈɪn.ə.veɪt/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "innovation"
         }
@@ -1281,7 +1281,7 @@
         "type": "adj",
         "pronunciation": "/ˈɪn.ə.və.tɪv/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "76",
@@ -1290,7 +1290,7 @@
         "type": "n",
         "pronunciation": "/ˈɪn.ə.veɪ.tər/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "77",
@@ -1299,7 +1299,7 @@
         "type": "n,v",
         "pronunciation": "/pleɪs/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "78",
@@ -1308,7 +1308,7 @@
         "type": "v",
         "pronunciation": "/rɪˈpleɪs/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "replacement",
             "adj": "replaceable, irreplaceable"
@@ -1321,7 +1321,7 @@
         "type": "n",
         "pronunciation": "/ˈpleɪs.mənt/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "80",
@@ -1330,7 +1330,7 @@
         "type": "adj",
         "pronunciation": "/njuː/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "81",
@@ -1339,7 +1339,7 @@
         "type": "v",
         "pronunciation": "/rɪˈnjuː/",
         "unit": "week1",
-        "level": 4,
+        "level": 3,
         "word_family": {
             "n": "renewal",
             "adj": "renewable"
@@ -1361,7 +1361,7 @@
         "type": "adj",
         "pronunciation": "/ɪˈlek.trɪk/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "84",
@@ -1379,7 +1379,7 @@
         "type": "n",
         "pronunciation": "/ɪˌlekˈtrɪʃ.ən/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "86",
@@ -1388,7 +1388,7 @@
         "type": "n",
         "pronunciation": "/ɪˌlekˈtrɪs.ə.ti/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "87",
@@ -1397,7 +1397,7 @@
         "type": "adj",
         "pronunciation": "/ɪˌlekˈtrɒn.ɪk/",
         "unit": "week1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "e4f81234-a12b-4391-8c4d-9e6b7a5f2c11",
@@ -1586,6 +1586,663 @@
         "type": "phrase",
         "pronunciation": "/pʊt ɒf/",
         "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+        "english": "root",
+        "vietnamese": "rễ, cội nguồn",
+        "type": "noun",
+        "pronunciation": "/ruːt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+        "english": "superstition",
+        "vietnamese": "sự mê tín",
+        "type": "noun",
+        "pronunciation": "/ˌsuː.pɚˈstɪʃ.ən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+        "english": "prestige",
+        "vietnamese": "uy tín, danh tiếng",
+        "type": "noun",
+        "pronunciation": "/presˈtiːʒ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+        "english": "prestigious",
+        "vietnamese": "có uy tín, có danh tiếng",
+        "type": "adjective",
+        "pronunciation": "/presˈtɪdʒ.əs/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+        "english": "confuse",
+        "vietnamese": "làm xáo trộn, gây rối trí",
+        "type": "verb",
+        "pronunciation": "/kənˈfjuːz/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c",
+        "english": "confusing",
+        "vietnamese": "gây khó hiểu, hoang mang",
+        "type": "adjective",
+        "pronunciation": "/kənˈfjuː.zɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d",
+        "english": "confused",
+        "vietnamese": "cảm thấy bối rối, hoang mang",
+        "type": "adjective",
+        "pronunciation": "/kənˈfjuːzd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e",
+        "english": "confusion",
+        "vietnamese": "sự bối rối, sự nhầm lẫn",
+        "type": "noun",
+        "pronunciation": "/kənˈfjuː.ʒən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f",
+        "english": "privilege",
+        "vietnamese": "đặc ân, đặc quyền",
+        "type": "noun",
+        "pronunciation": "/ˈprɪv.əl.ɪdʒ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a",
+        "english": "privileged",
+        "vietnamese": "được ưu tiên, có đặc quyền",
+        "type": "adjective",
+        "pronunciation": "/ˈprɪv.əl.ɪdʒd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b",
+        "english": "underprivileged",
+        "vietnamese": "bị thiệt thòi, nghèo khổ",
+        "type": "adjective",
+        "pronunciation": "/ˌʌn.dɚˈprɪv.əl.ɪdʒd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c",
+        "english": "hesitate",
+        "vietnamese": "do dự, ngập ngừng",
+        "type": "verb",
+        "pronunciation": "/ˈhez.ə.teɪt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d",
+        "english": "interpret",
+        "vietnamese": "giải thích, phiên dịch",
+        "type": "verb",
+        "pronunciation": "/ɪnˈtɝː.prət/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e",
+        "english": "scold",
+        "vietnamese": "phê bình, la mắng",
+        "type": "verb",
+        "pronunciation": "/skoʊld/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f",
+        "english": "criticize",
+        "vietnamese": "chỉ trích, phê bình",
+        "type": "verb",
+        "pronunciation": "/ˈkrɪt̬.ɪ.saɪz/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a",
+        "english": "reprimand",
+        "vietnamese": "khiển trách, phê bình",
+        "type": "verb",
+        "pronunciation": "/ˈrep.rə.mænd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b",
+        "english": "praise",
+        "vietnamese": "khen ngợi",
+        "type": "verb",
+        "pronunciation": "/preɪz/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c",
+        "english": "insult",
+        "vietnamese": "xúc phạm, sỉ nhục",
+        "type": "verb",
+        "pronunciation": "/ɪnˈsʌlt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d",
+        "english": "reproach",
+        "vietnamese": "la mắng, trách mắng",
+        "type": "verb",
+        "pronunciation": "/rɪˈproʊtʃ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e",
+        "english": "deceive",
+        "vietnamese": "lừa dối",
+        "type": "verb",
+        "pronunciation": "/dɪˈsiːv/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f",
+        "english": "deception",
+        "vietnamese": "sự lừa dối",
+        "type": "noun",
+        "pronunciation": "/dɪˈsep.ʃən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a",
+        "english": "deceitful",
+        "vietnamese": "dối trá, lừa lọc",
+        "type": "adjective",
+        "pronunciation": "/dɪˈsiːt.fəl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b",
+        "english": "potential",
+        "vietnamese": "tiềm năng, tiềm ẩn",
+        "type": "adjective",
+        "pronunciation": "/poʊˈten.ʃəl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c",
+        "english": "bind",
+        "vietnamese": "buộc, gắn kết",
+        "type": "verb",
+        "pronunciation": "/baɪnd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d",
+        "english": "disapprove",
+        "vietnamese": "không đồng tình, phản đối",
+        "type": "verb",
+        "pronunciation": "/ˌdɪs.əˈpruːv/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b6c7d8e9-f0a1-4b2c-3d4e-5f6a7b8c9d0e",
+        "english": "disapproval",
+        "vietnamese": "sự phản đối",
+        "type": "noun",
+        "pronunciation": "/ˌdɪs.əˈpruː.vəl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c7d8e9f0-a1b2-4c3d-4e5f-6a7b8c9d0e1f",
+        "english": "approve",
+        "vietnamese": "tán thành, đồng tình",
+        "type": "verb",
+        "pronunciation": "/əˈpruːv/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d8e9f0a1-b2c3-4d4e-5f6a-7b8c9d0e1f2a",
+        "english": "humorous",
+        "vietnamese": "hài hước",
+        "type": "adjective",
+        "pronunciation": "/ˈhjuː.mə.rəs/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e9f0a1b2-c3d4-4e5f-6a7b-8c9d0e1f2a3b",
+        "english": "discriminate",
+        "vietnamese": "phân biệt đối xử",
+        "type": "verb",
+        "pronunciation": "/dɪˈskrɪm.ə.neɪt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f0a1b2c3-d4e5-4f6a-7b8c-9d0e1f2a3b4c",
+        "english": "sexism",
+        "vietnamese": "sự phân biệt đối xử theo giới tính",
+        "type": "noun",
+        "pronunciation": "/ˈsek.sɪ.zəm/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a1b2c3d4-e5f6-4789-abcd-0123456789ab",
+        "english": "abortion",
+        "vietnamese": "sự phá thai, sự bỏ thai",
+        "type": "noun",
+        "pronunciation": "/əˈbɔːr.ʃən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b2c3d4e5-f6a7-4890-bcde-123456789abc",
+        "english": "rejection",
+        "vietnamese": "sự khước từ, sự từ chối",
+        "type": "noun",
+        "pronunciation": "/rɪˈdʒek.ʃən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c3d4e5f6-a7b8-4901-cdef-23456789abcd",
+        "english": "eliminate",
+        "vietnamese": "loại bỏ, loại trừ",
+        "type": "verb",
+        "pronunciation": "/iˈlɪm.ə.neɪt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d4e5f6a7-b8c9-4012-def0-3456789abcde",
+        "english": "adoption",
+        "vietnamese": "sự nhận nuôi, sự tiếp nhận",
+        "type": "noun",
+        "pronunciation": "/əˈdɑːp.ʃən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e5f6a7b8-c9d0-4123-ef01-456789abcdef",
+        "english": "exacerbate",
+        "vietnamese": "làm tệ đi, làm trầm trọng thêm",
+        "type": "verb",
+        "pronunciation": "/ɪɡˈzæs.ɚ.beɪt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f6a7b8c9-d0e1-4234-f012-56789abcdef0",
+        "english": "worsen",
+        "vietnamese": "làm tệ đi",
+        "type": "verb",
+        "pronunciation": "/ˈwɝː.sən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a7b8c9d0-e1f2-4345-0123-6789abcdef01",
+        "english": "aggravate",
+        "vietnamese": "làm trầm trọng thêm",
+        "type": "verb",
+        "pronunciation": "/ˈæɡ.rə.veɪt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b8c9d0e1-f2a3-4456-1234-789abcdef012",
+        "english": "adaptation",
+        "vietnamese": "sự thích nghi",
+        "type": "noun",
+        "pronunciation": "/ˌæd.əpˈteɪ.ʃən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c9d0e1f2-a3b4-4567-2345-89abcdef0123",
+        "english": "alienate",
+        "vietnamese": "cô lập, làm cho xa lánh",
+        "type": "verb",
+        "pronunciation": "/ˈeɪ.li.ə.neɪt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d0e1f2a3-b4c5-4678-3456-9abcdef01234",
+        "english": "tremendous",
+        "vietnamese": "to lớn, lớn lao",
+        "type": "adjective",
+        "pronunciation": "/trɪˈmen.dəs/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e1f2a3b4-c5d6-4789-4567-abcdef012345",
+        "english": "enormous",
+        "vietnamese": "to lớn, khổng lồ",
+        "type": "adjective",
+        "pronunciation": "/əˈnɔːr.məs/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f2a3b4c5-d6e7-4890-5678-bcdef0123456",
+        "english": "worship",
+        "vietnamese": "tôn thờ, thờ cúng",
+        "type": "verb",
+        "pronunciation": "/ˈwɝː.ʃɪp/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a3b4c5d6-e7f8-4901-6789-cdef01234567",
+        "english": "extinct",
+        "vietnamese": "tuyệt chủng",
+        "type": "adjective",
+        "pronunciation": "/ɪkˈstɪŋkt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b4c5d6e7-f8a9-4012-789a-def012345678",
+        "english": "synthesis",
+        "vietnamese": "sự tổng hợp",
+        "type": "noun",
+        "pronunciation": "/ˈsɪn.θə.sɪs/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c5d6e7f8-a9b0-4123-89ab-ef0123456789",
+        "english": "integrate",
+        "vietnamese": "hội nhập, tích hợp",
+        "type": "verb",
+        "pronunciation": "/ˈɪn.t̬ə.ɡreɪt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d6e7f8a9-b0c1-4234-9abc-f0123456789a",
+        "english": "integration",
+        "vietnamese": "sự hội nhập, sự tích hợp",
+        "type": "noun",
+        "pronunciation": "/ˌɪn.t̬əˈɡreɪ.ʃən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e7f8a9b0-c1d2-4345-abcd-0123456789ab",
+        "english": "conflict",
+        "vietnamese": "sự xung đột, tranh chấp",
+        "type": "noun",
+        "pronunciation": "/ˈkɑːn.flɪkt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f8a9b0c1-d2e3-4456-bcde-123456789abc",
+        "english": "daunting",
+        "vietnamese": "kinh hoàng, đe dọa, làm nản lòng",
+        "type": "adjective",
+        "pronunciation": "/ˈdɑːn.t̬ɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a9b0c1d2-e3f4-4567-cdef-23456789abcd",
+        "english": "intimidating",
+        "vietnamese": "kinh hoàng, đáng sợ, đe dọa",
+        "type": "adjective",
+        "pronunciation": "/ɪnˈtɪm.ə.deɪ.t̬ɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b0c1d2e3-f4a5-4678-def0-3456789abcde",
+        "english": "appoint",
+        "vietnamese": "bổ nhiệm",
+        "type": "verb",
+        "pronunciation": "/əˈpɔɪnt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c1d2e3f4-a5b6-4789-ef01-456789abcdef",
+        "english": "appointment",
+        "vietnamese": "sự bổ nhiệm, cuộc hẹn",
+        "type": "noun",
+        "pronunciation": "/əˈpɔɪnt.mənt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d2e3f4a5-b6c7-4890-f012-56789abcdef0",
+        "english": "deliberate",
+        "vietnamese": "cố tình, có tính toán",
+        "type": "adjective",
+        "pronunciation": "/dɪˈlɪb.ɚ.ət/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e3f4a5b6-c7d8-4901-0123-6789abcdef01",
+        "english": "intentional",
+        "vietnamese": "cố tình, có mục đích",
+        "type": "adjective",
+        "pronunciation": "/ɪnˈten.ʃən.əl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f4a5b6c7-d8e9-4012-1234-789abcdef012",
+        "english": "preserve",
+        "vietnamese": "bảo tồn, gìn giữ",
+        "type": "verb",
+        "pronunciation": "/prɪˈzɝːv/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a5b6c7d8-e9f0-4123-2345-89abcdef0123",
+        "english": "sympathy",
+        "vietnamese": "sự cảm thông, lòng trắc ẩn",
+        "type": "noun",
+        "pronunciation": "/ˈsɪm.pə.θi/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b6c7d8e9-f0a1-4234-3456-9abcdef01234",
+        "english": "sympathetic",
+        "vietnamese": "cảm thông, đồng cảm",
+        "type": "adjective",
+        "pronunciation": "/ˌsɪm.pəˈθet̬.ɪk/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c7d8e9f0-a1b2-4345-4567-abcdef012345",
+        "english": "attempt",
+        "vietnamese": "cố gắng, thử sức, sự nỗ lực",
+        "type": "verb",
+        "pronunciation": "/əˈtempt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d8e9f0a1-b2c3-4456-5678-bcdef0123456",
+        "english": "offensive",
+        "vietnamese": "có tính xúc phạm, làm mất lòng",
+        "type": "adjective",
+        "pronunciation": "/əˈfen.sɪv/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e9f0a1b2-c3d4-4567-6789-cdef01234567",
+        "english": "revival",
+        "vietnamese": "sự hồi sinh, sự phục hồi",
+        "type": "noun",
+        "pronunciation": "/rɪˈvaɪ.vəl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f0a1b2c3-d4e5-4678-789a-def012345678",
+        "english": "modest",
+        "vietnamese": "khiêm tốn",
+        "type": "adjective",
+        "pronunciation": "/ˈmɑː.dɪst/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a1b2c3d4-e5f6-4789-89ab-ef0123456789",
+        "english": "humble",
+        "vietnamese": "khiêm tốn, nhún nhường",
+        "type": "adjective",
+        "pronunciation": "/ˈhʌm.bəl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b2c3d4e5-f6a7-4890-9abc-f0123456789a",
+        "english": "demolish",
+        "vietnamese": "tàn phá, phá hủy",
+        "type": "verb",
+        "pronunciation": "/dɪˈmɑː.lɪʃ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c3d4e5f6-a7b8-4901-abcd-0123456789ab",
+        "english": "dismiss",
+        "vietnamese": "coi thường, gạt bỏ, sa thải",
+        "type": "verb",
+        "pronunciation": "/dɪsˈmɪs/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d4e5f6a7-b8c9-4012-bcde-123456789abc",
+        "english": "dismissive",
+        "vietnamese": "thản nhiên, coi thường",
+        "type": "adjective",
+        "pronunciation": "/dɪsˈmɪs.ɪv/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e5f6a7b8-c9d0-4123-cdef-23456789abcd",
+        "english": "dismissal",
+        "vietnamese": "sự sa thải, sự gạt bỏ",
+        "type": "noun",
+        "pronunciation": "/dɪsˈmɪs.əl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f6a7b8c9-d0e1-4234-def0-3456789abcde",
+        "english": "aboriginal",
+        "vietnamese": "bản địa",
+        "type": "adjective",
+        "pronunciation": "/ˌæb.əˈrɪdʒ.ən.əl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a7b8c9d0-e1f2-4345-ef01-456789abcdef",
+        "english": "native",
+        "vietnamese": "bản địa, tự nhiên",
+        "type": "adjective",
+        "pronunciation": "/ˈneɪ.t̬ɪv/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "b8c9d0e1-f2a3-4456-f012-56789abcdef0",
+        "english": "abundance",
+        "vietnamese": "sự dư thừa, sự phong phú",
+        "type": "noun",
+        "pronunciation": "/əˈbʌn.dəns/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "c9d0e1f2-a3b4-4567-0123-6789abcdef01",
+        "english": "coexist",
+        "vietnamese": "cùng tồn tại",
+        "type": "verb",
+        "pronunciation": "/ˌkoʊ.ɪɡˈzɪst/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "d0e1f2a3-b4c5-4678-1234-789abcdef012",
+        "english": "patriotism",
+        "vietnamese": "chủ nghĩa yêu nước",
+        "type": "noun",
+        "pronunciation": "/ˈpeɪ.tri.ə.tɪ.zəm/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "e1f2a3b4-c5d6-4789-2345-89abcdef0123",
+        "english": "emerge",
+        "vietnamese": "xuất hiện, nổi lên",
+        "type": "verb",
+        "pronunciation": "/ɪˈmɝːdʒ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "f2a3b4c5-d6e7-4890-3456-9abcdef01234",
+        "english": "vanish",
+        "vietnamese": "biến mất",
+        "type": "verb",
+        "pronunciation": "/ˈvæn.ɪʃ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "a3b4c5d6-e7f8-4901-4567-abcdef012345",
+        "english": "brave",
+        "vietnamese": "dũng cảm",
+        "type": "adjective",
+        "pronunciation": "/breɪv/",
+        "unit": "week2",
         "level": 1
     }
 ]
