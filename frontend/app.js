@@ -298,44 +298,61 @@ async function finishQuizAndCalculate() {
 
   // Sử dụng vòng lặp để xử lý tuần tự từng từ
   for (let word of quizWords) {
-    const answerLower = (word.userAnswer || "").toLowerCase();
-    const correctLower = word.english.toLowerCase();
+    // Thêm .trim() cho chắc chắn để phòng trường hợp bạn lỡ gõ dư dấu cách
+    const answerLower = (word.userAnswer || "").toLowerCase().trim();
+    const correctLower = word.english.toLowerCase().trim();
+
+    // BẢO VỆ 1: Ép kiểu level hiện tại chắc chắn thành SỐ NGUYÊN (Integer)
+    const currentLevel = parseInt(word.level, 10) || 1;
 
     if (answerLower === correctLower) {
       word.isCorrect = true;
       correctCount++;
 
       // ĐÚNG: Nếu level < 4 thì tự động tăng lên 1 cấp
-      if (word.level < 4) {
-        const newLevel = word.level + 1;
+      if (currentLevel < 4) {
+        const newLevel = currentLevel + 1;
         try {
-          await fetch(`${API_URL}/${word.id}`, {
+          const response = await fetch(`${API_URL}/${word.id}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ level: newLevel }),
           });
-          word.level = newLevel; // Cập nhật tạm để hiển thị trên bảng tổng kết
-          isAnyLevelChanged = true;
+
+          if (response.ok) {
+            word.level = newLevel; // Cập nhật tạm để hiển thị trên bảng tổng kết
+            isAnyLevelChanged = true;
+          } else {
+            console.error(
+              "Lỗi Backend không thể cập nhật Level cho từ:",
+              word.english,
+              "ID:",
+              word.id,
+            );
+          }
         } catch (e) {
-          console.error(e);
+          console.error("Lỗi mạng khi cập nhật:", e);
         }
       }
     } else {
       word.isCorrect = false;
 
-      // SAI hoặc BỎ QUA: Nếu từ đang ở mức độ 4, phạt tụt xuống mức độ 3 (MỚI)
-      if (word.level === 4) {
+      // SAI hoặc BỎ QUA: Nếu từ đang ở mức độ 4, phạt tụt xuống mức độ 3
+      if (currentLevel === 4) {
         const newLevel = 3;
         try {
-          await fetch(`${API_URL}/${word.id}`, {
+          const response = await fetch(`${API_URL}/${word.id}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ level: newLevel }),
           });
-          word.level = newLevel; // Cập nhật tạm để hiển thị trên bảng tổng kết
-          isAnyLevelChanged = true;
+
+          if (response.ok) {
+            word.level = newLevel; // Cập nhật tạm để hiển thị trên bảng tổng kết
+            isAnyLevelChanged = true;
+          }
         } catch (e) {
-          console.error(e);
+          console.error("Lỗi mạng khi cập nhật:", e);
         }
       }
     }
@@ -361,7 +378,6 @@ async function finishQuizAndCalculate() {
       ? '<span style="color:#2ecc71; font-weight:bold;">Đúng 🟢</span>'
       : '<span style="color:#e74c3c; font-weight:bold;">Sai / Hết giờ 🔴</span>';
 
-    // Bỏ hiển thị phiên âm nếu là phrase (vì phrase thường không nhập phiên âm)
     const pronunciationDisplay =
       word.type === "phrase" || !word.pronunciation
         ? ""

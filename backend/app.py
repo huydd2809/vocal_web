@@ -77,7 +77,8 @@ def update_level(word_id):
     words = load_data()
     
     for w in words:
-        if w.get('id') == word_id:
+        # ÉP KIỂU VỀ STRING ĐỂ SO SÁNH CHÍNH XÁC TUYỆT ĐỐI
+        if str(w.get('id')) == str(word_id):
             # Đảm bảo level không vượt quá 4
             w['level'] = min(int(new_level), 4)
             save_data(words)
