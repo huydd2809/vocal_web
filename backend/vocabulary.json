@@ -1,3544 +1,3544 @@
 [
-  {
-    "id": "1",
-    "english": "artisan",
-    "vietnamese": "thợ thủ công",
-    "type": "noun",
-    "pronunciation": "/'ɑːtɪzæn/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "2",
-    "english": "city centre",
-    "vietnamese": "trung tâm thành phố",
-    "type": "noun",
-    "pronunciation": "/'sɪti 'sentə/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "3",
-    "english": "community",
-    "vietnamese": "cộng đồng",
-    "type": "noun",
-    "pronunciation": "/kə'mjuːnɪti/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "4",
-    "english": "craft",
-    "vietnamese": "thủ công mỹ nghệ",
-    "type": "noun",
-    "pronunciation": "/krɑːft/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "5",
-    "english": "delivery person",
-    "vietnamese": "người giao hàng",
-    "type": "noun",
-    "pronunciation": "/dɪ'lɪvəri 'pɜːsən/",
-    "unit": "unit1",
-    "level": 3
-  },
-  {
-    "id": "6",
-    "english": "electrical wires",
-    "vietnamese": "dây điện",
-    "type": "noun",
-    "pronunciation": "/ɪ'lektrɪkəl waɪərz/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "7",
-    "english": "electrician",
-    "vietnamese": "thợ điện",
-    "type": "noun",
-    "pronunciation": "/ɪlek'trɪʃən/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "8",
-    "english": "facilities",
-    "vietnamese": "cơ sở vật chất",
-    "type": "noun",
-    "pronunciation": "/fə'sɪlɪtiz/",
-    "unit": "unit1",
-    "level": 2
-  },
-  {
-    "id": "9",
-    "english": "firefighter",
-    "vietnamese": "lính cứu hỏa",
-    "type": "noun",
-    "pronunciation": "/'faɪə faɪtə/",
-    "unit": "unit1",
-    "level": 3
-  },
-  {
-    "id": "10",
-    "english": "fragrance",
-    "vietnamese": "hương thơm",
-    "type": "noun",
-    "pronunciation": "/'freɪɡrəns/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "11",
-    "english": "function",
-    "vietnamese": "chức năng",
-    "type": "noun",
-    "pronunciation": "/'fʌŋkʃən/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "12",
-    "english": "garbage collector",
-    "vietnamese": "người thu gom rác",
-    "type": "noun",
-    "pronunciation": "/'ɡɑːbɪdʒ kə'lektə/",
-    "unit": "unit1",
-    "level": 2
-  },
-  {
-    "id": "13",
-    "english": "handicraft",
-    "vietnamese": "đồ thủ công",
-    "type": "noun",
-    "pronunciation": "/'hændɪkrɑːft/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "14",
-    "english": "instruct",
-    "vietnamese": "hướng dẫn",
-    "type": "verb",
-    "pronunciation": "/ɪn'strʌkt/",
-    "unit": "unit1",
-    "level": 3
-  },
-  {
-    "id": "15",
-    "english": "local",
-    "vietnamese": "địa phương",
-    "type": "adjective",
-    "pronunciation": "/'ləʊkəl/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "16",
-    "english": "neighbourhood",
-    "vietnamese": "khu vực lân cận",
-    "type": "noun",
-    "pronunciation": "/'neɪbəhʊd/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "17",
-    "english": "occasion",
-    "vietnamese": "dịp, cơ hội",
-    "type": "noun",
-    "pronunciation": "/ə'keɪʒən/",
-    "unit": "unit1",
-    "level": 3
-  },
-  {
-    "id": "18",
-    "english": "original",
-    "vietnamese": "nguyên bản",
-    "type": "adjective",
-    "pronunciation": "/ə'rɪdʒɪnəl/",
-    "unit": "unit1",
-    "level": 3
-  },
-  {
-    "id": "19",
-    "english": "police officer",
-    "vietnamese": "cảnh sát",
-    "type": "noun",
-    "pronunciation": "/pə'liːs 'ɒfɪsə/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "20",
-    "english": "pottery",
-    "vietnamese": "đồ gốm",
-    "type": "noun",
-    "pronunciation": "/'pɒtəri/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "21",
-    "english": "preserve",
-    "vietnamese": "bảo tồn",
-    "type": "verb",
-    "pronunciation": "/prɪ'zɜːv/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "22",
-    "english": "property",
-    "vietnamese": "tài sản",
-    "type": "noun",
-    "pronunciation": "/'prɒpəti/",
-    "unit": "unit1",
-    "level": 3
-  },
-  {
-    "id": "23",
-    "english": "shopping mall",
-    "vietnamese": "trung tâm mua sắm",
-    "type": "noun",
-    "pronunciation": "/'ʃɒpɪŋ mɔːlz/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "24",
-    "english": "shorten",
-    "vietnamese": "rút ngắn",
-    "type": "verb",
-    "pronunciation": "/'ʃɔːtn/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "25",
-    "english": "sort",
-    "vietnamese": "phân loại",
-    "type": "verb",
-    "pronunciation": "/sɔːrt/",
-    "unit": "unit1",
-    "level": 3
-  },
-  {
-    "id": "26",
-    "english": "speciality food",
-    "vietnamese": "đặc sản",
-    "type": "noun",
-    "pronunciation": "/ˌspeʃi'ælɪti fuːd/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "27",
-    "english": "suburb",
-    "vietnamese": "ngoại ô",
-    "type": "noun",
-    "pronunciation": "/'sʌbɜːb/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "28",
-    "english": "tourist attraction",
-    "vietnamese": "điểm thu hút khách du lịch",
-    "type": "noun",
-    "pronunciation": "/'tʊərɪst ə'trækʃən/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "29",
-    "english": "world-famous",
-    "vietnamese": "nổi tiếng thế giới",
-    "type": "adjective",
-    "pronunciation": "/ˌwɜːld 'feɪməs/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "30",
-    "english": "silky",
-    "vietnamese": "mịn màng",
-    "type": "adjective",
-    "pronunciation": "/ˈsɪl.ki/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "31",
-    "english": "vase",
-    "vietnamese": "bình hoa",
-    "type": "noun",
-    "pronunciation": "/veɪs/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "32",
-    "english": "pot",
-    "vietnamese": "cái nồi, hũ",
-    "type": "noun",
-    "pronunciation": "/pɒt/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "33",
-    "english": "craftsman",
-    "vietnamese": "thợ thủ công",
-    "type": "noun",
-    "pronunciation": "/ˈkrɑːfts.mən/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "34",
-    "english": "formation",
-    "vietnamese": "sự hình thành",
-    "type": "noun",
-    "pronunciation": "/fɔːˈmeɪ.ʃən/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "35",
-    "english": "initial",
-    "vietnamese": "ban đầu",
-    "type": "adjective",
-    "pronunciation": "/ɪˈnɪʃ.əl/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "36",
-    "english": "skillful",
-    "vietnamese": "khéo léo, điêu luyện",
-    "type": "adjective",
-    "pronunciation": "/ˈskɪl.fəl/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "37",
-    "english": "desire",
-    "vietnamese": "ước muốn, khao khát",
-    "type": "noun",
-    "pronunciation": "/dɪˈzaɪər/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "38",
-    "english": "dyke",
-    "vietnamese": "con đê",
-    "type": "noun",
-    "pronunciation": "/daɪk/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "39",
-    "english": "intimate",
-    "vietnamese": "thân mật, mật thiết",
-    "type": "adjective",
-    "pronunciation": "/ˈɪn.tɪ.mət/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "40",
-    "english": "situated",
-    "vietnamese": "tọa lạc, nằm ở",
-    "type": "adjective",
-    "pronunciation": "/ˈsɪtʃ.u.eɪ.tɪd/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "41",
-    "english": "genre",
-    "vietnamese": "thể loại",
-    "type": "noun",
-    "pronunciation": "/ˈʒɒ̃.rə/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "42",
-    "english": "landscape",
-    "vietnamese": "phong cảnh",
-    "type": "noun",
-    "pronunciation": "/ˈlænd.skeɪp/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "43",
-    "english": "seashell",
-    "vietnamese": "vỏ sò",
-    "type": "noun",
-    "pronunciation": "/ˈsiː.ʃel/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "44",
-    "english": "flourish",
-    "vietnamese": "hưng thịnh, phát triển rực rỡ",
-    "type": "verb",
-    "pronunciation": "/ˈflʌr.ɪʃ/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "45",
-    "english": "assign",
-    "vietnamese": "phân công, giao việc",
-    "type": "verb",
-    "pronunciation": "/əˈsaɪn/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "46",
-    "english": "engaged",
-    "vietnamese": "tham gia vào, bận rộn với",
-    "type": "adjective",
-    "pronunciation": "/ɪnˈɡeɪdʒd/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "47",
-    "english": "devoted",
-    "vietnamese": "tận tụy, cống hiến",
-    "type": "adjective",
-    "pronunciation": "/dɪˈvəʊ.tɪd/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "48",
-    "english": "authority",
-    "vietnamese": "chính quyền, nhà chức trách",
-    "type": "noun",
-    "pronunciation": "/ɔːˈθɒr.ə.ti/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "49",
-    "english": "cooperative",
-    "vietnamese": "hợp tác xã",
-    "type": "noun",
-    "pronunciation": "/kəʊˈɒp.ər.ə.tɪv/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "50",
-    "english": "jealousy",
-    "vietnamese": "sự ghen tuông, lòng ghen tị",
-    "type": "noun",
-    "pronunciation": "/ˈdʒel.ə.si/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "51",
-    "english": "verse",
-    "vietnamese": "câu thơ",
-    "type": "noun",
-    "pronunciation": "/vɜːs/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "52",
-    "english": "precious",
-    "vietnamese": "quý giá",
-    "type": "adjective",
-    "pronunciation": "/ˈpreʃ.əs/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "53",
-    "english": "revive",
-    "vietnamese": "hồi sinh, làm sống lại",
-    "type": "verb",
-    "pronunciation": "/rɪˈvaɪv/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "54",
-    "english": "arrange",
-    "vietnamese": "sắp xếp, bố trí, thu xếp",
-    "type": "v",
-    "pronunciation": "/əˈreɪndʒ/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "v": "rearrange",
-      "n": "arrangement"
+    {
+        "id": "1",
+        "english": "artisan",
+        "vietnamese": "thợ thủ công",
+        "type": "noun",
+        "pronunciation": "/'ɑːtɪzæn/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "2",
+        "english": "city centre",
+        "vietnamese": "trung tâm thành phố",
+        "type": "noun",
+        "pronunciation": "/'sɪti 'sentə/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "3",
+        "english": "community",
+        "vietnamese": "cộng đồng",
+        "type": "noun",
+        "pronunciation": "/kə'mjuːnɪti/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "4",
+        "english": "craft",
+        "vietnamese": "thủ công mỹ nghệ",
+        "type": "noun",
+        "pronunciation": "/krɑːft/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "5",
+        "english": "delivery person",
+        "vietnamese": "người giao hàng",
+        "type": "noun",
+        "pronunciation": "/dɪ'lɪvəri 'pɜːsən/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "6",
+        "english": "electrical wires",
+        "vietnamese": "dây điện",
+        "type": "noun",
+        "pronunciation": "/ɪ'lektrɪkəl waɪərz/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "7",
+        "english": "electrician",
+        "vietnamese": "thợ điện",
+        "type": "noun",
+        "pronunciation": "/ɪlek'trɪʃən/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "8",
+        "english": "facilities",
+        "vietnamese": "cơ sở vật chất",
+        "type": "noun",
+        "pronunciation": "/fə'sɪlɪtiz/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "9",
+        "english": "firefighter",
+        "vietnamese": "lính cứu hỏa",
+        "type": "noun",
+        "pronunciation": "/'faɪə faɪtə/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "10",
+        "english": "fragrance",
+        "vietnamese": "hương thơm",
+        "type": "noun",
+        "pronunciation": "/'freɪɡrəns/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "11",
+        "english": "function",
+        "vietnamese": "chức năng",
+        "type": "noun",
+        "pronunciation": "/'fʌŋkʃən/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "12",
+        "english": "garbage collector",
+        "vietnamese": "người thu gom rác",
+        "type": "noun",
+        "pronunciation": "/'ɡɑːbɪdʒ kə'lektə/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "13",
+        "english": "handicraft",
+        "vietnamese": "đồ thủ công",
+        "type": "noun",
+        "pronunciation": "/'hændɪkrɑːft/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "14",
+        "english": "instruct",
+        "vietnamese": "hướng dẫn",
+        "type": "verb",
+        "pronunciation": "/ɪn'strʌkt/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "15",
+        "english": "local",
+        "vietnamese": "địa phương",
+        "type": "adjective",
+        "pronunciation": "/'ləʊkəl/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "16",
+        "english": "neighbourhood",
+        "vietnamese": "khu vực lân cận",
+        "type": "noun",
+        "pronunciation": "/'neɪbəhʊd/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "17",
+        "english": "occasion",
+        "vietnamese": "dịp, cơ hội",
+        "type": "noun",
+        "pronunciation": "/ə'keɪʒən/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "18",
+        "english": "original",
+        "vietnamese": "nguyên bản",
+        "type": "adjective",
+        "pronunciation": "/ə'rɪdʒɪnəl/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "19",
+        "english": "police officer",
+        "vietnamese": "cảnh sát",
+        "type": "noun",
+        "pronunciation": "/pə'liːs 'ɒfɪsə/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "20",
+        "english": "pottery",
+        "vietnamese": "đồ gốm",
+        "type": "noun",
+        "pronunciation": "/'pɒtəri/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "21",
+        "english": "preserve",
+        "vietnamese": "bảo tồn",
+        "type": "verb",
+        "pronunciation": "/prɪ'zɜːv/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "22",
+        "english": "property",
+        "vietnamese": "tài sản",
+        "type": "noun",
+        "pronunciation": "/'prɒpəti/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "23",
+        "english": "shopping mall",
+        "vietnamese": "trung tâm mua sắm",
+        "type": "noun",
+        "pronunciation": "/'ʃɒpɪŋ mɔːlz/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "24",
+        "english": "shorten",
+        "vietnamese": "rút ngắn",
+        "type": "verb",
+        "pronunciation": "/'ʃɔːtn/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "25",
+        "english": "sort",
+        "vietnamese": "phân loại",
+        "type": "verb",
+        "pronunciation": "/sɔːrt/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "26",
+        "english": "speciality food",
+        "vietnamese": "đặc sản",
+        "type": "noun",
+        "pronunciation": "/ˌspeʃi'ælɪti fuːd/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "27",
+        "english": "suburb",
+        "vietnamese": "ngoại ô",
+        "type": "noun",
+        "pronunciation": "/'sʌbɜːb/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "28",
+        "english": "tourist attraction",
+        "vietnamese": "điểm thu hút khách du lịch",
+        "type": "noun",
+        "pronunciation": "/'tʊərɪst ə'trækʃən/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "29",
+        "english": "world-famous",
+        "vietnamese": "nổi tiếng thế giới",
+        "type": "adjective",
+        "pronunciation": "/ˌwɜːld 'feɪməs/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "30",
+        "english": "silky",
+        "vietnamese": "mịn màng",
+        "type": "adjective",
+        "pronunciation": "/ˈsɪl.ki/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "31",
+        "english": "vase",
+        "vietnamese": "bình hoa",
+        "type": "noun",
+        "pronunciation": "/veɪs/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "32",
+        "english": "pot",
+        "vietnamese": "cái nồi, hũ",
+        "type": "noun",
+        "pronunciation": "/pɒt/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "33",
+        "english": "craftsman",
+        "vietnamese": "thợ thủ công",
+        "type": "noun",
+        "pronunciation": "/ˈkrɑːfts.mən/",
+        "unit": "unit1",
+        "level": 3
+    },
+    {
+        "id": "34",
+        "english": "formation",
+        "vietnamese": "sự hình thành",
+        "type": "noun",
+        "pronunciation": "/fɔːˈmeɪ.ʃən/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "35",
+        "english": "initial",
+        "vietnamese": "ban đầu",
+        "type": "adjective",
+        "pronunciation": "/ɪˈnɪʃ.əl/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "36",
+        "english": "skillful",
+        "vietnamese": "khéo léo, điêu luyện",
+        "type": "adjective",
+        "pronunciation": "/ˈskɪl.fəl/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "37",
+        "english": "desire",
+        "vietnamese": "ước muốn, khao khát",
+        "type": "noun",
+        "pronunciation": "/dɪˈzaɪər/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "38",
+        "english": "dyke",
+        "vietnamese": "con đê",
+        "type": "noun",
+        "pronunciation": "/daɪk/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "39",
+        "english": "intimate",
+        "vietnamese": "thân mật, mật thiết",
+        "type": "adjective",
+        "pronunciation": "/ˈɪn.tɪ.mət/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "40",
+        "english": "situated",
+        "vietnamese": "tọa lạc, nằm ở",
+        "type": "adjective",
+        "pronunciation": "/ˈsɪtʃ.u.eɪ.tɪd/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "41",
+        "english": "genre",
+        "vietnamese": "thể loại",
+        "type": "noun",
+        "pronunciation": "/ˈʒɒ̃.rə/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "42",
+        "english": "landscape",
+        "vietnamese": "phong cảnh",
+        "type": "noun",
+        "pronunciation": "/ˈlænd.skeɪp/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "43",
+        "english": "seashell",
+        "vietnamese": "vỏ sò",
+        "type": "noun",
+        "pronunciation": "/ˈsiː.ʃel/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "44",
+        "english": "flourish",
+        "vietnamese": "hưng thịnh, phát triển rực rỡ",
+        "type": "verb",
+        "pronunciation": "/ˈflʌr.ɪʃ/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "45",
+        "english": "assign",
+        "vietnamese": "phân công, giao việc",
+        "type": "verb",
+        "pronunciation": "/əˈsaɪn/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "46",
+        "english": "engaged",
+        "vietnamese": "tham gia vào, bận rộn với",
+        "type": "adjective",
+        "pronunciation": "/ɪnˈɡeɪdʒd/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "47",
+        "english": "devoted",
+        "vietnamese": "tận tụy, cống hiến",
+        "type": "adjective",
+        "pronunciation": "/dɪˈvəʊ.tɪd/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "48",
+        "english": "authority",
+        "vietnamese": "chính quyền, nhà chức trách",
+        "type": "noun",
+        "pronunciation": "/ɔːˈθɒr.ə.ti/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "49",
+        "english": "cooperative",
+        "vietnamese": "hợp tác xã",
+        "type": "noun",
+        "pronunciation": "/kəʊˈɒp.ər.ə.tɪv/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "50",
+        "english": "jealousy",
+        "vietnamese": "sự ghen tuông, lòng ghen tị",
+        "type": "noun",
+        "pronunciation": "/ˈdʒel.ə.si/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "51",
+        "english": "verse",
+        "vietnamese": "câu thơ",
+        "type": "noun",
+        "pronunciation": "/vɜːs/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "52",
+        "english": "precious",
+        "vietnamese": "quý giá",
+        "type": "adjective",
+        "pronunciation": "/ˈpreʃ.əs/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "53",
+        "english": "revive",
+        "vietnamese": "hồi sinh, làm sống lại",
+        "type": "verb",
+        "pronunciation": "/rɪˈvaɪv/",
+        "unit": "unit1",
+        "level": 2
+    },
+    {
+        "id": "54",
+        "english": "arrange",
+        "vietnamese": "sắp xếp, bố trí, thu xếp",
+        "type": "v",
+        "pronunciation": "/əˈreɪndʒ/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "v": "rearrange",
+            "n": "arrangement"
+        }
+    },
+    {
+        "id": "55",
+        "english": "arrive",
+        "vietnamese": "đến, tới nơi",
+        "type": "v",
+        "pronunciation": "/əˈraɪv/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "arrival"
+        }
+    },
+    {
+        "id": "56",
+        "english": "broad",
+        "vietnamese": "rộng, bao quát",
+        "type": "adj",
+        "pronunciation": "/brɔːd/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "breadth",
+            "v": "broaden"
+        }
+    },
+    {
+        "id": "57",
+        "english": "breadth",
+        "vietnamese": "chiều rộng",
+        "type": "n",
+        "pronunciation": "/bredθ/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "58",
+        "english": "broaden",
+        "vietnamese": "mở rộng, làm rộng ra",
+        "type": "v",
+        "pronunciation": "/ˈbrɔːdən/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "59",
+        "english": "culture",
+        "vietnamese": "văn hóa",
+        "type": "n",
+        "pronunciation": "/ˈkʌltʃər/",
+        "unit": "week1",
+        "level": 2,
+        "word_family": {
+            "adj": "cultural, cultured, uncultured, multicultural",
+            "adv": "culturally"
+        }
+    },
+    {
+        "id": "60",
+        "english": "cultured",
+        "vietnamese": "có học thức, có văn hóa",
+        "type": "adj",
+        "pronunciation": "/ˈkʌltʃəd/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "61",
+        "english": "differ",
+        "vietnamese": "khác nhau",
+        "type": "v",
+        "pronunciation": "/ˈdɪfər/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "different",
+            "adv": "differently",
+            "n": "difference"
+        }
+    },
+    {
+        "id": "62",
+        "english": "direct",
+        "vietnamese": "chỉ dẫn, hướng dẫn",
+        "type": "v",
+        "pronunciation": "/dəˈrekt/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "direction"
+        }
+    },
+    {
+        "id": "63",
+        "english": "direction",
+        "vietnamese": "hướng, phương hướng",
+        "type": "n",
+        "pronunciation": "/dəˈrekʃən/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "64",
+        "english": "director",
+        "vietnamese": "giám đốc; đạo diễn",
+        "type": "n",
+        "pronunciation": "/dəˈrektər/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "65",
+        "english": "direct",
+        "vietnamese": "trực tiếp",
+        "type": "adj",
+        "pronunciation": "/dəˈrekt/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "indirect",
+            "adv": "directly, indirectly"
+        }
+    },
+    {
+        "id": "66",
+        "english": "distant",
+        "vietnamese": "xa",
+        "type": "adj",
+        "pronunciation": "/ˈdɪstənt/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adv": "distantly"
+        }
+    },
+    {
+        "id": "67",
+        "english": "distance",
+        "vietnamese": "khoảng cách",
+        "type": "n",
+        "pronunciation": "/ˈdɪstəns/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "68",
+        "english": "enter",
+        "vietnamese": "đi vào, bước vào",
+        "type": "v",
+        "pronunciation": "/ˈentər/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "entrance"
+        }
+    },
+    {
+        "id": "69",
+        "english": "entrance",
+        "vietnamese": "lối vào, cửa vào",
+        "type": "n",
+        "pronunciation": "/ˈentrəns/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "70",
+        "english": "inhabit",
+        "vietnamese": "sinh sống, cư trú",
+        "type": "v",
+        "pronunciation": "/ɪnˈhæbɪt/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "inhabitant",
+            "adj": "inhabitable"
+        }
+    },
+    {
+        "id": "71",
+        "english": "inhabitant",
+        "vietnamese": "cư dân",
+        "type": "n",
+        "pronunciation": "/ɪnˈhæbɪtənt/",
+        "unit": "week1",
+        "level": 2
+    },
+    {
+        "id": "72",
+        "english": "inhabitable",
+        "vietnamese": "có thể sinh sống được",
+        "type": "adj",
+        "pronunciation": "/ɪnˈhæbɪtəbəl/",
+        "unit": "week1",
+        "level": 1
+    },
+    {
+        "id": "73",
+        "english": "habitual",
+        "vietnamese": "thường xuyên, theo thói quen",
+        "type": "adj",
+        "pronunciation": "/həˈbɪtʃuəl/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "74",
+        "english": "photograph",
+        "vietnamese": "bức ảnh; chụp ảnh",
+        "type": "n,v",
+        "pronunciation": "/ˈfəʊtəɡrɑːf/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "75",
+        "english": "photography",
+        "vietnamese": "nhiếp ảnh",
+        "type": "n",
+        "pronunciation": "/fəˈtɒɡrəfi/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "76",
+        "english": "photographer",
+        "vietnamese": "nhiếp ảnh gia",
+        "type": "n",
+        "pronunciation": "/fəˈtɒɡrəfər/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "77",
+        "english": "photographic",
+        "vietnamese": "thuộc về nhiếp ảnh",
+        "type": "adj",
+        "pronunciation": "/ˌfəʊtəˈɡræfɪk/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "78",
+        "english": "recognise",
+        "vietnamese": "nhận ra, công nhận",
+        "type": "v",
+        "pronunciation": "/ˈrekəɡnaɪz/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "recognisable, unrecognisable",
+            "n": "recognition"
+        }
+    },
+    {
+        "id": "79",
+        "english": "time",
+        "vietnamese": "thời gian",
+        "type": "n",
+        "pronunciation": "/taɪm/",
+        "unit": "week1",
+        "level": 2
+    },
+    {
+        "id": "80",
+        "english": "timetable",
+        "vietnamese": "thời gian biểu, lịch trình",
+        "type": "n",
+        "pronunciation": "/ˈtaɪmˌteɪbl/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "81",
+        "english": "tour",
+        "vietnamese": "chuyến tham quan; đi tham quan",
+        "type": "n,v",
+        "pronunciation": "/tʊə(r)/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "82",
+        "english": "tourism",
+        "vietnamese": "ngành du lịch",
+        "type": "n",
+        "pronunciation": "/ˈtʊərɪzəm/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "83",
+        "english": "tourist",
+        "vietnamese": "khách du lịch",
+        "type": "n",
+        "pronunciation": "/ˈtʊərɪst/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "84",
+        "english": "world",
+        "vietnamese": "thế giới",
+        "type": "n",
+        "pronunciation": "/wɜːld/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "worldwide",
+            "adv": "worldwide"
+        }
+    },
+    {
+        "id": "85",
+        "english": "ignore",
+        "vietnamese": "phớt lờ, bỏ qua",
+        "type": "v",
+        "pronunciation": "/ɪɡˈnɔː(r)/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "86",
+        "english": "ignorance",
+        "vietnamese": "sự thiếu hiểu biết, sự ngu dốt",
+        "type": "n",
+        "pronunciation": "/ˈɪɡ.nər.əns/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "ignorant"
+        }
+    },
+    {
+        "id": "87",
+        "english": "know",
+        "vietnamese": "biết",
+        "type": "v",
+        "pronunciation": "/nəʊ/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "88",
+        "english": "knowledge",
+        "vietnamese": "kiến thức",
+        "type": "n",
+        "pronunciation": "/ˈnɒl.ɪdʒ/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "knowledgeable"
+        }
+    },
+    {
+        "id": "89",
+        "english": "knowingly",
+        "vietnamese": "một cách cố ý, có chủ đích",
+        "type": "adv",
+        "pronunciation": "/ˈnəʊ.ɪŋ.li/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "90",
+        "english": "well-known",
+        "vietnamese": "nổi tiếng",
+        "type": "adj",
+        "pronunciation": "/ˌwelˈnəʊn/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "unknown"
+        }
+    },
+    {
+        "id": "91",
+        "english": "optimistic",
+        "vietnamese": "lạc quan",
+        "type": "adj",
+        "pronunciation": "/ˌɒp.tɪˈmɪs.tɪk/",
+        "unit": "week1",
+        "level": 2,
+        "word_family": {
+            "adv": "optimistically"
+        }
+    },
+    {
+        "id": "92",
+        "english": "optimist",
+        "vietnamese": "người lạc quan",
+        "type": "n",
+        "pronunciation": "/ˈɒp.tɪ.mɪst/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "93",
+        "english": "optimism",
+        "vietnamese": "sự lạc quan",
+        "type": "n",
+        "pronunciation": "/ˈɒp.tɪ.mɪ.zəm/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "94",
+        "english": "consider",
+        "vietnamese": "cân nhắc, xem xét",
+        "type": "v",
+        "pronunciation": "/kənˈsɪd.ər/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "consideration"
+        }
+    },
+    {
+        "id": "95",
+        "english": "considerate",
+        "vietnamese": "chu đáo, biết quan tâm",
+        "type": "adj",
+        "pronunciation": "/kənˈsɪd.ər.ət/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "inconsiderate"
+        }
+    },
+    {
+        "id": "96",
+        "english": "considerable",
+        "vietnamese": "đáng kể, khá lớn",
+        "type": "adj",
+        "pronunciation": "/kənˈsɪd.ər.ə.bəl/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "97",
+        "english": "believe",
+        "vietnamese": "tin",
+        "type": "v",
+        "pronunciation": "/bɪˈliːv/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "belief",
+            "v": "disbelieve"
+        }
+    },
+    {
+        "id": "98",
+        "english": "disbelief",
+        "vietnamese": "sự không tin",
+        "type": "n",
+        "pronunciation": "/ˌdɪs.bɪˈliːf/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "99",
+        "english": "believable",
+        "vietnamese": "đáng tin",
+        "type": "adj",
+        "pronunciation": "/bɪˈliː.və.bəl/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "unbelievable"
+        }
+    },
+    {
+        "id": "100",
+        "english": "doubt",
+        "vietnamese": "nghi ngờ; sự nghi ngờ",
+        "type": "n,v",
+        "pronunciation": "/daʊt/",
+        "unit": "week1",
+        "level": 2
+    },
+    {
+        "id": "101",
+        "english": "doubtful",
+        "vietnamese": "đáng nghi, không chắc chắn",
+        "type": "adj",
+        "pronunciation": "/ˈdaʊt.fəl/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adv": "doubtfully",
+            "adj": "undoubted",
+            "adv2": "undoubtedly"
+        }
+    },
+    {
+        "id": "102",
+        "english": "wise",
+        "vietnamese": "khôn ngoan",
+        "type": "adj",
+        "pronunciation": "/waɪz/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adv": "wisely",
+            "adj": "unwise",
+            "adv2": "unwisely"
+        }
+    },
+    {
+        "id": "103",
+        "english": "wisdom",
+        "vietnamese": "sự khôn ngoan",
+        "type": "n",
+        "pronunciation": "/ˈwɪz.dəm/",
+        "unit": "week1",
+        "level": 2
+    },
+    {
+        "id": "104",
+        "english": "confuse",
+        "vietnamese": "làm bối rối, làm nhầm lẫn",
+        "type": "v",
+        "pronunciation": "/kənˈfjuːz/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "confusion"
+        }
+    },
+    {
+        "id": "105",
+        "english": "confused",
+        "vietnamese": "bối rối",
+        "type": "adj",
+        "pronunciation": "/kənˈfjuːzd/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "106",
+        "english": "confusing",
+        "vietnamese": "gây bối rối",
+        "type": "adj",
+        "pronunciation": "/kənˈfjuː.zɪŋ/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adv": "confusingly"
+        }
+    },
+    {
+        "id": "107",
+        "english": "imagine",
+        "vietnamese": "tưởng tượng",
+        "type": "v",
+        "pronunciation": "/ɪˈmædʒ.ɪn/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "imagination"
+        }
+    },
+    {
+        "id": "108",
+        "english": "imaginative",
+        "vietnamese": "giàu trí tưởng tượng",
+        "type": "adj",
+        "pronunciation": "/ɪˈmædʒ.ɪ.nə.tɪv/",
+        "unit": "week1",
+        "level": 2,
+        "word_family": {
+            "adj": "unimaginative",
+            "adv": "imaginatively"
+        }
+    },
+    {
+        "id": "109",
+        "english": "imaginary",
+        "vietnamese": "tưởng tượng, không có thật",
+        "type": "adj",
+        "pronunciation": "/ɪˈmædʒ.ɪ.nər.i/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "110",
+        "english": "logic",
+        "vietnamese": "logic, lô-gic",
+        "type": "n",
+        "pronunciation": "/ˈlɒdʒ.ɪk/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "logical, illogical",
+            "adv": "logically, illogically"
+        }
+    },
+    {
+        "id": "111",
+        "english": "think",
+        "vietnamese": "suy nghĩ",
+        "type": "v",
+        "pronunciation": "/θɪŋk/",
+        "unit": "week1",
+        "level": 2,
+        "word_family": {
+            "n": "thought"
+        }
+    },
+    {
+        "id": "112",
+        "english": "thinking",
+        "vietnamese": "cách suy nghĩ; đang suy nghĩ",
+        "type": "n,adj",
+        "pronunciation": "/ˈθɪŋ.kɪŋ/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "113",
+        "english": "thoughtful",
+        "vietnamese": "chu đáo, sâu sắc",
+        "type": "adj",
+        "pronunciation": "/ˈθɔːt.fəl/",
+        "unit": "week1",
+        "level": 2,
+        "word_family": {
+            "n": "thoughtfulness",
+            "adj": "thoughtless",
+            "n2": "thoughtlessness"
+        }
+    },
+    {
+        "id": "114",
+        "english": "decide",
+        "vietnamese": "quyết định",
+        "type": "v",
+        "pronunciation": "/dɪˈsaɪd/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "decision"
+        }
+    },
+    {
+        "id": "115",
+        "english": "decisive",
+        "vietnamese": "quyết đoán",
+        "type": "adj",
+        "pronunciation": "/dɪˈsaɪ.sɪv/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "indecisive",
+            "n": "decisiveness",
+            "n2": "indecisiveness"
+        }
+    },
+    {
+        "id": "116",
+        "english": "conserve",
+        "vietnamese": "bảo tồn, gìn giữ",
+        "type": "v",
+        "pronunciation": "/kənˈsɜːv/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "conservation"
+        }
+    },
+    {
+        "id": "117",
+        "english": "conservationist",
+        "vietnamese": "nhà bảo tồn",
+        "type": "n",
+        "pronunciation": "/ˌkɒn.səˈveɪ.ʃən.ɪst/",
+        "unit": "week1",
+        "level": 2
+    },
+    {
+        "id": "118",
+        "english": "conservative",
+        "vietnamese": "bảo thủ; người bảo thủ",
+        "type": "adj,n",
+        "pronunciation": "/kənˈsɜː.və.tɪv/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "119",
+        "english": "maintain",
+        "vietnamese": "duy trì, bảo trì",
+        "type": "v",
+        "pronunciation": "/meɪnˈteɪn/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "maintenance"
+        }
+    },
+    {
+        "id": "120",
+        "english": "maintainer",
+        "vietnamese": "người bảo trì",
+        "type": "n",
+        "pronunciation": "/meɪnˈteɪ.nər/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "121",
+        "english": "maintainable",
+        "vietnamese": "có thể bảo trì, duy trì được",
+        "type": "adj",
+        "pronunciation": "/meɪnˈteɪ.nə.bəl/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "122",
+        "english": "novel",
+        "vietnamese": "mới lạ",
+        "type": "adj",
+        "pronunciation": "/ˈnɒv.əl/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "novelty"
+        }
+    },
+    {
+        "id": "123",
+        "english": "novel",
+        "vietnamese": "tiểu thuyết",
+        "type": "n",
+        "pronunciation": "/ˈnɒv.əl/",
+        "unit": "week1",
+        "level": 2,
+        "word_family": {
+            "n": "novelist",
+            "v": "novelize"
+        }
+    },
+    {
+        "id": "124",
+        "english": "influence",
+        "vietnamese": "ảnh hưởng; ảnh hưởng đến",
+        "type": "n,v",
+        "pronunciation": "/ˈɪn.flu.əns/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "125",
+        "english": "influential",
+        "vietnamese": "có ảnh hưởng",
+        "type": "adj",
+        "pronunciation": "/ˌɪn.fluˈen.ʃəl/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "adj": "influenced, uninfluenced"
+        }
+    },
+    {
+        "id": "126",
+        "english": "influencer",
+        "vietnamese": "người có sức ảnh hưởng",
+        "type": "n",
+        "pronunciation": "/ˈɪn.flu.ən.sər/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "127",
+        "english": "innovate",
+        "vietnamese": "đổi mới, cải tiến",
+        "type": "v",
+        "pronunciation": "/ˈɪn.ə.veɪt/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "innovation"
+        }
+    },
+    {
+        "id": "128",
+        "english": "innovative",
+        "vietnamese": "sáng tạo, đổi mới",
+        "type": "adj",
+        "pronunciation": "/ˈɪn.ə.və.tɪv/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "129",
+        "english": "innovator",
+        "vietnamese": "nhà đổi mới",
+        "type": "n",
+        "pronunciation": "/ˈɪn.ə.veɪ.tər/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "130",
+        "english": "place",
+        "vietnamese": "nơi chốn; đặt, để",
+        "type": "n,v",
+        "pronunciation": "/pleɪs/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "131",
+        "english": "replace",
+        "vietnamese": "thay thế",
+        "type": "v",
+        "pronunciation": "/rɪˈpleɪs/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "replacement",
+            "adj": "replaceable, irreplaceable"
+        }
+    },
+    {
+        "id": "132",
+        "english": "placement",
+        "vietnamese": "sự sắp xếp; việc bố trí; vị trí được phân công",
+        "type": "n",
+        "pronunciation": "/ˈpleɪs.mənt/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "133",
+        "english": "new",
+        "vietnamese": "mới",
+        "type": "adj",
+        "pronunciation": "/njuː/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "134",
+        "english": "renew",
+        "vietnamese": "làm mới; gia hạn",
+        "type": "v",
+        "pronunciation": "/rɪˈnjuː/",
+        "unit": "week1",
+        "level": 3,
+        "word_family": {
+            "n": "renewal",
+            "adj": "renewable"
+        }
+    },
+    {
+        "id": "135",
+        "english": "anew",
+        "vietnamese": "lại một lần nữa; từ đầu",
+        "type": "adv",
+        "pronunciation": "/əˈnjuː/",
+        "unit": "week1",
+        "level": 2
+    },
+    {
+        "id": "136",
+        "english": "electric",
+        "vietnamese": "thuộc về điện; chạy bằng điện",
+        "type": "adj",
+        "pronunciation": "/ɪˈlek.trɪk/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "137",
+        "english": "electrify",
+        "vietnamese": "điện khí hóa; làm phấn khích",
+        "type": "v",
+        "pronunciation": "/ɪˈlek.trɪ.faɪ/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "138",
+        "english": "electrician",
+        "vietnamese": "thợ điện",
+        "type": "n",
+        "pronunciation": "/ɪˌlekˈtrɪʃ.ən/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "139",
+        "english": "electricity",
+        "vietnamese": "điện; điện năng",
+        "type": "n",
+        "pronunciation": "/ɪˌlekˈtrɪs.ə.ti/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "140",
+        "english": "electronic",
+        "vietnamese": "thuộc về điện tử",
+        "type": "adj",
+        "pronunciation": "/ɪˌlekˈtrɒn.ɪk/",
+        "unit": "week1",
+        "level": 3
+    },
+    {
+        "id": "141",
+        "english": "set up",
+        "vietnamese": "thành lập, thiết lập, dựng lên",
+        "type": "phrase",
+        "pronunciation": "/set ʌp/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "142",
+        "english": "bring out",
+        "vietnamese": "xuất bản, phát hành, đưa ra thị trường",
+        "type": "phrase",
+        "pronunciation": "/brɪŋ aʊt/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "143",
+        "english": "look through",
+        "vietnamese": "đọc lướt, xem qua",
+        "type": "phrase",
+        "pronunciation": "/lʊk θruː/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "144",
+        "english": "keep up with",
+        "vietnamese": "theo kịp, bắt kịp",
+        "type": "phrase",
+        "pronunciation": "/kiːp ʌp wɪð/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "145",
+        "english": "run out of",
+        "vietnamese": "hết, cạn kiệt",
+        "type": "phrase",
+        "pronunciation": "/rʌn aʊt əv/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "146",
+        "english": "pass down",
+        "vietnamese": "truyền lại (cho thế hệ sau)",
+        "type": "phrase",
+        "pronunciation": "/pɑːs daʊn/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "147",
+        "english": "close down",
+        "vietnamese": "đóng cửa vĩnh viễn, phá sản",
+        "type": "phrase",
+        "pronunciation": "/kləʊz daʊn/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "148",
+        "english": "get on with",
+        "vietnamese": "hòa thuận, có mối quan hệ tốt với",
+        "type": "phrase",
+        "pronunciation": "/ɡet ɒn wɪð/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "149",
+        "english": "turn down",
+        "vietnamese": "từ chối; vặn nhỏ (âm lượng)",
+        "type": "phrase",
+        "pronunciation": "/tɜːn daʊn/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "150",
+        "english": "set off",
+        "vietnamese": "khởi hành; làm nổ, kích hoạt (chuông báo động)",
+        "type": "phrase",
+        "pronunciation": "/set ɒf/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "151",
+        "english": "turn up",
+        "vietnamese": "đến, xuất hiện; vặn to (âm lượng)",
+        "type": "phrase",
+        "pronunciation": "/tɜːn ʌp/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "152",
+        "english": "work out",
+        "vietnamese": "tập thể dục; tìm ra giải pháp; tiến triển tốt đẹp",
+        "type": "phrase",
+        "pronunciation": "/wɜːk aʊt/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "153",
+        "english": "take over",
+        "vietnamese": "tiếp quản, thâu tóm",
+        "type": "phrase",
+        "pronunciation": "/teɪk ˈəʊvə/",
+        "unit": "unit1",
+        "level": 4
+    },
+    {
+        "id": "154",
+        "english": "find out",
+        "vietnamese": "tìm hiểu, phát hiện ra thông tin",
+        "type": "phrase",
+        "pronunciation": "/faɪnd aʊt/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "155",
+        "english": "live on",
+        "vietnamese": "sống dựa vào (nguồn tiền/thức ăn)",
+        "type": "phrase",
+        "pronunciation": "/lɪv ɒn/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "156",
+        "english": "deal with",
+        "vietnamese": "giải quyết, xử lý",
+        "type": "phrase",
+        "pronunciation": "/diːl wɪð/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "157",
+        "english": "look over",
+        "vietnamese": "xem xét, kiểm tra tổng thể",
+        "type": "phrase",
+        "pronunciation": "/lʊk ˈəʊvə/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "158",
+        "english": "face up to",
+        "vietnamese": "dũng cảm đối mặt, chấp nhận (sự thật)",
+        "type": "phrase",
+        "pronunciation": "/feɪs ʌp tuː/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "159",
+        "english": "split up",
+        "vietnamese": "chia tay, chia nhỏ ra",
+        "type": "phrase",
+        "pronunciation": "/splɪt ʌp/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "160",
+        "english": "rustle up",
+        "vietnamese": "nấu/chuẩn bị vội bữa ăn từ đồ có sẵn",
+        "type": "phrase",
+        "pronunciation": "/ˈrʌs.əl ʌp/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "161",
+        "english": "put off",
+        "vietnamese": "trì hoãn; làm ai đó mất hứng",
+        "type": "phrase",
+        "pronunciation": "/pʊt ɒf/",
+        "unit": "unit1",
+        "level": 1
+    },
+    {
+        "id": "162",
+        "english": "root",
+        "vietnamese": "rễ, cội nguồn",
+        "type": "noun",
+        "pronunciation": "/ruːt/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "163",
+        "english": "superstition",
+        "vietnamese": "sự mê tín",
+        "type": "noun",
+        "pronunciation": "/ˌsuː.pɚˈstɪʃ.ən/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "164",
+        "english": "prestige",
+        "vietnamese": "uy tín, danh tiếng",
+        "type": "noun",
+        "pronunciation": "/presˈtiːʒ/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "165",
+        "english": "prestigious",
+        "vietnamese": "có uy tín, có danh tiếng",
+        "type": "adjective",
+        "pronunciation": "/presˈtɪdʒ.əs/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "166",
+        "english": "confuse",
+        "vietnamese": "làm xáo trộn, gây rối trí",
+        "type": "verb",
+        "pronunciation": "/kənˈfjuːz/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "167",
+        "english": "confusing",
+        "vietnamese": "gây khó hiểu, hoang mang",
+        "type": "adjective",
+        "pronunciation": "/kənˈfjuː.zɪŋ/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "168",
+        "english": "confused",
+        "vietnamese": "cảm thấy bối rối, hoang mang",
+        "type": "adjective",
+        "pronunciation": "/kənˈfjuːzd/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "169",
+        "english": "confusion",
+        "vietnamese": "sự bối rối, sự nhầm lẫn",
+        "type": "noun",
+        "pronunciation": "/kənˈfjuː.ʒən/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "170",
+        "english": "privilege",
+        "vietnamese": "đặc ân, đặc quyền",
+        "type": "noun",
+        "pronunciation": "/ˈprɪv.əl.ɪdʒ/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "171",
+        "english": "privileged",
+        "vietnamese": "được ưu tiên, có đặc quyền",
+        "type": "adjective",
+        "pronunciation": "/ˈprɪv.əl.ɪdʒd/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "172",
+        "english": "underprivileged",
+        "vietnamese": "bị thiệt thòi, nghèo khổ",
+        "type": "adjective",
+        "pronunciation": "/ˌʌn.dɚˈprɪv.əl.ɪdʒd/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "173",
+        "english": "hesitate",
+        "vietnamese": "do dự, ngập ngừng",
+        "type": "verb",
+        "pronunciation": "/ˈhez.ə.teɪt/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "174",
+        "english": "interpret",
+        "vietnamese": "giải thích, phiên dịch",
+        "type": "verb",
+        "pronunciation": "/ɪnˈtɝː.prət/",
+        "unit": "week2",
+        "level": 2
+    },
+    {
+        "id": "175",
+        "english": "scold",
+        "vietnamese": "phê bình, la mắng",
+        "type": "verb",
+        "pronunciation": "/skoʊld/",
+        "unit": "week2",
+        "level": 3
+    },
+    {
+        "id": "176",
+        "english": "criticize",
+        "vietnamese": "chỉ trích, phê bình",
+        "type": "verb",
+        "pronunciation": "/ˈkrɪt̬.ɪ.saɪz/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "177",
+        "english": "reprimand",
+        "vietnamese": "khiển trách, phê bình",
+        "type": "verb",
+        "pronunciation": "/ˈrep.rə.mænd/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "178",
+        "english": "praise",
+        "vietnamese": "khen ngợi",
+        "type": "verb",
+        "pronunciation": "/preɪz/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "179",
+        "english": "insult",
+        "vietnamese": "xúc phạm, sỉ nhục",
+        "type": "verb",
+        "pronunciation": "/ɪnˈsʌlt/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "180",
+        "english": "reproach",
+        "vietnamese": "la mắng, trách mắng",
+        "type": "verb",
+        "pronunciation": "/rɪˈproʊtʃ/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "181",
+        "english": "deceive",
+        "vietnamese": "lừa dối",
+        "type": "verb",
+        "pronunciation": "/dɪˈsiːv/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "182",
+        "english": "deception",
+        "vietnamese": "sự lừa dối",
+        "type": "noun",
+        "pronunciation": "/dɪˈsep.ʃən/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "183",
+        "english": "deceitful",
+        "vietnamese": "dối trá, lừa lọc",
+        "type": "adjective",
+        "pronunciation": "/dɪˈsiːt.fəl/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "184",
+        "english": "potential",
+        "vietnamese": "tiềm năng, tiềm ẩn",
+        "type": "adjective",
+        "pronunciation": "/poʊˈten.ʃəl/",
+        "unit": "week2",
+        "level": 3
+    },
+    {
+        "id": "185",
+        "english": "bind",
+        "vietnamese": "buộc, gắn kết",
+        "type": "verb",
+        "pronunciation": "/baɪnd/",
+        "unit": "week2",
+        "level": 3
+    },
+    {
+        "id": "186",
+        "english": "disapprove",
+        "vietnamese": "không đồng tình, phản đối",
+        "type": "verb",
+        "pronunciation": "/ˌdɪs.əˈpruːv/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "187",
+        "english": "disapproval",
+        "vietnamese": "sự phản đối",
+        "type": "noun",
+        "pronunciation": "/ˌdɪs.əˈpruː.vəl/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "188",
+        "english": "approve",
+        "vietnamese": "tán thành, đồng tình",
+        "type": "verb",
+        "pronunciation": "/əˈpruːv/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "189",
+        "english": "humorous",
+        "vietnamese": "hài hước",
+        "type": "adjective",
+        "pronunciation": "/ˈhjuː.mə.rəs/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "190",
+        "english": "discriminate",
+        "vietnamese": "phân biệt đối xử",
+        "type": "verb",
+        "pronunciation": "/dɪˈskrɪm.ə.neɪt/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "191",
+        "english": "sexism",
+        "vietnamese": "sự phân biệt đối xử theo giới tính",
+        "type": "noun",
+        "pronunciation": "/ˈsek.sɪ.zəm/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "192",
+        "english": "abortion",
+        "vietnamese": "sự phá thai, sự bỏ thai",
+        "type": "noun",
+        "pronunciation": "/əˈbɔːr.ʃən/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "193",
+        "english": "rejection",
+        "vietnamese": "sự khước từ, sự từ chối",
+        "type": "noun",
+        "pronunciation": "/rɪˈdʒek.ʃən/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "194",
+        "english": "eliminate",
+        "vietnamese": "loại bỏ, loại trừ",
+        "type": "verb",
+        "pronunciation": "/iˈlɪm.ə.neɪt/",
+        "unit": "week2",
+        "level": 2
+    },
+    {
+        "id": "195",
+        "english": "adoption",
+        "vietnamese": "sự nhận nuôi, sự tiếp nhận",
+        "type": "noun",
+        "pronunciation": "/əˈdɑːp.ʃən/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "196",
+        "english": "exacerbate",
+        "vietnamese": "làm tệ đi, làm trầm trọng thêm",
+        "type": "verb",
+        "pronunciation": "/ɪɡˈzæs.ɚ.beɪt/",
+        "unit": "week2",
+        "level": 3
+    },
+    {
+        "id": "197",
+        "english": "worsen",
+        "vietnamese": "làm tệ đi",
+        "type": "verb",
+        "pronunciation": "/ˈwɝː.sən/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "198",
+        "english": "aggravate",
+        "vietnamese": "làm trầm trọng thêm",
+        "type": "verb",
+        "pronunciation": "/ˈæɡ.rə.veɪt/",
+        "unit": "week2",
+        "level": 2
+    },
+    {
+        "id": "199",
+        "english": "adaptation",
+        "vietnamese": "sự thích nghi",
+        "type": "noun",
+        "pronunciation": "/ˌæd.əpˈteɪ.ʃən/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "200",
+        "english": "alienate",
+        "vietnamese": "cô lập, làm cho xa lánh",
+        "type": "verb",
+        "pronunciation": "/ˈeɪ.li.ə.neɪt/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "201",
+        "english": "tremendous",
+        "vietnamese": "to lớn, lớn lao",
+        "type": "adjective",
+        "pronunciation": "/trɪˈmen.dəs/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "202",
+        "english": "enormous",
+        "vietnamese": "to lớn, khổng lồ",
+        "type": "adjective",
+        "pronunciation": "/əˈnɔːr.məs/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "203",
+        "english": "worship",
+        "vietnamese": "tôn thờ, thờ cúng",
+        "type": "verb",
+        "pronunciation": "/ˈwɝː.ʃɪp/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "204",
+        "english": "extinct",
+        "vietnamese": "tuyệt chủng",
+        "type": "adjective",
+        "pronunciation": "/ɪkˈstɪŋkt/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "205",
+        "english": "synthesis",
+        "vietnamese": "sự tổng hợp",
+        "type": "noun",
+        "pronunciation": "/ˈsɪn.θə.sɪs/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "206",
+        "english": "integrate",
+        "vietnamese": "hội nhập, tích hợp",
+        "type": "verb",
+        "pronunciation": "/ˈɪn.t̬ə.ɡreɪt/",
+        "unit": "week2",
+        "level": 2
+    },
+    {
+        "id": "207",
+        "english": "integration",
+        "vietnamese": "sự hội nhập, sự tích hợp",
+        "type": "noun",
+        "pronunciation": "/ˌɪn.t̬əˈɡreɪ.ʃən/",
+        "unit": "week2",
+        "level": 2
+    },
+    {
+        "id": "208",
+        "english": "conflict",
+        "vietnamese": "sự xung đột, tranh chấp",
+        "type": "noun",
+        "pronunciation": "/ˈkɑːn.flɪkt/",
+        "unit": "week2",
+        "level": 3
+    },
+    {
+        "id": "209",
+        "english": "daunting",
+        "vietnamese": "kinh hoàng, đe dọa, làm nản lòng",
+        "type": "adjective",
+        "pronunciation": "/ˈdɑːn.t̬ɪŋ/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "210",
+        "english": "intimidating",
+        "vietnamese": "kinh hoàng, đáng sợ, đe dọa",
+        "type": "adjective",
+        "pronunciation": "/ɪnˈtɪm.ə.deɪ.t̬ɪŋ/",
+        "unit": "week2",
+        "level": 2
+    },
+    {
+        "id": "211",
+        "english": "appoint",
+        "vietnamese": "bổ nhiệm",
+        "type": "verb",
+        "pronunciation": "/əˈpɔɪnt/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "212",
+        "english": "appointment",
+        "vietnamese": "sự bổ nhiệm, cuộc hẹn",
+        "type": "noun",
+        "pronunciation": "/əˈpɔɪnt.mənt/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "213",
+        "english": "deliberate",
+        "vietnamese": "cố tình, có tính toán",
+        "type": "adjective",
+        "pronunciation": "/dɪˈlɪb.ɚ.ət/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "214",
+        "english": "intentional",
+        "vietnamese": "cố tình, có mục đích",
+        "type": "adjective",
+        "pronunciation": "/ɪnˈten.ʃən.əl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "215",
+        "english": "preserve",
+        "vietnamese": "bảo tồn, gìn giữ",
+        "type": "verb",
+        "pronunciation": "/prɪˈzɝːv/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "216",
+        "english": "sympathy",
+        "vietnamese": "sự cảm thông, lòng trắc ẩn",
+        "type": "noun",
+        "pronunciation": "/ˈsɪm.pə.θi/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "217",
+        "english": "sympathetic",
+        "vietnamese": "cảm thông, đồng cảm",
+        "type": "adjective",
+        "pronunciation": "/ˌsɪm.pəˈθet̬.ɪk/",
+        "unit": "week2",
+        "level": 2
+    },
+    {
+        "id": "218",
+        "english": "attempt",
+        "vietnamese": "cố gắng, thử sức, sự nỗ lực",
+        "type": "verb",
+        "pronunciation": "/əˈtempt/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "219",
+        "english": "offensive",
+        "vietnamese": "có tính xúc phạm, làm mất lòng",
+        "type": "adjective",
+        "pronunciation": "/əˈfen.sɪv/",
+        "unit": "week2",
+        "level": 2
+    },
+    {
+        "id": "220",
+        "english": "revival",
+        "vietnamese": "sự hồi sinh, sự phục hồi",
+        "type": "noun",
+        "pronunciation": "/rɪˈvaɪ.vəl/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "221",
+        "english": "modest",
+        "vietnamese": "khiêm tốn",
+        "type": "adjective",
+        "pronunciation": "/ˈmɑː.dɪst/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "222",
+        "english": "humble",
+        "vietnamese": "khiêm tốn, nhún nhường",
+        "type": "adjective",
+        "pronunciation": "/ˈhʌm.bəl/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "223",
+        "english": "demolish",
+        "vietnamese": "tàn phá, phá hủy",
+        "type": "verb",
+        "pronunciation": "/dɪˈmɑː.lɪʃ/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "224",
+        "english": "dismiss",
+        "vietnamese": "coi thường, gạt bỏ, sa thải",
+        "type": "verb",
+        "pronunciation": "/dɪsˈmɪs/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "225",
+        "english": "dismissive",
+        "vietnamese": "thản nhiên, coi thường",
+        "type": "adjective",
+        "pronunciation": "/dɪsˈmɪs.ɪv/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "226",
+        "english": "dismissal",
+        "vietnamese": "sự sa thải, sự gạt bỏ",
+        "type": "noun",
+        "pronunciation": "/dɪsˈmɪs.əl/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "227",
+        "english": "aboriginal",
+        "vietnamese": "bản địa",
+        "type": "adjective",
+        "pronunciation": "/ˌæb.əˈrɪdʒ.ən.əl/",
+        "unit": "week2",
+        "level": 3
+    },
+    {
+        "id": "228",
+        "english": "native",
+        "vietnamese": "bản địa, tự nhiên",
+        "type": "adjective",
+        "pronunciation": "/ˈneɪ.t̬ɪv/",
+        "unit": "week2",
+        "level": 3
+    },
+    {
+        "id": "229",
+        "english": "abundance",
+        "vietnamese": "sự dư thừa, sự phong phú",
+        "type": "noun",
+        "pronunciation": "/əˈbʌn.dəns/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "230",
+        "english": "coexist",
+        "vietnamese": "cùng tồn tại",
+        "type": "verb",
+        "pronunciation": "/ˌkoʊ.ɪɡˈzɪst/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "231",
+        "english": "patriotism",
+        "vietnamese": "chủ nghĩa yêu nước",
+        "type": "noun",
+        "pronunciation": "/ˈpeɪ.tri.ə.tɪ.zəm/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "232",
+        "english": "emerge",
+        "vietnamese": "xuất hiện, nổi lên",
+        "type": "verb",
+        "pronunciation": "/ɪˈmɝːdʒ/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "233",
+        "english": "vanish",
+        "vietnamese": "biến mất",
+        "type": "verb",
+        "pronunciation": "/ˈvæn.ɪʃ/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "234",
+        "english": "brave",
+        "vietnamese": "dũng cảm",
+        "type": "adjective",
+        "pronunciation": "/breɪv/",
+        "unit": "week2",
+        "level": 4
+    },
+    {
+        "id": "235",
+        "english": "contractual marriage",
+        "vietnamese": "cuộc hôn nhân sắp đặt (theo hợp đồng)",
+        "type": "phrase",
+        "pronunciation": "/kənˈtræk.tʃu.əl ˈmær.ɪdʒ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "236",
+        "english": "search for our roots",
+        "vietnamese": "tìm về cội nguồn của chúng ta",
+        "type": "phrase",
+        "pronunciation": "/sɝːtʃ fɔːr aʊər ruːts/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "237",
+        "english": "get engaged",
+        "vietnamese": "đính hôn",
+        "type": "phrase",
+        "pronunciation": "/ɡet ɪnˈɡeɪdʒd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "238",
+        "english": "romantic marriage",
+        "vietnamese": "cuộc hôn nhân tự nguyện (vì tình yêu)",
+        "type": "phrase",
+        "pronunciation": "/roʊˈmæn.tɪk ˈmær.ɪdʒ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "239",
+        "english": "at once",
+        "vietnamese": "ngay lập tức",
+        "type": "phrase",
+        "pronunciation": "/æt wʌns/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "240",
+        "english": "a pair",
+        "vietnamese": "một cặp, một đôi",
+        "type": "phrase",
+        "pronunciation": "/ə per/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "241",
+        "english": "punctual",
+        "vietnamese": "đúng giờ (= on time)",
+        "type": "phrase",
+        "pronunciation": "/ˈpʌŋk.tʃu.əl/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "242",
+        "english": "prevalent",
+        "vietnamese": "phổ biến, thịnh hành (= popular = widespread)",
+        "type": "phrase",
+        "pronunciation": "/ˈprev.əl.ənt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "243",
+        "english": "just for once",
+        "vietnamese": "chỉ một lần duy nhất",
+        "type": "phrase",
+        "pronunciation": "/dʒʌst fɔːr wʌns/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "244",
+        "english": "as regular as clockwork",
+        "vietnamese": "đều đặn, thường xuyên (= on a regular basis)",
+        "type": "phrase",
+        "pronunciation": "/æz ˈreɡ.jə.lɚ æz ˈklɑːk.wɝːk/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "245",
+        "english": "on the dot",
+        "vietnamese": "đúng giờ",
+        "type": "phrase",
+        "pronunciation": "/ɑːn ðə dɑːt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "246",
+        "english": "be supposed to V",
+        "vietnamese": "được cho là / có nhiệm vụ phải làm gì",
+        "type": "phrase",
+        "pronunciation": "/biː səˈpoʊzd tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "247",
+        "english": "be willing to V",
+        "vietnamese": "sẵn lòng làm gì",
+        "type": "phrase",
+        "pronunciation": "/biː ˈwɪl.ɪŋ tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "248",
+        "english": "scold sb for sth",
+        "vietnamese": "phê bình, la mắng ai vì điều gì",
+        "type": "phrase",
+        "pronunciation": "/skoʊld ˈsʌm.bə.di fɔːr ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "249",
+        "english": "praise sb for sth",
+        "vietnamese": "khen ngợi ai về điều gì",
+        "type": "phrase",
+        "pronunciation": "/preɪz ˈsʌm.bə.di fɔːr ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "250",
+        "english": "pay sb a compliment on sth",
+        "vietnamese": "dành lời khen ngợi cho ai về điều gì",
+        "type": "phrase",
+        "pronunciation": "/peɪ ˈsʌm.bə.di ə ˈkɑːm.plə.mənt ɑːn ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "251",
+        "english": "reproach sb for sth",
+        "vietnamese": "la mắng, trách mắng ai",
+        "type": "phrase",
+        "pronunciation": "/rɪˈproʊtʃ ˈsʌm.bə.di fɔːr ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "252",
+        "english": "be attracted to sb/sth",
+        "vietnamese": "bị thu hút bởi ai/cái gì",
+        "type": "phrase",
+        "pronunciation": "/biː əˈtræk.tɪd tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "253",
+        "english": "religious text",
+        "vietnamese": "cuốn kinh, văn bản tôn giáo",
+        "type": "phrase",
+        "pronunciation": "/rɪˈlɪdʒ.əs tekst/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "254",
+        "english": "well-established",
+        "vietnamese": "được chuẩn bị kỹ lưỡng / lâu đời, có uy tín",
+        "type": "phrase",
+        "pronunciation": "/ˌwel ɪˈstæb.lɪʃt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "255",
+        "english": "well-advised",
+        "vietnamese": "khôn ngoan, sáng suốt",
+        "type": "phrase",
+        "pronunciation": "/ˌwel ədˈvaɪzd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "256",
+        "english": "sense of responsibility",
+        "vietnamese": "ý thức trách nhiệm",
+        "type": "phrase",
+        "pronunciation": "/sens əv rɪˌspɑːn.səˈbɪl.ə.ti/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "257",
+        "english": "bump into",
+        "vietnamese": "tình cờ bắt gặp (= run into = come across)",
+        "type": "phrase",
+        "pronunciation": "/bʌmp ˈɪn.tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "258",
+        "english": "well-balanced",
+        "vietnamese": "cân bằng, hài hòa",
+        "type": "phrase",
+        "pronunciation": "/ˌwel ˈbæl.ənst/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "259",
+        "english": "be about to V",
+        "vietnamese": "sắp sửa làm gì (= be on the point of V-ing)",
+        "type": "phrase",
+        "pronunciation": "/biː əˈbaʊt tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "260",
+        "english": "loss and grief",
+        "vietnamese": "sự mất mát và đau thương",
+        "type": "phrase",
+        "pronunciation": "/lɑːs ænd ɡriːf/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "261",
+        "english": "religious ceremony",
+        "vietnamese": "nghi thức tôn giáo",
+        "type": "phrase",
+        "pronunciation": "/rɪˈlɪdʒ.əs ˈser.ə.moʊ.ni/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "262",
+        "english": "sense of self",
+        "vietnamese": "ý thức cá nhân, bản sắc cá nhân",
+        "type": "phrase",
+        "pronunciation": "/sens əv self/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "263",
+        "english": "disapprove of sth",
+        "vietnamese": "phản đối, không đồng tình cái gì",
+        "type": "phrase",
+        "pronunciation": "/ˌdɪs.əˈpruːv əv ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "264",
+        "english": "approve of sth",
+        "vietnamese": "đồng tình, tán thành cái gì",
+        "type": "phrase",
+        "pronunciation": "/əˈpruːv əv ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "265",
+        "english": "on the flip side",
+        "vietnamese": "mặt khác (= on the other hand)",
+        "type": "phrase",
+        "pronunciation": "/ɑːn ðə flɪp saɪd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "266",
+        "english": "sense of humor",
+        "vietnamese": "khiếu hài hước",
+        "type": "phrase",
+        "pronunciation": "/sens əv ˈhjuː.mɚ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "267",
+        "english": "sex discrimination",
+        "vietnamese": "sự phân biệt đối xử theo giới tính",
+        "type": "phrase",
+        "pronunciation": "/seks dɪˌskrɪm.əˈneɪ.ʃən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "268",
+        "english": "ethnic group",
+        "vietnamese": "nhóm dân tộc",
+        "type": "phrase",
+        "pronunciation": "/ˈeθ.nɪk ɡruːp/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "269",
+        "english": "be highly regarded",
+        "vietnamese": "được coi trọng, được đánh giá cao",
+        "type": "phrase",
+        "pronunciation": "/biː ˈhaɪ.li rɪˈɡɑːr.dɪd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "270",
+        "english": "get rid of",
+        "vietnamese": "bỏ, loại bỏ (= eliminate)",
+        "type": "phrase",
+        "pronunciation": "/ɡet rɪd əv/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "271",
+        "english": "be close to the bone",
+        "vietnamese": "thiếu tế nhị, có tính xúc phạm",
+        "type": "phrase",
+        "pronunciation": "/biː kloʊs tuː ðə boʊn/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "272",
+        "english": "get over",
+        "vietnamese": "vượt qua (= overcome)",
+        "type": "phrase",
+        "pronunciation": "/ɡet ˈoʊ.vɚ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "273",
+        "english": "face up to",
+        "vietnamese": "dũng cảm đối mặt",
+        "type": "phrase",
+        "pronunciation": "/feɪs ʌp tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "274",
+        "english": "in the wee hours",
+        "vietnamese": "nửa đêm, rạng sáng",
+        "type": "phrase",
+        "pronunciation": "/ɪn ðə wiː aʊərz/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "275",
+        "english": "deep-rooted",
+        "vietnamese": "lâu đời, ăn sâu bám rễ",
+        "type": "phrase",
+        "pronunciation": "/ˌdiːpˈruː.t̬ɪd/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "276",
+        "english": "let go of",
+        "vietnamese": "buông bỏ, thả ra",
+        "type": "phrase",
+        "pronunciation": "/let ɡoʊ əv/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "277",
+        "english": "result in",
+        "vietnamese": "dẫn tới, gây ra",
+        "type": "phrase",
+        "pronunciation": "/rɪˈzʌlt ɪn/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "278",
+        "english": "cultural identity",
+        "vietnamese": "bản sắc văn hóa",
+        "type": "phrase",
+        "pronunciation": "/ˈkʌl.tʃɚ.əl aɪˈden.t̬ə.ti/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "279",
+        "english": "tie the knot",
+        "vietnamese": "kết hôn",
+        "type": "phrase",
+        "pronunciation": "/taɪ ðə nɑːt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "280",
+        "english": "extend invitation to sb",
+        "vietnamese": "gửi lời mời tới ai",
+        "type": "phrase",
+        "pronunciation": "/ɪkˈstend ˌɪn.vəˈteɪ.ʃən tuː ˈsʌm.bə.di/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "281",
+        "english": "not always be the case",
+        "vietnamese": "không phải lúc nào cũng đúng",
+        "type": "phrase",
+        "pronunciation": "/nɑːt ˈɑːl.weɪz biː ðə keɪs/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "282",
+        "english": "the majority culture",
+        "vietnamese": "văn hóa đa số",
+        "type": "phrase",
+        "pronunciation": "/ðə məˈdʒɑː.rə.ti ˈkʌl.tʃɚ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "283",
+        "english": "make a decision on sth",
+        "vietnamese": "đưa ra quyết định về điều gì",
+        "type": "phrase",
+        "pronunciation": "/meɪk ə dɪˈsɪʒ.ən ɑːn ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "284",
+        "english": "tip of the iceberg",
+        "vietnamese": "bề nổi của tảng băng (phần nhỏ của vấn đề)",
+        "type": "phrase",
+        "pronunciation": "/tɪp əv ðə ˈaɪs.bɝːɡ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "285",
+        "english": "have an effect on sth",
+        "vietnamese": "có ảnh hưởng / tác động đến cái gì",
+        "type": "phrase",
+        "pronunciation": "/hæv æn əˈfekt ɑːn ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "286",
+        "english": "above the law",
+        "vietnamese": "đứng trên pháp luật (hoặc vi phạm luật)",
+        "type": "phrase",
+        "pronunciation": "/əˈbʌv ðə lɑː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "287",
+        "english": "be expected to V",
+        "vietnamese": "được kỳ vọng là làm gì",
+        "type": "phrase",
+        "pronunciation": "/biː ɪkˈspek.tɪd tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "288",
+        "english": "speak to sb",
+        "vietnamese": "nói chuyện với ai",
+        "type": "phrase",
+        "pronunciation": "/spiːk tuː ˈsʌm.bə.di/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "289",
+        "english": "be considered to be adj",
+        "vietnamese": "được coi là như thế nào",
+        "type": "phrase",
+        "pronunciation": "/biː kənˈsɪd.ɚd tuː biː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "290",
+        "english": "be considered for sth",
+        "vietnamese": "được cân nhắc cho chức vụ/việc gì",
+        "type": "phrase",
+        "pronunciation": "/biː kənˈsɪd.ɚd fɔːr ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "291",
+        "english": "make an attempt to V",
+        "vietnamese": "cố gắng, nỗ lực làm gì",
+        "type": "phrase",
+        "pronunciation": "/meɪk æn əˈtempt tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "292",
+        "english": "have no chance of sth",
+        "vietnamese": "không có cơ hội làm gì",
+        "type": "phrase",
+        "pronunciation": "/hæv noʊ tʃæns əv ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "293",
+        "english": "not necessarily mean",
+        "vietnamese": "không nhất thiết có nghĩa là",
+        "type": "phrase",
+        "pronunciation": "/nɑːt ˌnes.əˈser.əl.i miːn/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "294",
+        "english": "for fear of sth",
+        "vietnamese": "vì sợ rằng cái gì",
+        "type": "phrase",
+        "pronunciation": "/fɔːr fɪr əv ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "295",
+        "english": "help sb V",
+        "vietnamese": "giúp ai làm gì",
+        "type": "phrase",
+        "pronunciation": "/help ˈsʌm.bə.di/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "296",
+        "english": "prior to",
+        "vietnamese": "trước (= before)",
+        "type": "phrase",
+        "pronunciation": "/ˈpraɪ.ɚ tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "297",
+        "english": "give up",
+        "vietnamese": "từ bỏ",
+        "type": "phrase",
+        "pronunciation": "/ɡɪv ʌp/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "298",
+        "english": "take an examination",
+        "vietnamese": "tham gia kỳ thi",
+        "type": "phrase",
+        "pronunciation": "/teɪk æn ɪɡˌzæm.əˈneɪ.ʃən/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "299",
+        "english": "identify oneself with sth",
+        "vietnamese": "đồng cảm, gắn mình với ai/cái gì",
+        "type": "phrase",
+        "pronunciation": "/aɪˈden.t̬ə.faɪ wʌnˈself wɪð ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "300",
+        "english": "come into play",
+        "vietnamese": "có hiệu lực, bắt đầu phát huy tác dụng",
+        "type": "phrase",
+        "pronunciation": "/kʌm ˈɪn.tuː pleɪ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "301",
+        "english": "long-lasting",
+        "vietnamese": "lâu đời, kéo dài",
+        "type": "phrase",
+        "pronunciation": "/ˌlɑːŋˈlæs.tɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "302",
+        "english": "deny Ving",
+        "vietnamese": "phủ nhận đã làm gì",
+        "type": "phrase",
+        "pronunciation": "/dɪˈnaɪ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "303",
+        "english": "so-so",
+        "vietnamese": "tàm tạm, bình thường",
+        "type": "phrase",
+        "pronunciation": "/ˌsoʊˈsoʊ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "304",
+        "english": "be likely to V",
+        "vietnamese": "có khả năng làm gì",
+        "type": "phrase",
+        "pronunciation": "/biː ˈlaɪ.kli tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "305",
+        "english": "object to sth",
+        "vietnamese": "phản đối việc gì",
+        "type": "phrase",
+        "pronunciation": "/əbˈdʒekt tuː ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "306",
+        "english": "allow sb to V",
+        "vietnamese": "cho phép ai làm gì",
+        "type": "phrase",
+        "pronunciation": "/əˈlaʊ ˈsʌm.bə.di tuː/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "307",
+        "english": "a no-go",
+        "vietnamese": "sự bế tắc, tình huống không thể",
+        "type": "phrase",
+        "pronunciation": "/ə ˈnoʊ.ɡoʊ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "308",
+        "english": "culture shock",
+        "vietnamese": "sự sốc văn hóa",
+        "type": "phrase",
+        "pronunciation": "/ˈkʌl.tʃɚ ʃɑːk/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "309",
+        "english": "believe in sth",
+        "vietnamese": "tin vào điều gì",
+        "type": "phrase",
+        "pronunciation": "/bɪˈliːv ɪn ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "310",
+        "english": "wipe out",
+        "vietnamese": "loại bỏ, càn quét, xóa sổ",
+        "type": "phrase",
+        "pronunciation": "/waɪp aʊt/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "311",
+        "english": "contribute to sth",
+        "vietnamese": "góp phần vào cái gì",
+        "type": "phrase",
+        "pronunciation": "/kənˈtrɪb.juːt tuː ˈsʌm.θɪŋ/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "312",
+        "english": "at the right time",
+        "vietnamese": "đúng giờ, đúng thời điểm",
+        "type": "phrase",
+        "pronunciation": "/æt ðə raɪt taɪm/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "313",
+        "english": "be restrained from",
+        "vietnamese": "bị hạn chế, không được phép làm gì",
+        "type": "phrase",
+        "pronunciation": "/biː rɪˈstreɪnd frɑːm/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": "314",
+        "english": "on one's own",
+        "vietnamese": "tự bản thân ai đó (= by oneself)",
+        "type": "phrase",
+        "pronunciation": "/ɑːn wʌnz oʊn/",
+        "unit": "week2",
+        "level": 1
+    },
+    {
+        "id": 315,
+        "english": "traffic",
+        "vietnamese": "giao thông",
+        "type": "noun",
+        "pronunciation": "/ˈtræfɪk/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 316,
+        "english": "congestion",
+        "vietnamese": "sự tắc nghẽn",
+        "type": "noun",
+        "pronunciation": "/kənˈdʒestʃən/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 317,
+        "english": "bustling",
+        "vietnamese": "nhộn nhịp, hối hả",
+        "type": "adjective",
+        "pronunciation": "/ˈbʌslɪŋ/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 318,
+        "english": "concrete jungle",
+        "vietnamese": "khu đô thị lớn với nhiều tòa nhà bê tông",
+        "type": "noun",
+        "pronunciation": "/ˈkɒŋkriːt ˈdʒʌŋɡl/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 319,
+        "english": "construction site",
+        "vietnamese": "công trường xây dựng",
+        "type": "noun",
+        "pronunciation": "/kənˈstrʌkʃn saɪt/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 320,
+        "english": "congested",
+        "vietnamese": "đông đúc, tắc nghẽn",
+        "type": "adjective",
+        "pronunciation": "/kənˈdʒestɪd/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 321,
+        "english": "downtown",
+        "vietnamese": "trung tâm thành phố",
+        "type": "noun",
+        "pronunciation": "/ˈdaʊntaʊn/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 322,
+        "english": "entertainment centre",
+        "vietnamese": "trung tâm giải trí",
+        "type": "noun",
+        "pronunciation": "/ˌentəˈteɪnmənt ˈsentə/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 323,
+        "english": "hygiene",
+        "vietnamese": "vệ sinh",
+        "type": "noun",
+        "pronunciation": "/ˈhaɪdʒiːn/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 324,
+        "english": "itchy",
+        "vietnamese": "ngứa, gây ngứa",
+        "type": "adjective",
+        "pronunciation": "/ˈɪtʃi/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 325,
+        "english": "leftover",
+        "vietnamese": "đồ ăn thừa",
+        "type": "noun",
+        "pronunciation": "/ˈleftəʊvə/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 326,
+        "english": "liveable",
+        "vietnamese": "đáng sống",
+        "type": "adjective",
+        "pronunciation": "/ˈlɪvəbl/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 327,
+        "english": "metro",
+        "vietnamese": "tàu điện ngầm",
+        "type": "noun",
+        "pronunciation": "/ˈmetrəʊ/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 328,
+        "english": "pricey",
+        "vietnamese": "đắt đỏ",
+        "type": "adjective",
+        "pronunciation": "/ˈpraɪsi/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 329,
+        "english": "process",
+        "vietnamese": "xử lý",
+        "type": "verb",
+        "pronunciation": "/ˈprəʊses/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 330,
+        "english": "process",
+        "vietnamese": "quá trình",
+        "type": "noun",
+        "pronunciation": "/ˈprəʊses/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 331,
+        "english": "public amenities",
+        "vietnamese": "tiện nghi công cộng",
+        "type": "noun",
+        "pronunciation": "/ˈpʌblɪk əˈmiːnətiz/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 332,
+        "english": "rush hour",
+        "vietnamese": "giờ cao điểm",
+        "type": "noun",
+        "pronunciation": "/ˈrʌʃ aʊə/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 333,
+        "english": "sky train",
+        "vietnamese": "tàu điện trên cao",
+        "type": "noun",
+        "pronunciation": "/ˈskaɪ treɪn/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 334,
+        "english": "traffic jam",
+        "vietnamese": "ùn tắc giao thông",
+        "type": "noun",
+        "pronunciation": "/ˈtræfɪk dʒæm/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 335,
+        "english": "tram",
+        "vietnamese": "xe điện, tàu điện",
+        "type": "noun",
+        "pronunciation": "/træm/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 336,
+        "english": "comfort",
+        "vietnamese": "an ủi, làm thoải mái",
+        "type": "verb",
+        "pronunciation": "/ˈkʌmfət/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 337,
+        "english": "comfort",
+        "vietnamese": "sự thoải mái, sự an ủi",
+        "type": "noun",
+        "pronunciation": "/ˈkʌmfət/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 338,
+        "english": "comfortable",
+        "vietnamese": "thoải mái, dễ chịu",
+        "type": "adjective",
+        "pronunciation": "/ˈkʌmftəbl/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 339,
+        "english": "comfortably",
+        "vietnamese": "một cách thoải mái, dễ chịu",
+        "type": "adverb",
+        "pronunciation": "/ˈkʌmftəbli/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 340,
+        "english": "crowd",
+        "vietnamese": "tụ tập, làm đông đúc",
+        "type": "verb",
+        "pronunciation": "/kraʊd/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 341,
+        "english": "crowd",
+        "vietnamese": "đám đông",
+        "type": "noun",
+        "pronunciation": "/kraʊd/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 342,
+        "english": "crowded",
+        "vietnamese": "đông đúc, chật chội",
+        "type": "adjective",
+        "pronunciation": "/ˈkraʊdɪd/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 343,
+        "english": "rely",
+        "vietnamese": "tin cậy, dựa vào",
+        "type": "verb",
+        "pronunciation": "/rɪˈlaɪ/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 344,
+        "english": "reliance",
+        "vietnamese": "sự tin cậy, sự phụ thuộc",
+        "type": "noun",
+        "pronunciation": "/rɪˈlaɪəns/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 345,
+        "english": "reliable",
+        "vietnamese": "đáng tin cậy",
+        "type": "adjective",
+        "pronunciation": "/rɪˈlaɪəbl/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 346,
+        "english": "reliably",
+        "vietnamese": "một cách đáng tin cậy",
+        "type": "adverb",
+        "pronunciation": "/rɪˈlaɪəbli/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 347,
+        "english": "construct",
+        "vietnamese": "xây dựng",
+        "type": "verb",
+        "pronunciation": "/kənˈstrʌkt/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 348,
+        "english": "construction",
+        "vietnamese": "sự xây dựng, công trình xây dựng",
+        "type": "noun",
+        "pronunciation": "/kənˈstrʌkʃn/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 349,
+        "english": "constructive",
+        "vietnamese": "có tính xây dựng",
+        "type": "adjective",
+        "pronunciation": "/kənˈstrʌktɪv/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 350,
+        "english": "constructively",
+        "vietnamese": "một cách xây dựng",
+        "type": "adverb",
+        "pronunciation": "/kənˈstrʌktɪvli/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 351,
+        "english": "attract",
+        "vietnamese": "thu hút",
+        "type": "verb",
+        "pronunciation": "/əˈtrækt/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 352,
+        "english": "attraction",
+        "vietnamese": "sự thu hút, điểm thu hút",
+        "type": "noun",
+        "pronunciation": "/əˈtrækʃn/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 353,
+        "english": "attractive",
+        "vietnamese": "hấp dẫn, thu hút",
+        "type": "adjective",
+        "pronunciation": "/əˈtræktɪv/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 354,
+        "english": "attractively",
+        "vietnamese": "một cách hấp dẫn",
+        "type": "adverb",
+        "pronunciation": "/əˈtræktɪvli/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 355,
+        "english": "live",
+        "vietnamese": "sống",
+        "type": "verb",
+        "pronunciation": "/lɪv/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 356,
+        "english": "life",
+        "vietnamese": "cuộc sống",
+        "type": "noun",
+        "pronunciation": "/laɪf/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 357,
+        "english": "lively",
+        "vietnamese": "sống động, đầy sức sống",
+        "type": "adjective",
+        "pronunciation": "/ˈlaɪvli/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 358,
+        "english": "live",
+        "vietnamese": "trực tiếp (phát sóng)",
+        "type": "adjective",
+        "pronunciation": "/laɪv/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 359,
+        "english": "peace",
+        "vietnamese": "hòa bình, sự bình yên",
+        "type": "noun",
+        "pronunciation": "/piːs/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 360,
+        "english": "peaceful",
+        "vietnamese": "bình yên, hòa bình",
+        "type": "adjective",
+        "pronunciation": "/ˈpiːsfl/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 361,
+        "english": "peacefully",
+        "vietnamese": "một cách bình yên",
+        "type": "adverb",
+        "pronunciation": "/ˈpiːsfəli/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 362,
+        "english": "pollute",
+        "vietnamese": "gây ô nhiễm",
+        "type": "verb",
+        "pronunciation": "/pəˈluːt/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 363,
+        "english": "pollution",
+        "vietnamese": "sự ô nhiễm",
+        "type": "noun",
+        "pronunciation": "/pəˈluːʃn/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 364,
+        "english": "pollutant",
+        "vietnamese": "chất gây ô nhiễm",
+        "type": "noun",
+        "pronunciation": "/pəˈluːtənt/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 365,
+        "english": "polluted",
+        "vietnamese": "bị ô nhiễm",
+        "type": "adjective",
+        "pronunciation": "/pəˈluːtɪd/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 366,
+        "english": "convenience",
+        "vietnamese": "sự tiện lợi",
+        "type": "noun",
+        "pronunciation": "/kənˈviːniəns/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 367,
+        "english": "convenient",
+        "vietnamese": "tiện lợi",
+        "type": "adjective",
+        "pronunciation": "/kənˈviːniənt/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 368,
+        "english": "conveniently",
+        "vietnamese": "một cách tiện lợi",
+        "type": "adverb",
+        "pronunciation": "/kənˈviːniəntli/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 369,
+        "english": "danger",
+        "vietnamese": "sự nguy hiểm",
+        "type": "noun",
+        "pronunciation": "/ˈdeɪndʒə/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 370,
+        "english": "endanger",
+        "vietnamese": "gây nguy hiểm",
+        "type": "verb",
+        "pronunciation": "/ɪnˈdeɪndʒə/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 371,
+        "english": "dangerous",
+        "vietnamese": "nguy hiểm",
+        "type": "adjective",
+        "pronunciation": "/ˈdeɪndʒərəs/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 372,
+        "english": "dangerously",
+        "vietnamese": "một cách nguy hiểm",
+        "type": "adverb",
+        "pronunciation": "/ˈdeɪndʒərəsli/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 373,
+        "english": "carry out",
+        "vietnamese": "tiến hành, thực hiện",
+        "type": "phrase",
+        "pronunciation": "/ˈkæri aʊt/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 374,
+        "english": "come down with",
+        "vietnamese": "bị ốm, mắc bệnh",
+        "type": "phrase",
+        "pronunciation": "/kʌm daʊn wɪð/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 375,
+        "english": "cut down on",
+        "vietnamese": "cắt giảm",
+        "type": "phrase",
+        "pronunciation": "/kʌt daʊn ɒn/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 376,
+        "english": "get around",
+        "vietnamese": "di chuyển, đi lại",
+        "type": "phrase",
+        "pronunciation": "/ɡet əˈraʊnd/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 377,
+        "english": "hang out with",
+        "vietnamese": "đi chơi (cùng ai)",
+        "type": "phrase",
+        "pronunciation": "/hæŋ aʊt wɪð/",
+        "unit": "unit2",
+        "level": 1
+    },
+    {
+        "id": 378,
+        "english": "packed with",
+        "vietnamese": "chật cứng, chật ních",
+        "type": "phrase",
+        "pronunciation": "/pækt wɪð/",
+        "unit": "unit2",
+        "level": 1
     }
-  },
-  {
-    "id": "55",
-    "english": "arrive",
-    "vietnamese": "đến, tới nơi",
-    "type": "v",
-    "pronunciation": "/əˈraɪv/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "arrival"
-    }
-  },
-  {
-    "id": "56",
-    "english": "broad",
-    "vietnamese": "rộng, bao quát",
-    "type": "adj",
-    "pronunciation": "/brɔːd/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "breadth",
-      "v": "broaden"
-    }
-  },
-  {
-    "id": "57",
-    "english": "breadth",
-    "vietnamese": "chiều rộng",
-    "type": "n",
-    "pronunciation": "/bredθ/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "58",
-    "english": "broaden",
-    "vietnamese": "mở rộng, làm rộng ra",
-    "type": "v",
-    "pronunciation": "/ˈbrɔːdən/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "59",
-    "english": "culture",
-    "vietnamese": "văn hóa",
-    "type": "n",
-    "pronunciation": "/ˈkʌltʃər/",
-    "unit": "week1",
-    "level": 2,
-    "word_family": {
-      "adj": "cultural, cultured, uncultured, multicultural",
-      "adv": "culturally"
-    }
-  },
-  {
-    "id": "60",
-    "english": "cultured",
-    "vietnamese": "có học thức, có văn hóa",
-    "type": "adj",
-    "pronunciation": "/ˈkʌltʃəd/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "61",
-    "english": "differ",
-    "vietnamese": "khác nhau",
-    "type": "v",
-    "pronunciation": "/ˈdɪfər/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "different",
-      "adv": "differently",
-      "n": "difference"
-    }
-  },
-  {
-    "id": "62",
-    "english": "direct",
-    "vietnamese": "chỉ dẫn, hướng dẫn",
-    "type": "v",
-    "pronunciation": "/dəˈrekt/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "direction"
-    }
-  },
-  {
-    "id": "63",
-    "english": "direction",
-    "vietnamese": "hướng, phương hướng",
-    "type": "n",
-    "pronunciation": "/dəˈrekʃən/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "64",
-    "english": "director",
-    "vietnamese": "giám đốc; đạo diễn",
-    "type": "n",
-    "pronunciation": "/dəˈrektər/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "65",
-    "english": "direct",
-    "vietnamese": "trực tiếp",
-    "type": "adj",
-    "pronunciation": "/dəˈrekt/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "indirect",
-      "adv": "directly, indirectly"
-    }
-  },
-  {
-    "id": "66",
-    "english": "distant",
-    "vietnamese": "xa",
-    "type": "adj",
-    "pronunciation": "/ˈdɪstənt/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adv": "distantly"
-    }
-  },
-  {
-    "id": "67",
-    "english": "distance",
-    "vietnamese": "khoảng cách",
-    "type": "n",
-    "pronunciation": "/ˈdɪstəns/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "68",
-    "english": "enter",
-    "vietnamese": "đi vào, bước vào",
-    "type": "v",
-    "pronunciation": "/ˈentər/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "entrance"
-    }
-  },
-  {
-    "id": "69",
-    "english": "entrance",
-    "vietnamese": "lối vào, cửa vào",
-    "type": "n",
-    "pronunciation": "/ˈentrəns/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "70",
-    "english": "inhabit",
-    "vietnamese": "sinh sống, cư trú",
-    "type": "v",
-    "pronunciation": "/ɪnˈhæbɪt/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "inhabitant",
-      "adj": "inhabitable"
-    }
-  },
-  {
-    "id": "71",
-    "english": "inhabitant",
-    "vietnamese": "cư dân",
-    "type": "n",
-    "pronunciation": "/ɪnˈhæbɪtənt/",
-    "unit": "week1",
-    "level": 2
-  },
-  {
-    "id": "72",
-    "english": "inhabitable",
-    "vietnamese": "có thể sinh sống được",
-    "type": "adj",
-    "pronunciation": "/ɪnˈhæbɪtəbəl/",
-    "unit": "week1",
-    "level": 1
-  },
-  {
-    "id": "73",
-    "english": "habitual",
-    "vietnamese": "thường xuyên, theo thói quen",
-    "type": "adj",
-    "pronunciation": "/həˈbɪtʃuəl/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "74",
-    "english": "photograph",
-    "vietnamese": "bức ảnh; chụp ảnh",
-    "type": "n,v",
-    "pronunciation": "/ˈfəʊtəɡrɑːf/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "75",
-    "english": "photography",
-    "vietnamese": "nhiếp ảnh",
-    "type": "n",
-    "pronunciation": "/fəˈtɒɡrəfi/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "76",
-    "english": "photographer",
-    "vietnamese": "nhiếp ảnh gia",
-    "type": "n",
-    "pronunciation": "/fəˈtɒɡrəfər/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "77",
-    "english": "photographic",
-    "vietnamese": "thuộc về nhiếp ảnh",
-    "type": "adj",
-    "pronunciation": "/ˌfəʊtəˈɡræfɪk/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "78",
-    "english": "recognise",
-    "vietnamese": "nhận ra, công nhận",
-    "type": "v",
-    "pronunciation": "/ˈrekəɡnaɪz/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "recognisable, unrecognisable",
-      "n": "recognition"
-    }
-  },
-  {
-    "id": "79",
-    "english": "time",
-    "vietnamese": "thời gian",
-    "type": "n",
-    "pronunciation": "/taɪm/",
-    "unit": "week1",
-    "level": 2
-  },
-  {
-    "id": "80",
-    "english": "timetable",
-    "vietnamese": "thời gian biểu, lịch trình",
-    "type": "n",
-    "pronunciation": "/ˈtaɪmˌteɪbl/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "81",
-    "english": "tour",
-    "vietnamese": "chuyến tham quan; đi tham quan",
-    "type": "n,v",
-    "pronunciation": "/tʊə(r)/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "82",
-    "english": "tourism",
-    "vietnamese": "ngành du lịch",
-    "type": "n",
-    "pronunciation": "/ˈtʊərɪzəm/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "83",
-    "english": "tourist",
-    "vietnamese": "khách du lịch",
-    "type": "n",
-    "pronunciation": "/ˈtʊərɪst/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "84",
-    "english": "world",
-    "vietnamese": "thế giới",
-    "type": "n",
-    "pronunciation": "/wɜːld/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "worldwide",
-      "adv": "worldwide"
-    }
-  },
-  {
-    "id": "85",
-    "english": "ignore",
-    "vietnamese": "phớt lờ, bỏ qua",
-    "type": "v",
-    "pronunciation": "/ɪɡˈnɔː(r)/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "86",
-    "english": "ignorance",
-    "vietnamese": "sự thiếu hiểu biết, sự ngu dốt",
-    "type": "n",
-    "pronunciation": "/ˈɪɡ.nər.əns/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "ignorant"
-    }
-  },
-  {
-    "id": "87",
-    "english": "know",
-    "vietnamese": "biết",
-    "type": "v",
-    "pronunciation": "/nəʊ/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "88",
-    "english": "knowledge",
-    "vietnamese": "kiến thức",
-    "type": "n",
-    "pronunciation": "/ˈnɒl.ɪdʒ/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "knowledgeable"
-    }
-  },
-  {
-    "id": "89",
-    "english": "knowingly",
-    "vietnamese": "một cách cố ý, có chủ đích",
-    "type": "adv",
-    "pronunciation": "/ˈnəʊ.ɪŋ.li/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "90",
-    "english": "well-known",
-    "vietnamese": "nổi tiếng",
-    "type": "adj",
-    "pronunciation": "/ˌwelˈnəʊn/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "unknown"
-    }
-  },
-  {
-    "id": "91",
-    "english": "optimistic",
-    "vietnamese": "lạc quan",
-    "type": "adj",
-    "pronunciation": "/ˌɒp.tɪˈmɪs.tɪk/",
-    "unit": "week1",
-    "level": 2,
-    "word_family": {
-      "adv": "optimistically"
-    }
-  },
-  {
-    "id": "92",
-    "english": "optimist",
-    "vietnamese": "người lạc quan",
-    "type": "n",
-    "pronunciation": "/ˈɒp.tɪ.mɪst/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "93",
-    "english": "optimism",
-    "vietnamese": "sự lạc quan",
-    "type": "n",
-    "pronunciation": "/ˈɒp.tɪ.mɪ.zəm/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "94",
-    "english": "consider",
-    "vietnamese": "cân nhắc, xem xét",
-    "type": "v",
-    "pronunciation": "/kənˈsɪd.ər/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "consideration"
-    }
-  },
-  {
-    "id": "95",
-    "english": "considerate",
-    "vietnamese": "chu đáo, biết quan tâm",
-    "type": "adj",
-    "pronunciation": "/kənˈsɪd.ər.ət/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "inconsiderate"
-    }
-  },
-  {
-    "id": "96",
-    "english": "considerable",
-    "vietnamese": "đáng kể, khá lớn",
-    "type": "adj",
-    "pronunciation": "/kənˈsɪd.ər.ə.bəl/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "97",
-    "english": "believe",
-    "vietnamese": "tin",
-    "type": "v",
-    "pronunciation": "/bɪˈliːv/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "belief",
-      "v": "disbelieve"
-    }
-  },
-  {
-    "id": "98",
-    "english": "disbelief",
-    "vietnamese": "sự không tin",
-    "type": "n",
-    "pronunciation": "/ˌdɪs.bɪˈliːf/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "99",
-    "english": "believable",
-    "vietnamese": "đáng tin",
-    "type": "adj",
-    "pronunciation": "/bɪˈliː.və.bəl/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "unbelievable"
-    }
-  },
-  {
-    "id": "100",
-    "english": "doubt",
-    "vietnamese": "nghi ngờ; sự nghi ngờ",
-    "type": "n,v",
-    "pronunciation": "/daʊt/",
-    "unit": "week1",
-    "level": 2
-  },
-  {
-    "id": "101",
-    "english": "doubtful",
-    "vietnamese": "đáng nghi, không chắc chắn",
-    "type": "adj",
-    "pronunciation": "/ˈdaʊt.fəl/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adv": "doubtfully",
-      "adj": "undoubted",
-      "adv2": "undoubtedly"
-    }
-  },
-  {
-    "id": "102",
-    "english": "wise",
-    "vietnamese": "khôn ngoan",
-    "type": "adj",
-    "pronunciation": "/waɪz/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adv": "wisely",
-      "adj": "unwise",
-      "adv2": "unwisely"
-    }
-  },
-  {
-    "id": "103",
-    "english": "wisdom",
-    "vietnamese": "sự khôn ngoan",
-    "type": "n",
-    "pronunciation": "/ˈwɪz.dəm/",
-    "unit": "week1",
-    "level": 2
-  },
-  {
-    "id": "104",
-    "english": "confuse",
-    "vietnamese": "làm bối rối, làm nhầm lẫn",
-    "type": "v",
-    "pronunciation": "/kənˈfjuːz/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "confusion"
-    }
-  },
-  {
-    "id": "105",
-    "english": "confused",
-    "vietnamese": "bối rối",
-    "type": "adj",
-    "pronunciation": "/kənˈfjuːzd/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "106",
-    "english": "confusing",
-    "vietnamese": "gây bối rối",
-    "type": "adj",
-    "pronunciation": "/kənˈfjuː.zɪŋ/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adv": "confusingly"
-    }
-  },
-  {
-    "id": "107",
-    "english": "imagine",
-    "vietnamese": "tưởng tượng",
-    "type": "v",
-    "pronunciation": "/ɪˈmædʒ.ɪn/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "imagination"
-    }
-  },
-  {
-    "id": "108",
-    "english": "imaginative",
-    "vietnamese": "giàu trí tưởng tượng",
-    "type": "adj",
-    "pronunciation": "/ɪˈmædʒ.ɪ.nə.tɪv/",
-    "unit": "week1",
-    "level": 2,
-    "word_family": {
-      "adj": "unimaginative",
-      "adv": "imaginatively"
-    }
-  },
-  {
-    "id": "109",
-    "english": "imaginary",
-    "vietnamese": "tưởng tượng, không có thật",
-    "type": "adj",
-    "pronunciation": "/ɪˈmædʒ.ɪ.nər.i/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "110",
-    "english": "logic",
-    "vietnamese": "logic, lô-gic",
-    "type": "n",
-    "pronunciation": "/ˈlɒdʒ.ɪk/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "logical, illogical",
-      "adv": "logically, illogically"
-    }
-  },
-  {
-    "id": "111",
-    "english": "think",
-    "vietnamese": "suy nghĩ",
-    "type": "v",
-    "pronunciation": "/θɪŋk/",
-    "unit": "week1",
-    "level": 2,
-    "word_family": {
-      "n": "thought"
-    }
-  },
-  {
-    "id": "112",
-    "english": "thinking",
-    "vietnamese": "cách suy nghĩ; đang suy nghĩ",
-    "type": "n,adj",
-    "pronunciation": "/ˈθɪŋ.kɪŋ/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "113",
-    "english": "thoughtful",
-    "vietnamese": "chu đáo, sâu sắc",
-    "type": "adj",
-    "pronunciation": "/ˈθɔːt.fəl/",
-    "unit": "week1",
-    "level": 2,
-    "word_family": {
-      "n": "thoughtfulness",
-      "adj": "thoughtless",
-      "n2": "thoughtlessness"
-    }
-  },
-  {
-    "id": "114",
-    "english": "decide",
-    "vietnamese": "quyết định",
-    "type": "v",
-    "pronunciation": "/dɪˈsaɪd/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "decision"
-    }
-  },
-  {
-    "id": "115",
-    "english": "decisive",
-    "vietnamese": "quyết đoán",
-    "type": "adj",
-    "pronunciation": "/dɪˈsaɪ.sɪv/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "indecisive",
-      "n": "decisiveness",
-      "n2": "indecisiveness"
-    }
-  },
-  {
-    "id": "116",
-    "english": "conserve",
-    "vietnamese": "bảo tồn, gìn giữ",
-    "type": "v",
-    "pronunciation": "/kənˈsɜːv/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "conservation"
-    }
-  },
-  {
-    "id": "117",
-    "english": "conservationist",
-    "vietnamese": "nhà bảo tồn",
-    "type": "n",
-    "pronunciation": "/ˌkɒn.səˈveɪ.ʃən.ɪst/",
-    "unit": "week1",
-    "level": 2
-  },
-  {
-    "id": "118",
-    "english": "conservative",
-    "vietnamese": "bảo thủ; người bảo thủ",
-    "type": "adj,n",
-    "pronunciation": "/kənˈsɜː.və.tɪv/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "119",
-    "english": "maintain",
-    "vietnamese": "duy trì, bảo trì",
-    "type": "v",
-    "pronunciation": "/meɪnˈteɪn/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "maintenance"
-    }
-  },
-  {
-    "id": "120",
-    "english": "maintainer",
-    "vietnamese": "người bảo trì",
-    "type": "n",
-    "pronunciation": "/meɪnˈteɪ.nər/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "121",
-    "english": "maintainable",
-    "vietnamese": "có thể bảo trì, duy trì được",
-    "type": "adj",
-    "pronunciation": "/meɪnˈteɪ.nə.bəl/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "122",
-    "english": "novel",
-    "vietnamese": "mới lạ",
-    "type": "adj",
-    "pronunciation": "/ˈnɒv.əl/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "novelty"
-    }
-  },
-  {
-    "id": "123",
-    "english": "novel",
-    "vietnamese": "tiểu thuyết",
-    "type": "n",
-    "pronunciation": "/ˈnɒv.əl/",
-    "unit": "week1",
-    "level": 2,
-    "word_family": {
-      "n": "novelist",
-      "v": "novelize"
-    }
-  },
-  {
-    "id": "124",
-    "english": "influence",
-    "vietnamese": "ảnh hưởng; ảnh hưởng đến",
-    "type": "n,v",
-    "pronunciation": "/ˈɪn.flu.əns/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "125",
-    "english": "influential",
-    "vietnamese": "có ảnh hưởng",
-    "type": "adj",
-    "pronunciation": "/ˌɪn.fluˈen.ʃəl/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "adj": "influenced, uninfluenced"
-    }
-  },
-  {
-    "id": "126",
-    "english": "influencer",
-    "vietnamese": "người có sức ảnh hưởng",
-    "type": "n",
-    "pronunciation": "/ˈɪn.flu.ən.sər/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "127",
-    "english": "innovate",
-    "vietnamese": "đổi mới, cải tiến",
-    "type": "v",
-    "pronunciation": "/ˈɪn.ə.veɪt/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "innovation"
-    }
-  },
-  {
-    "id": "128",
-    "english": "innovative",
-    "vietnamese": "sáng tạo, đổi mới",
-    "type": "adj",
-    "pronunciation": "/ˈɪn.ə.və.tɪv/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "129",
-    "english": "innovator",
-    "vietnamese": "nhà đổi mới",
-    "type": "n",
-    "pronunciation": "/ˈɪn.ə.veɪ.tər/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "130",
-    "english": "place",
-    "vietnamese": "nơi chốn; đặt, để",
-    "type": "n,v",
-    "pronunciation": "/pleɪs/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "131",
-    "english": "replace",
-    "vietnamese": "thay thế",
-    "type": "v",
-    "pronunciation": "/rɪˈpleɪs/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "replacement",
-      "adj": "replaceable, irreplaceable"
-    }
-  },
-  {
-    "id": "132",
-    "english": "placement",
-    "vietnamese": "sự sắp xếp; việc bố trí; vị trí được phân công",
-    "type": "n",
-    "pronunciation": "/ˈpleɪs.mənt/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "133",
-    "english": "new",
-    "vietnamese": "mới",
-    "type": "adj",
-    "pronunciation": "/njuː/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "134",
-    "english": "renew",
-    "vietnamese": "làm mới; gia hạn",
-    "type": "v",
-    "pronunciation": "/rɪˈnjuː/",
-    "unit": "week1",
-    "level": 3,
-    "word_family": {
-      "n": "renewal",
-      "adj": "renewable"
-    }
-  },
-  {
-    "id": "135",
-    "english": "anew",
-    "vietnamese": "lại một lần nữa; từ đầu",
-    "type": "adv",
-    "pronunciation": "/əˈnjuː/",
-    "unit": "week1",
-    "level": 2
-  },
-  {
-    "id": "136",
-    "english": "electric",
-    "vietnamese": "thuộc về điện; chạy bằng điện",
-    "type": "adj",
-    "pronunciation": "/ɪˈlek.trɪk/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "137",
-    "english": "electrify",
-    "vietnamese": "điện khí hóa; làm phấn khích",
-    "type": "v",
-    "pronunciation": "/ɪˈlek.trɪ.faɪ/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "138",
-    "english": "electrician",
-    "vietnamese": "thợ điện",
-    "type": "n",
-    "pronunciation": "/ɪˌlekˈtrɪʃ.ən/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "139",
-    "english": "electricity",
-    "vietnamese": "điện; điện năng",
-    "type": "n",
-    "pronunciation": "/ɪˌlekˈtrɪs.ə.ti/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "140",
-    "english": "electronic",
-    "vietnamese": "thuộc về điện tử",
-    "type": "adj",
-    "pronunciation": "/ɪˌlekˈtrɒn.ɪk/",
-    "unit": "week1",
-    "level": 3
-  },
-  {
-    "id": "141",
-    "english": "set up",
-    "vietnamese": "thành lập, thiết lập, dựng lên",
-    "type": "phrase",
-    "pronunciation": "/set ʌp/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "142",
-    "english": "bring out",
-    "vietnamese": "xuất bản, phát hành, đưa ra thị trường",
-    "type": "phrase",
-    "pronunciation": "/brɪŋ aʊt/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "143",
-    "english": "look through",
-    "vietnamese": "đọc lướt, xem qua",
-    "type": "phrase",
-    "pronunciation": "/lʊk θruː/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "144",
-    "english": "keep up with",
-    "vietnamese": "theo kịp, bắt kịp",
-    "type": "phrase",
-    "pronunciation": "/kiːp ʌp wɪð/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "145",
-    "english": "run out of",
-    "vietnamese": "hết, cạn kiệt",
-    "type": "phrase",
-    "pronunciation": "/rʌn aʊt əv/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "146",
-    "english": "pass down",
-    "vietnamese": "truyền lại (cho thế hệ sau)",
-    "type": "phrase",
-    "pronunciation": "/pɑːs daʊn/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "147",
-    "english": "close down",
-    "vietnamese": "đóng cửa vĩnh viễn, phá sản",
-    "type": "phrase",
-    "pronunciation": "/kləʊz daʊn/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "148",
-    "english": "get on with",
-    "vietnamese": "hòa thuận, có mối quan hệ tốt với",
-    "type": "phrase",
-    "pronunciation": "/ɡet ɒn wɪð/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "149",
-    "english": "turn down",
-    "vietnamese": "từ chối; vặn nhỏ (âm lượng)",
-    "type": "phrase",
-    "pronunciation": "/tɜːn daʊn/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "150",
-    "english": "set off",
-    "vietnamese": "khởi hành; làm nổ, kích hoạt (chuông báo động)",
-    "type": "phrase",
-    "pronunciation": "/set ɒf/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "151",
-    "english": "turn up",
-    "vietnamese": "đến, xuất hiện; vặn to (âm lượng)",
-    "type": "phrase",
-    "pronunciation": "/tɜːn ʌp/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "152",
-    "english": "work out",
-    "vietnamese": "tập thể dục; tìm ra giải pháp; tiến triển tốt đẹp",
-    "type": "phrase",
-    "pronunciation": "/wɜːk aʊt/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "153",
-    "english": "take over",
-    "vietnamese": "tiếp quản, thâu tóm",
-    "type": "phrase",
-    "pronunciation": "/teɪk ˈəʊvə/",
-    "unit": "unit1",
-    "level": 4
-  },
-  {
-    "id": "154",
-    "english": "find out",
-    "vietnamese": "tìm hiểu, phát hiện ra thông tin",
-    "type": "phrase",
-    "pronunciation": "/faɪnd aʊt/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "155",
-    "english": "live on",
-    "vietnamese": "sống dựa vào (nguồn tiền/thức ăn)",
-    "type": "phrase",
-    "pronunciation": "/lɪv ɒn/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "156",
-    "english": "deal with",
-    "vietnamese": "giải quyết, xử lý",
-    "type": "phrase",
-    "pronunciation": "/diːl wɪð/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "157",
-    "english": "look over",
-    "vietnamese": "xem xét, kiểm tra tổng thể",
-    "type": "phrase",
-    "pronunciation": "/lʊk ˈəʊvə/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "158",
-    "english": "face up to",
-    "vietnamese": "dũng cảm đối mặt, chấp nhận (sự thật)",
-    "type": "phrase",
-    "pronunciation": "/feɪs ʌp tuː/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "159",
-    "english": "split up",
-    "vietnamese": "chia tay, chia nhỏ ra",
-    "type": "phrase",
-    "pronunciation": "/splɪt ʌp/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "160",
-    "english": "rustle up",
-    "vietnamese": "nấu/chuẩn bị vội bữa ăn từ đồ có sẵn",
-    "type": "phrase",
-    "pronunciation": "/ˈrʌs.əl ʌp/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "161",
-    "english": "put off",
-    "vietnamese": "trì hoãn; làm ai đó mất hứng",
-    "type": "phrase",
-    "pronunciation": "/pʊt ɒf/",
-    "unit": "unit1",
-    "level": 1
-  },
-  {
-    "id": "162",
-    "english": "root",
-    "vietnamese": "rễ, cội nguồn",
-    "type": "noun",
-    "pronunciation": "/ruːt/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "163",
-    "english": "superstition",
-    "vietnamese": "sự mê tín",
-    "type": "noun",
-    "pronunciation": "/ˌsuː.pɚˈstɪʃ.ən/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "164",
-    "english": "prestige",
-    "vietnamese": "uy tín, danh tiếng",
-    "type": "noun",
-    "pronunciation": "/presˈtiːʒ/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "165",
-    "english": "prestigious",
-    "vietnamese": "có uy tín, có danh tiếng",
-    "type": "adjective",
-    "pronunciation": "/presˈtɪdʒ.əs/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "166",
-    "english": "confuse",
-    "vietnamese": "làm xáo trộn, gây rối trí",
-    "type": "verb",
-    "pronunciation": "/kənˈfjuːz/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "167",
-    "english": "confusing",
-    "vietnamese": "gây khó hiểu, hoang mang",
-    "type": "adjective",
-    "pronunciation": "/kənˈfjuː.zɪŋ/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "168",
-    "english": "confused",
-    "vietnamese": "cảm thấy bối rối, hoang mang",
-    "type": "adjective",
-    "pronunciation": "/kənˈfjuːzd/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "169",
-    "english": "confusion",
-    "vietnamese": "sự bối rối, sự nhầm lẫn",
-    "type": "noun",
-    "pronunciation": "/kənˈfjuː.ʒən/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "170",
-    "english": "privilege",
-    "vietnamese": "đặc ân, đặc quyền",
-    "type": "noun",
-    "pronunciation": "/ˈprɪv.əl.ɪdʒ/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "171",
-    "english": "privileged",
-    "vietnamese": "được ưu tiên, có đặc quyền",
-    "type": "adjective",
-    "pronunciation": "/ˈprɪv.əl.ɪdʒd/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "172",
-    "english": "underprivileged",
-    "vietnamese": "bị thiệt thòi, nghèo khổ",
-    "type": "adjective",
-    "pronunciation": "/ˌʌn.dɚˈprɪv.əl.ɪdʒd/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "173",
-    "english": "hesitate",
-    "vietnamese": "do dự, ngập ngừng",
-    "type": "verb",
-    "pronunciation": "/ˈhez.ə.teɪt/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "174",
-    "english": "interpret",
-    "vietnamese": "giải thích, phiên dịch",
-    "type": "verb",
-    "pronunciation": "/ɪnˈtɝː.prət/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "175",
-    "english": "scold",
-    "vietnamese": "phê bình, la mắng",
-    "type": "verb",
-    "pronunciation": "/skoʊld/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "176",
-    "english": "criticize",
-    "vietnamese": "chỉ trích, phê bình",
-    "type": "verb",
-    "pronunciation": "/ˈkrɪt̬.ɪ.saɪz/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "177",
-    "english": "reprimand",
-    "vietnamese": "khiển trách, phê bình",
-    "type": "verb",
-    "pronunciation": "/ˈrep.rə.mænd/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "178",
-    "english": "praise",
-    "vietnamese": "khen ngợi",
-    "type": "verb",
-    "pronunciation": "/preɪz/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "179",
-    "english": "insult",
-    "vietnamese": "xúc phạm, sỉ nhục",
-    "type": "verb",
-    "pronunciation": "/ɪnˈsʌlt/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "180",
-    "english": "reproach",
-    "vietnamese": "la mắng, trách mắng",
-    "type": "verb",
-    "pronunciation": "/rɪˈproʊtʃ/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "181",
-    "english": "deceive",
-    "vietnamese": "lừa dối",
-    "type": "verb",
-    "pronunciation": "/dɪˈsiːv/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "182",
-    "english": "deception",
-    "vietnamese": "sự lừa dối",
-    "type": "noun",
-    "pronunciation": "/dɪˈsep.ʃən/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "183",
-    "english": "deceitful",
-    "vietnamese": "dối trá, lừa lọc",
-    "type": "adjective",
-    "pronunciation": "/dɪˈsiːt.fəl/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "184",
-    "english": "potential",
-    "vietnamese": "tiềm năng, tiềm ẩn",
-    "type": "adjective",
-    "pronunciation": "/poʊˈten.ʃəl/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "185",
-    "english": "bind",
-    "vietnamese": "buộc, gắn kết",
-    "type": "verb",
-    "pronunciation": "/baɪnd/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "186",
-    "english": "disapprove",
-    "vietnamese": "không đồng tình, phản đối",
-    "type": "verb",
-    "pronunciation": "/ˌdɪs.əˈpruːv/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "187",
-    "english": "disapproval",
-    "vietnamese": "sự phản đối",
-    "type": "noun",
-    "pronunciation": "/ˌdɪs.əˈpruː.vəl/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "188",
-    "english": "approve",
-    "vietnamese": "tán thành, đồng tình",
-    "type": "verb",
-    "pronunciation": "/əˈpruːv/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "189",
-    "english": "humorous",
-    "vietnamese": "hài hước",
-    "type": "adjective",
-    "pronunciation": "/ˈhjuː.mə.rəs/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "190",
-    "english": "discriminate",
-    "vietnamese": "phân biệt đối xử",
-    "type": "verb",
-    "pronunciation": "/dɪˈskrɪm.ə.neɪt/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "191",
-    "english": "sexism",
-    "vietnamese": "sự phân biệt đối xử theo giới tính",
-    "type": "noun",
-    "pronunciation": "/ˈsek.sɪ.zəm/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "192",
-    "english": "abortion",
-    "vietnamese": "sự phá thai, sự bỏ thai",
-    "type": "noun",
-    "pronunciation": "/əˈbɔːr.ʃən/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "193",
-    "english": "rejection",
-    "vietnamese": "sự khước từ, sự từ chối",
-    "type": "noun",
-    "pronunciation": "/rɪˈdʒek.ʃən/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "194",
-    "english": "eliminate",
-    "vietnamese": "loại bỏ, loại trừ",
-    "type": "verb",
-    "pronunciation": "/iˈlɪm.ə.neɪt/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "195",
-    "english": "adoption",
-    "vietnamese": "sự nhận nuôi, sự tiếp nhận",
-    "type": "noun",
-    "pronunciation": "/əˈdɑːp.ʃən/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "196",
-    "english": "exacerbate",
-    "vietnamese": "làm tệ đi, làm trầm trọng thêm",
-    "type": "verb",
-    "pronunciation": "/ɪɡˈzæs.ɚ.beɪt/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "197",
-    "english": "worsen",
-    "vietnamese": "làm tệ đi",
-    "type": "verb",
-    "pronunciation": "/ˈwɝː.sən/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "198",
-    "english": "aggravate",
-    "vietnamese": "làm trầm trọng thêm",
-    "type": "verb",
-    "pronunciation": "/ˈæɡ.rə.veɪt/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "199",
-    "english": "adaptation",
-    "vietnamese": "sự thích nghi",
-    "type": "noun",
-    "pronunciation": "/ˌæd.əpˈteɪ.ʃən/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "200",
-    "english": "alienate",
-    "vietnamese": "cô lập, làm cho xa lánh",
-    "type": "verb",
-    "pronunciation": "/ˈeɪ.li.ə.neɪt/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "201",
-    "english": "tremendous",
-    "vietnamese": "to lớn, lớn lao",
-    "type": "adjective",
-    "pronunciation": "/trɪˈmen.dəs/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "202",
-    "english": "enormous",
-    "vietnamese": "to lớn, khổng lồ",
-    "type": "adjective",
-    "pronunciation": "/əˈnɔːr.məs/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "203",
-    "english": "worship",
-    "vietnamese": "tôn thờ, thờ cúng",
-    "type": "verb",
-    "pronunciation": "/ˈwɝː.ʃɪp/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "204",
-    "english": "extinct",
-    "vietnamese": "tuyệt chủng",
-    "type": "adjective",
-    "pronunciation": "/ɪkˈstɪŋkt/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "205",
-    "english": "synthesis",
-    "vietnamese": "sự tổng hợp",
-    "type": "noun",
-    "pronunciation": "/ˈsɪn.θə.sɪs/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "206",
-    "english": "integrate",
-    "vietnamese": "hội nhập, tích hợp",
-    "type": "verb",
-    "pronunciation": "/ˈɪn.t̬ə.ɡreɪt/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "207",
-    "english": "integration",
-    "vietnamese": "sự hội nhập, sự tích hợp",
-    "type": "noun",
-    "pronunciation": "/ˌɪn.t̬əˈɡreɪ.ʃən/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "208",
-    "english": "conflict",
-    "vietnamese": "sự xung đột, tranh chấp",
-    "type": "noun",
-    "pronunciation": "/ˈkɑːn.flɪkt/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "209",
-    "english": "daunting",
-    "vietnamese": "kinh hoàng, đe dọa, làm nản lòng",
-    "type": "adjective",
-    "pronunciation": "/ˈdɑːn.t̬ɪŋ/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "210",
-    "english": "intimidating",
-    "vietnamese": "kinh hoàng, đáng sợ, đe dọa",
-    "type": "adjective",
-    "pronunciation": "/ɪnˈtɪm.ə.deɪ.t̬ɪŋ/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "211",
-    "english": "appoint",
-    "vietnamese": "bổ nhiệm",
-    "type": "verb",
-    "pronunciation": "/əˈpɔɪnt/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "212",
-    "english": "appointment",
-    "vietnamese": "sự bổ nhiệm, cuộc hẹn",
-    "type": "noun",
-    "pronunciation": "/əˈpɔɪnt.mənt/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "213",
-    "english": "deliberate",
-    "vietnamese": "cố tình, có tính toán",
-    "type": "adjective",
-    "pronunciation": "/dɪˈlɪb.ɚ.ət/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "214",
-    "english": "intentional",
-    "vietnamese": "cố tình, có mục đích",
-    "type": "adjective",
-    "pronunciation": "/ɪnˈten.ʃən.əl/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "215",
-    "english": "preserve",
-    "vietnamese": "bảo tồn, gìn giữ",
-    "type": "verb",
-    "pronunciation": "/prɪˈzɝːv/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "216",
-    "english": "sympathy",
-    "vietnamese": "sự cảm thông, lòng trắc ẩn",
-    "type": "noun",
-    "pronunciation": "/ˈsɪm.pə.θi/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "217",
-    "english": "sympathetic",
-    "vietnamese": "cảm thông, đồng cảm",
-    "type": "adjective",
-    "pronunciation": "/ˌsɪm.pəˈθet̬.ɪk/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "218",
-    "english": "attempt",
-    "vietnamese": "cố gắng, thử sức, sự nỗ lực",
-    "type": "verb",
-    "pronunciation": "/əˈtempt/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "219",
-    "english": "offensive",
-    "vietnamese": "có tính xúc phạm, làm mất lòng",
-    "type": "adjective",
-    "pronunciation": "/əˈfen.sɪv/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "220",
-    "english": "revival",
-    "vietnamese": "sự hồi sinh, sự phục hồi",
-    "type": "noun",
-    "pronunciation": "/rɪˈvaɪ.vəl/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "221",
-    "english": "modest",
-    "vietnamese": "khiêm tốn",
-    "type": "adjective",
-    "pronunciation": "/ˈmɑː.dɪst/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "222",
-    "english": "humble",
-    "vietnamese": "khiêm tốn, nhún nhường",
-    "type": "adjective",
-    "pronunciation": "/ˈhʌm.bəl/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "223",
-    "english": "demolish",
-    "vietnamese": "tàn phá, phá hủy",
-    "type": "verb",
-    "pronunciation": "/dɪˈmɑː.lɪʃ/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "224",
-    "english": "dismiss",
-    "vietnamese": "coi thường, gạt bỏ, sa thải",
-    "type": "verb",
-    "pronunciation": "/dɪsˈmɪs/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "225",
-    "english": "dismissive",
-    "vietnamese": "thản nhiên, coi thường",
-    "type": "adjective",
-    "pronunciation": "/dɪsˈmɪs.ɪv/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "226",
-    "english": "dismissal",
-    "vietnamese": "sự sa thải, sự gạt bỏ",
-    "type": "noun",
-    "pronunciation": "/dɪsˈmɪs.əl/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "227",
-    "english": "aboriginal",
-    "vietnamese": "bản địa",
-    "type": "adjective",
-    "pronunciation": "/ˌæb.əˈrɪdʒ.ən.əl/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "228",
-    "english": "native",
-    "vietnamese": "bản địa, tự nhiên",
-    "type": "adjective",
-    "pronunciation": "/ˈneɪ.t̬ɪv/",
-    "unit": "week2",
-    "level": 3
-  },
-  {
-    "id": "229",
-    "english": "abundance",
-    "vietnamese": "sự dư thừa, sự phong phú",
-    "type": "noun",
-    "pronunciation": "/əˈbʌn.dəns/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "230",
-    "english": "coexist",
-    "vietnamese": "cùng tồn tại",
-    "type": "verb",
-    "pronunciation": "/ˌkoʊ.ɪɡˈzɪst/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "231",
-    "english": "patriotism",
-    "vietnamese": "chủ nghĩa yêu nước",
-    "type": "noun",
-    "pronunciation": "/ˈpeɪ.tri.ə.tɪ.zəm/",
-    "unit": "week2",
-    "level": 2
-  },
-  {
-    "id": "232",
-    "english": "emerge",
-    "vietnamese": "xuất hiện, nổi lên",
-    "type": "verb",
-    "pronunciation": "/ɪˈmɝːdʒ/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "233",
-    "english": "vanish",
-    "vietnamese": "biến mất",
-    "type": "verb",
-    "pronunciation": "/ˈvæn.ɪʃ/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "234",
-    "english": "brave",
-    "vietnamese": "dũng cảm",
-    "type": "adjective",
-    "pronunciation": "/breɪv/",
-    "unit": "week2",
-    "level": 4
-  },
-  {
-    "id": "235",
-    "english": "contractual marriage",
-    "vietnamese": "cuộc hôn nhân sắp đặt (theo hợp đồng)",
-    "type": "phrase",
-    "pronunciation": "/kənˈtræk.tʃu.əl ˈmær.ɪdʒ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "236",
-    "english": "search for our roots",
-    "vietnamese": "tìm về cội nguồn của chúng ta",
-    "type": "phrase",
-    "pronunciation": "/sɝːtʃ fɔːr aʊər ruːts/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "237",
-    "english": "get engaged",
-    "vietnamese": "đính hôn",
-    "type": "phrase",
-    "pronunciation": "/ɡet ɪnˈɡeɪdʒd/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "238",
-    "english": "romantic marriage",
-    "vietnamese": "cuộc hôn nhân tự nguyện (vì tình yêu)",
-    "type": "phrase",
-    "pronunciation": "/roʊˈmæn.tɪk ˈmær.ɪdʒ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "239",
-    "english": "at once",
-    "vietnamese": "ngay lập tức",
-    "type": "phrase",
-    "pronunciation": "/æt wʌns/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "240",
-    "english": "a pair",
-    "vietnamese": "một cặp, một đôi",
-    "type": "phrase",
-    "pronunciation": "/ə per/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "241",
-    "english": "punctual",
-    "vietnamese": "đúng giờ (= on time)",
-    "type": "phrase",
-    "pronunciation": "/ˈpʌŋk.tʃu.əl/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "242",
-    "english": "prevalent",
-    "vietnamese": "phổ biến, thịnh hành (= popular = widespread)",
-    "type": "phrase",
-    "pronunciation": "/ˈprev.əl.ənt/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "243",
-    "english": "just for once",
-    "vietnamese": "chỉ một lần duy nhất",
-    "type": "phrase",
-    "pronunciation": "/dʒʌst fɔːr wʌns/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "244",
-    "english": "as regular as clockwork",
-    "vietnamese": "đều đặn, thường xuyên (= on a regular basis)",
-    "type": "phrase",
-    "pronunciation": "/æz ˈreɡ.jə.lɚ æz ˈklɑːk.wɝːk/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "245",
-    "english": "on the dot",
-    "vietnamese": "đúng giờ",
-    "type": "phrase",
-    "pronunciation": "/ɑːn ðə dɑːt/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "246",
-    "english": "be supposed to V",
-    "vietnamese": "được cho là / có nhiệm vụ phải làm gì",
-    "type": "phrase",
-    "pronunciation": "/biː səˈpoʊzd tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "247",
-    "english": "be willing to V",
-    "vietnamese": "sẵn lòng làm gì",
-    "type": "phrase",
-    "pronunciation": "/biː ˈwɪl.ɪŋ tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "248",
-    "english": "scold sb for sth",
-    "vietnamese": "phê bình, la mắng ai vì điều gì",
-    "type": "phrase",
-    "pronunciation": "/skoʊld ˈsʌm.bə.di fɔːr ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "249",
-    "english": "praise sb for sth",
-    "vietnamese": "khen ngợi ai về điều gì",
-    "type": "phrase",
-    "pronunciation": "/preɪz ˈsʌm.bə.di fɔːr ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "250",
-    "english": "pay sb a compliment on sth",
-    "vietnamese": "dành lời khen ngợi cho ai về điều gì",
-    "type": "phrase",
-    "pronunciation": "/peɪ ˈsʌm.bə.di ə ˈkɑːm.plə.mənt ɑːn ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "251",
-    "english": "reproach sb for sth",
-    "vietnamese": "la mắng, trách mắng ai",
-    "type": "phrase",
-    "pronunciation": "/rɪˈproʊtʃ ˈsʌm.bə.di fɔːr ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "252",
-    "english": "be attracted to sb/sth",
-    "vietnamese": "bị thu hút bởi ai/cái gì",
-    "type": "phrase",
-    "pronunciation": "/biː əˈtræk.tɪd tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "253",
-    "english": "religious text",
-    "vietnamese": "cuốn kinh, văn bản tôn giáo",
-    "type": "phrase",
-    "pronunciation": "/rɪˈlɪdʒ.əs tekst/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "254",
-    "english": "well-established",
-    "vietnamese": "được chuẩn bị kỹ lưỡng / lâu đời, có uy tín",
-    "type": "phrase",
-    "pronunciation": "/ˌwel ɪˈstæb.lɪʃt/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "255",
-    "english": "well-advised",
-    "vietnamese": "khôn ngoan, sáng suốt",
-    "type": "phrase",
-    "pronunciation": "/ˌwel ədˈvaɪzd/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "256",
-    "english": "sense of responsibility",
-    "vietnamese": "ý thức trách nhiệm",
-    "type": "phrase",
-    "pronunciation": "/sens əv rɪˌspɑːn.səˈbɪl.ə.ti/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "257",
-    "english": "bump into",
-    "vietnamese": "tình cờ bắt gặp (= run into = come across)",
-    "type": "phrase",
-    "pronunciation": "/bʌmp ˈɪn.tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "258",
-    "english": "well-balanced",
-    "vietnamese": "cân bằng, hài hòa",
-    "type": "phrase",
-    "pronunciation": "/ˌwel ˈbæl.ənst/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "259",
-    "english": "be about to V",
-    "vietnamese": "sắp sửa làm gì (= be on the point of V-ing)",
-    "type": "phrase",
-    "pronunciation": "/biː əˈbaʊt tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "260",
-    "english": "loss and grief",
-    "vietnamese": "sự mất mát và đau thương",
-    "type": "phrase",
-    "pronunciation": "/lɑːs ænd ɡriːf/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "261",
-    "english": "religious ceremony",
-    "vietnamese": "nghi thức tôn giáo",
-    "type": "phrase",
-    "pronunciation": "/rɪˈlɪdʒ.əs ˈser.ə.moʊ.ni/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "262",
-    "english": "sense of self",
-    "vietnamese": "ý thức cá nhân, bản sắc cá nhân",
-    "type": "phrase",
-    "pronunciation": "/sens əv self/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "263",
-    "english": "disapprove of sth",
-    "vietnamese": "phản đối, không đồng tình cái gì",
-    "type": "phrase",
-    "pronunciation": "/ˌdɪs.əˈpruːv əv ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "264",
-    "english": "approve of sth",
-    "vietnamese": "đồng tình, tán thành cái gì",
-    "type": "phrase",
-    "pronunciation": "/əˈpruːv əv ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "265",
-    "english": "on the flip side",
-    "vietnamese": "mặt khác (= on the other hand)",
-    "type": "phrase",
-    "pronunciation": "/ɑːn ðə flɪp saɪd/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "266",
-    "english": "sense of humor",
-    "vietnamese": "khiếu hài hước",
-    "type": "phrase",
-    "pronunciation": "/sens əv ˈhjuː.mɚ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "267",
-    "english": "sex discrimination",
-    "vietnamese": "sự phân biệt đối xử theo giới tính",
-    "type": "phrase",
-    "pronunciation": "/seks dɪˌskrɪm.əˈneɪ.ʃən/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "268",
-    "english": "ethnic group",
-    "vietnamese": "nhóm dân tộc",
-    "type": "phrase",
-    "pronunciation": "/ˈeθ.nɪk ɡruːp/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "269",
-    "english": "be highly regarded",
-    "vietnamese": "được coi trọng, được đánh giá cao",
-    "type": "phrase",
-    "pronunciation": "/biː ˈhaɪ.li rɪˈɡɑːr.dɪd/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "270",
-    "english": "get rid of",
-    "vietnamese": "bỏ, loại bỏ (= eliminate)",
-    "type": "phrase",
-    "pronunciation": "/ɡet rɪd əv/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "271",
-    "english": "be close to the bone",
-    "vietnamese": "thiếu tế nhị, có tính xúc phạm",
-    "type": "phrase",
-    "pronunciation": "/biː kloʊs tuː ðə boʊn/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "272",
-    "english": "get over",
-    "vietnamese": "vượt qua (= overcome)",
-    "type": "phrase",
-    "pronunciation": "/ɡet ˈoʊ.vɚ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "273",
-    "english": "face up to",
-    "vietnamese": "dũng cảm đối mặt",
-    "type": "phrase",
-    "pronunciation": "/feɪs ʌp tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "274",
-    "english": "in the wee hours",
-    "vietnamese": "nửa đêm, rạng sáng",
-    "type": "phrase",
-    "pronunciation": "/ɪn ðə wiː aʊərz/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "275",
-    "english": "deep-rooted",
-    "vietnamese": "lâu đời, ăn sâu bám rễ",
-    "type": "phrase",
-    "pronunciation": "/ˌdiːpˈruː.t̬ɪd/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "276",
-    "english": "let go of",
-    "vietnamese": "buông bỏ, thả ra",
-    "type": "phrase",
-    "pronunciation": "/let ɡoʊ əv/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "277",
-    "english": "result in",
-    "vietnamese": "dẫn tới, gây ra",
-    "type": "phrase",
-    "pronunciation": "/rɪˈzʌlt ɪn/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "278",
-    "english": "cultural identity",
-    "vietnamese": "bản sắc văn hóa",
-    "type": "phrase",
-    "pronunciation": "/ˈkʌl.tʃɚ.əl aɪˈden.t̬ə.ti/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "279",
-    "english": "tie the knot",
-    "vietnamese": "kết hôn",
-    "type": "phrase",
-    "pronunciation": "/taɪ ðə nɑːt/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "280",
-    "english": "extend invitation to sb",
-    "vietnamese": "gửi lời mời tới ai",
-    "type": "phrase",
-    "pronunciation": "/ɪkˈstend ˌɪn.vəˈteɪ.ʃən tuː ˈsʌm.bə.di/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "281",
-    "english": "not always be the case",
-    "vietnamese": "không phải lúc nào cũng đúng",
-    "type": "phrase",
-    "pronunciation": "/nɑːt ˈɑːl.weɪz biː ðə keɪs/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "282",
-    "english": "the majority culture",
-    "vietnamese": "văn hóa đa số",
-    "type": "phrase",
-    "pronunciation": "/ðə məˈdʒɑː.rə.ti ˈkʌl.tʃɚ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "283",
-    "english": "make a decision on sth",
-    "vietnamese": "đưa ra quyết định về điều gì",
-    "type": "phrase",
-    "pronunciation": "/meɪk ə dɪˈsɪʒ.ən ɑːn ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "284",
-    "english": "tip of the iceberg",
-    "vietnamese": "bề nổi của tảng băng (phần nhỏ của vấn đề)",
-    "type": "phrase",
-    "pronunciation": "/tɪp əv ðə ˈaɪs.bɝːɡ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "285",
-    "english": "have an effect on sth",
-    "vietnamese": "có ảnh hưởng / tác động đến cái gì",
-    "type": "phrase",
-    "pronunciation": "/hæv æn əˈfekt ɑːn ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "286",
-    "english": "above the law",
-    "vietnamese": "đứng trên pháp luật (hoặc vi phạm luật)",
-    "type": "phrase",
-    "pronunciation": "/əˈbʌv ðə lɑː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "287",
-    "english": "be expected to V",
-    "vietnamese": "được kỳ vọng là làm gì",
-    "type": "phrase",
-    "pronunciation": "/biː ɪkˈspek.tɪd tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "288",
-    "english": "speak to sb",
-    "vietnamese": "nói chuyện với ai",
-    "type": "phrase",
-    "pronunciation": "/spiːk tuː ˈsʌm.bə.di/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "289",
-    "english": "be considered to be adj",
-    "vietnamese": "được coi là như thế nào",
-    "type": "phrase",
-    "pronunciation": "/biː kənˈsɪd.ɚd tuː biː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "290",
-    "english": "be considered for sth",
-    "vietnamese": "được cân nhắc cho chức vụ/việc gì",
-    "type": "phrase",
-    "pronunciation": "/biː kənˈsɪd.ɚd fɔːr ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "291",
-    "english": "make an attempt to V",
-    "vietnamese": "cố gắng, nỗ lực làm gì",
-    "type": "phrase",
-    "pronunciation": "/meɪk æn əˈtempt tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "292",
-    "english": "have no chance of sth",
-    "vietnamese": "không có cơ hội làm gì",
-    "type": "phrase",
-    "pronunciation": "/hæv noʊ tʃæns əv ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "293",
-    "english": "not necessarily mean",
-    "vietnamese": "không nhất thiết có nghĩa là",
-    "type": "phrase",
-    "pronunciation": "/nɑːt ˌnes.əˈser.əl.i miːn/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "294",
-    "english": "for fear of sth",
-    "vietnamese": "vì sợ rằng cái gì",
-    "type": "phrase",
-    "pronunciation": "/fɔːr fɪr əv ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "295",
-    "english": "help sb V",
-    "vietnamese": "giúp ai làm gì",
-    "type": "phrase",
-    "pronunciation": "/help ˈsʌm.bə.di/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "296",
-    "english": "prior to",
-    "vietnamese": "trước (= before)",
-    "type": "phrase",
-    "pronunciation": "/ˈpraɪ.ɚ tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "297",
-    "english": "give up",
-    "vietnamese": "từ bỏ",
-    "type": "phrase",
-    "pronunciation": "/ɡɪv ʌp/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "298",
-    "english": "take an examination",
-    "vietnamese": "tham gia kỳ thi",
-    "type": "phrase",
-    "pronunciation": "/teɪk æn ɪɡˌzæm.əˈneɪ.ʃən/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "299",
-    "english": "identify oneself with sth",
-    "vietnamese": "đồng cảm, gắn mình với ai/cái gì",
-    "type": "phrase",
-    "pronunciation": "/aɪˈden.t̬ə.faɪ wʌnˈself wɪð ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "300",
-    "english": "come into play",
-    "vietnamese": "có hiệu lực, bắt đầu phát huy tác dụng",
-    "type": "phrase",
-    "pronunciation": "/kʌm ˈɪn.tuː pleɪ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "301",
-    "english": "long-lasting",
-    "vietnamese": "lâu đời, kéo dài",
-    "type": "phrase",
-    "pronunciation": "/ˌlɑːŋˈlæs.tɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "302",
-    "english": "deny Ving",
-    "vietnamese": "phủ nhận đã làm gì",
-    "type": "phrase",
-    "pronunciation": "/dɪˈnaɪ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "303",
-    "english": "so-so",
-    "vietnamese": "tàm tạm, bình thường",
-    "type": "phrase",
-    "pronunciation": "/ˌsoʊˈsoʊ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "304",
-    "english": "be likely to V",
-    "vietnamese": "có khả năng làm gì",
-    "type": "phrase",
-    "pronunciation": "/biː ˈlaɪ.kli tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "305",
-    "english": "object to sth",
-    "vietnamese": "phản đối việc gì",
-    "type": "phrase",
-    "pronunciation": "/əbˈdʒekt tuː ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "306",
-    "english": "allow sb to V",
-    "vietnamese": "cho phép ai làm gì",
-    "type": "phrase",
-    "pronunciation": "/əˈlaʊ ˈsʌm.bə.di tuː/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "307",
-    "english": "a no-go",
-    "vietnamese": "sự bế tắc, tình huống không thể",
-    "type": "phrase",
-    "pronunciation": "/ə ˈnoʊ.ɡoʊ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "308",
-    "english": "culture shock",
-    "vietnamese": "sự sốc văn hóa",
-    "type": "phrase",
-    "pronunciation": "/ˈkʌl.tʃɚ ʃɑːk/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "309",
-    "english": "believe in sth",
-    "vietnamese": "tin vào điều gì",
-    "type": "phrase",
-    "pronunciation": "/bɪˈliːv ɪn ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "310",
-    "english": "wipe out",
-    "vietnamese": "loại bỏ, càn quét, xóa sổ",
-    "type": "phrase",
-    "pronunciation": "/waɪp aʊt/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "311",
-    "english": "contribute to sth",
-    "vietnamese": "góp phần vào cái gì",
-    "type": "phrase",
-    "pronunciation": "/kənˈtrɪb.juːt tuː ˈsʌm.θɪŋ/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "312",
-    "english": "at the right time",
-    "vietnamese": "đúng giờ, đúng thời điểm",
-    "type": "phrase",
-    "pronunciation": "/æt ðə raɪt taɪm/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "313",
-    "english": "be restrained from",
-    "vietnamese": "bị hạn chế, không được phép làm gì",
-    "type": "phrase",
-    "pronunciation": "/biː rɪˈstreɪnd frɑːm/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": "314",
-    "english": "on one's own",
-    "vietnamese": "tự bản thân ai đó (= by oneself)",
-    "type": "phrase",
-    "pronunciation": "/ɑːn wʌnz oʊn/",
-    "unit": "week2",
-    "level": 1
-  },
-  {
-    "id": 315,
-    "english": "traffic",
-    "vietnamese": "giao thông",
-    "type": "noun",
-    "pronunciation": "/ˈtræfɪk/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 316,
-    "english": "congestion",
-    "vietnamese": "sự tắc nghẽn",
-    "type": "noun",
-    "pronunciation": "/kənˈdʒestʃən/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 317,
-    "english": "bustling",
-    "vietnamese": "nhộn nhịp, hối hả",
-    "type": "adjective",
-    "pronunciation": "/ˈbʌslɪŋ/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 318,
-    "english": "concrete jungle",
-    "vietnamese": "khu đô thị lớn với nhiều tòa nhà bê tông",
-    "type": "noun",
-    "pronunciation": "/ˈkɒŋkriːt ˈdʒʌŋɡl/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 319,
-    "english": "construction site",
-    "vietnamese": "công trường xây dựng",
-    "type": "noun",
-    "pronunciation": "/kənˈstrʌkʃn saɪt/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 320,
-    "english": "congested",
-    "vietnamese": "đông đúc, tắc nghẽn",
-    "type": "adjective",
-    "pronunciation": "/kənˈdʒestɪd/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 321,
-    "english": "downtown",
-    "vietnamese": "trung tâm thành phố",
-    "type": "noun",
-    "pronunciation": "/ˈdaʊntaʊn/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 322,
-    "english": "entertainment centre",
-    "vietnamese": "trung tâm giải trí",
-    "type": "noun",
-    "pronunciation": "/ˌentəˈteɪnmənt ˈsentə/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 323,
-    "english": "hygiene",
-    "vietnamese": "vệ sinh",
-    "type": "noun",
-    "pronunciation": "/ˈhaɪdʒiːn/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 324,
-    "english": "itchy",
-    "vietnamese": "ngứa, gây ngứa",
-    "type": "adjective",
-    "pronunciation": "/ˈɪtʃi/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 325,
-    "english": "leftover",
-    "vietnamese": "đồ ăn thừa",
-    "type": "noun",
-    "pronunciation": "/ˈleftəʊvə/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 326,
-    "english": "liveable",
-    "vietnamese": "đáng sống",
-    "type": "adjective",
-    "pronunciation": "/ˈlɪvəbl/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 327,
-    "english": "metro",
-    "vietnamese": "tàu điện ngầm",
-    "type": "noun",
-    "pronunciation": "/ˈmetrəʊ/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 328,
-    "english": "pricey",
-    "vietnamese": "đắt đỏ",
-    "type": "adjective",
-    "pronunciation": "/ˈpraɪsi/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 329,
-    "english": "process",
-    "vietnamese": "xử lý",
-    "type": "verb",
-    "pronunciation": "/ˈprəʊses/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 330,
-    "english": "process",
-    "vietnamese": "quá trình",
-    "type": "noun",
-    "pronunciation": "/ˈprəʊses/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 331,
-    "english": "public amenities",
-    "vietnamese": "tiện nghi công cộng",
-    "type": "noun",
-    "pronunciation": "/ˈpʌblɪk əˈmiːnətiz/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 332,
-    "english": "rush hour",
-    "vietnamese": "giờ cao điểm",
-    "type": "noun",
-    "pronunciation": "/ˈrʌʃ aʊə/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 333,
-    "english": "sky train",
-    "vietnamese": "tàu điện trên cao",
-    "type": "noun",
-    "pronunciation": "/ˈskaɪ treɪn/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 334,
-    "english": "traffic jam",
-    "vietnamese": "ùn tắc giao thông",
-    "type": "noun",
-    "pronunciation": "/ˈtræfɪk dʒæm/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 335,
-    "english": "tram",
-    "vietnamese": "xe điện, tàu điện",
-    "type": "noun",
-    "pronunciation": "/træm/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 336,
-    "english": "comfort",
-    "vietnamese": "an ủi, làm thoải mái",
-    "type": "verb",
-    "pronunciation": "/ˈkʌmfət/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 337,
-    "english": "comfort",
-    "vietnamese": "sự thoải mái, sự an ủi",
-    "type": "noun",
-    "pronunciation": "/ˈkʌmfət/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 338,
-    "english": "comfortable",
-    "vietnamese": "thoải mái, dễ chịu",
-    "type": "adjective",
-    "pronunciation": "/ˈkʌmftəbl/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 339,
-    "english": "comfortably",
-    "vietnamese": "một cách thoải mái, dễ chịu",
-    "type": "adverb",
-    "pronunciation": "/ˈkʌmftəbli/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 340,
-    "english": "crowd",
-    "vietnamese": "tụ tập, làm đông đúc",
-    "type": "verb",
-    "pronunciation": "/kraʊd/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 341,
-    "english": "crowd",
-    "vietnamese": "đám đông",
-    "type": "noun",
-    "pronunciation": "/kraʊd/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 342,
-    "english": "crowded",
-    "vietnamese": "đông đúc, chật chội",
-    "type": "adjective",
-    "pronunciation": "/ˈkraʊdɪd/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 343,
-    "english": "rely",
-    "vietnamese": "tin cậy, dựa vào",
-    "type": "verb",
-    "pronunciation": "/rɪˈlaɪ/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 344,
-    "english": "reliance",
-    "vietnamese": "sự tin cậy, sự phụ thuộc",
-    "type": "noun",
-    "pronunciation": "/rɪˈlaɪəns/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 345,
-    "english": "reliable",
-    "vietnamese": "đáng tin cậy",
-    "type": "adjective",
-    "pronunciation": "/rɪˈlaɪəbl/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 346,
-    "english": "reliably",
-    "vietnamese": "một cách đáng tin cậy",
-    "type": "adverb",
-    "pronunciation": "/rɪˈlaɪəbli/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 347,
-    "english": "construct",
-    "vietnamese": "xây dựng",
-    "type": "verb",
-    "pronunciation": "/kənˈstrʌkt/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 348,
-    "english": "construction",
-    "vietnamese": "sự xây dựng, công trình xây dựng",
-    "type": "noun",
-    "pronunciation": "/kənˈstrʌkʃn/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 349,
-    "english": "constructive",
-    "vietnamese": "có tính xây dựng",
-    "type": "adjective",
-    "pronunciation": "/kənˈstrʌktɪv/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 350,
-    "english": "constructively",
-    "vietnamese": "một cách xây dựng",
-    "type": "adverb",
-    "pronunciation": "/kənˈstrʌktɪvli/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 351,
-    "english": "attract",
-    "vietnamese": "thu hút",
-    "type": "verb",
-    "pronunciation": "/əˈtrækt/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 352,
-    "english": "attraction",
-    "vietnamese": "sự thu hút, điểm thu hút",
-    "type": "noun",
-    "pronunciation": "/əˈtrækʃn/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 353,
-    "english": "attractive",
-    "vietnamese": "hấp dẫn, thu hút",
-    "type": "adjective",
-    "pronunciation": "/əˈtræktɪv/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 354,
-    "english": "attractively",
-    "vietnamese": "một cách hấp dẫn",
-    "type": "adverb",
-    "pronunciation": "/əˈtræktɪvli/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 355,
-    "english": "live",
-    "vietnamese": "sống",
-    "type": "verb",
-    "pronunciation": "/lɪv/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 356,
-    "english": "life",
-    "vietnamese": "cuộc sống",
-    "type": "noun",
-    "pronunciation": "/laɪf/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 357,
-    "english": "lively",
-    "vietnamese": "sống động, đầy sức sống",
-    "type": "adjective",
-    "pronunciation": "/ˈlaɪvli/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 358,
-    "english": "live",
-    "vietnamese": "trực tiếp (phát sóng)",
-    "type": "adjective",
-    "pronunciation": "/laɪv/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 359,
-    "english": "peace",
-    "vietnamese": "hòa bình, sự bình yên",
-    "type": "noun",
-    "pronunciation": "/piːs/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 360,
-    "english": "peaceful",
-    "vietnamese": "bình yên, hòa bình",
-    "type": "adjective",
-    "pronunciation": "/ˈpiːsfl/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 361,
-    "english": "peacefully",
-    "vietnamese": "một cách bình yên",
-    "type": "adverb",
-    "pronunciation": "/ˈpiːsfəli/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 362,
-    "english": "pollute",
-    "vietnamese": "gây ô nhiễm",
-    "type": "verb",
-    "pronunciation": "/pəˈluːt/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 363,
-    "english": "pollution",
-    "vietnamese": "sự ô nhiễm",
-    "type": "noun",
-    "pronunciation": "/pəˈluːʃn/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 364,
-    "english": "pollutant",
-    "vietnamese": "chất gây ô nhiễm",
-    "type": "noun",
-    "pronunciation": "/pəˈluːtənt/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 365,
-    "english": "polluted",
-    "vietnamese": "bị ô nhiễm",
-    "type": "adjective",
-    "pronunciation": "/pəˈluːtɪd/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 366,
-    "english": "convenience",
-    "vietnamese": "sự tiện lợi",
-    "type": "noun",
-    "pronunciation": "/kənˈviːniəns/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 367,
-    "english": "convenient",
-    "vietnamese": "tiện lợi",
-    "type": "adjective",
-    "pronunciation": "/kənˈviːniənt/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 368,
-    "english": "conveniently",
-    "vietnamese": "một cách tiện lợi",
-    "type": "adverb",
-    "pronunciation": "/kənˈviːniəntli/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 369,
-    "english": "danger",
-    "vietnamese": "sự nguy hiểm",
-    "type": "noun",
-    "pronunciation": "/ˈdeɪndʒə/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 370,
-    "english": "endanger",
-    "vietnamese": "gây nguy hiểm",
-    "type": "verb",
-    "pronunciation": "/ɪnˈdeɪndʒə/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 371,
-    "english": "dangerous",
-    "vietnamese": "nguy hiểm",
-    "type": "adjective",
-    "pronunciation": "/ˈdeɪndʒərəs/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 372,
-    "english": "dangerously",
-    "vietnamese": "một cách nguy hiểm",
-    "type": "adverb",
-    "pronunciation": "/ˈdeɪndʒərəsli/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 373,
-    "english": "carry out",
-    "vietnamese": "tiến hành, thực hiện",
-    "type": "phrase",
-    "pronunciation": "/ˈkæri aʊt/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 374,
-    "english": "come down with",
-    "vietnamese": "bị ốm, mắc bệnh",
-    "type": "phrase",
-    "pronunciation": "/kʌm daʊn wɪð/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 375,
-    "english": "cut down on",
-    "vietnamese": "cắt giảm",
-    "type": "phrase",
-    "pronunciation": "/kʌt daʊn ɒn/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 376,
-    "english": "get around",
-    "vietnamese": "di chuyển, đi lại",
-    "type": "phrase",
-    "pronunciation": "/ɡet əˈraʊnd/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 377,
-    "english": "hang out with",
-    "vietnamese": "đi chơi (cùng ai)",
-    "type": "phrase",
-    "pronunciation": "/hæŋ aʊt wɪð/",
-    "unit": "unit2",
-    "level": 1
-  },
-  {
-    "id": 378,
-    "english": "packed with",
-    "vietnamese": "chật cứng, chật ních",
-    "type": "phrase",
-    "pronunciation": "/pækt wɪð/",
-    "unit": "unit2",
-    "level": 1
-  }
 ]
