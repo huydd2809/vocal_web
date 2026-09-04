@@ -2964,5 +2964,581 @@
     "pronunciation": "/ɑːn wʌnz oʊn/",
     "unit": "week2",
     "level": 1
+  },
+  {
+    "id": 315,
+    "english": "traffic",
+    "vietnamese": "giao thông",
+    "type": "noun",
+    "pronunciation": "/ˈtræfɪk/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 316,
+    "english": "congestion",
+    "vietnamese": "sự tắc nghẽn",
+    "type": "noun",
+    "pronunciation": "/kənˈdʒestʃən/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 317,
+    "english": "bustling",
+    "vietnamese": "nhộn nhịp, hối hả",
+    "type": "adjective",
+    "pronunciation": "/ˈbʌslɪŋ/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 318,
+    "english": "concrete jungle",
+    "vietnamese": "khu đô thị lớn với nhiều tòa nhà bê tông",
+    "type": "noun",
+    "pronunciation": "/ˈkɒŋkriːt ˈdʒʌŋɡl/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 319,
+    "english": "construction site",
+    "vietnamese": "công trường xây dựng",
+    "type": "noun",
+    "pronunciation": "/kənˈstrʌkʃn saɪt/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 320,
+    "english": "congested",
+    "vietnamese": "đông đúc, tắc nghẽn",
+    "type": "adjective",
+    "pronunciation": "/kənˈdʒestɪd/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 321,
+    "english": "downtown",
+    "vietnamese": "trung tâm thành phố",
+    "type": "noun",
+    "pronunciation": "/ˈdaʊntaʊn/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 322,
+    "english": "entertainment centre",
+    "vietnamese": "trung tâm giải trí",
+    "type": "noun",
+    "pronunciation": "/ˌentəˈteɪnmənt ˈsentə/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 323,
+    "english": "hygiene",
+    "vietnamese": "vệ sinh",
+    "type": "noun",
+    "pronunciation": "/ˈhaɪdʒiːn/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 324,
+    "english": "itchy",
+    "vietnamese": "ngứa, gây ngứa",
+    "type": "adjective",
+    "pronunciation": "/ˈɪtʃi/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 325,
+    "english": "leftover",
+    "vietnamese": "đồ ăn thừa",
+    "type": "noun",
+    "pronunciation": "/ˈleftəʊvə/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 326,
+    "english": "liveable",
+    "vietnamese": "đáng sống",
+    "type": "adjective",
+    "pronunciation": "/ˈlɪvəbl/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 327,
+    "english": "metro",
+    "vietnamese": "tàu điện ngầm",
+    "type": "noun",
+    "pronunciation": "/ˈmetrəʊ/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 328,
+    "english": "pricey",
+    "vietnamese": "đắt đỏ",
+    "type": "adjective",
+    "pronunciation": "/ˈpraɪsi/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 329,
+    "english": "process",
+    "vietnamese": "xử lý",
+    "type": "verb",
+    "pronunciation": "/ˈprəʊses/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 330,
+    "english": "process",
+    "vietnamese": "quá trình",
+    "type": "noun",
+    "pronunciation": "/ˈprəʊses/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 331,
+    "english": "public amenities",
+    "vietnamese": "tiện nghi công cộng",
+    "type": "noun",
+    "pronunciation": "/ˈpʌblɪk əˈmiːnətiz/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 332,
+    "english": "rush hour",
+    "vietnamese": "giờ cao điểm",
+    "type": "noun",
+    "pronunciation": "/ˈrʌʃ aʊə/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 333,
+    "english": "sky train",
+    "vietnamese": "tàu điện trên cao",
+    "type": "noun",
+    "pronunciation": "/ˈskaɪ treɪn/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 334,
+    "english": "traffic jam",
+    "vietnamese": "ùn tắc giao thông",
+    "type": "noun",
+    "pronunciation": "/ˈtræfɪk dʒæm/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 335,
+    "english": "tram",
+    "vietnamese": "xe điện, tàu điện",
+    "type": "noun",
+    "pronunciation": "/træm/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 336,
+    "english": "comfort",
+    "vietnamese": "an ủi, làm thoải mái",
+    "type": "verb",
+    "pronunciation": "/ˈkʌmfət/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 337,
+    "english": "comfort",
+    "vietnamese": "sự thoải mái, sự an ủi",
+    "type": "noun",
+    "pronunciation": "/ˈkʌmfət/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 338,
+    "english": "comfortable",
+    "vietnamese": "thoải mái, dễ chịu",
+    "type": "adjective",
+    "pronunciation": "/ˈkʌmftəbl/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 339,
+    "english": "comfortably",
+    "vietnamese": "một cách thoải mái, dễ chịu",
+    "type": "adverb",
+    "pronunciation": "/ˈkʌmftəbli/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 340,
+    "english": "crowd",
+    "vietnamese": "tụ tập, làm đông đúc",
+    "type": "verb",
+    "pronunciation": "/kraʊd/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 341,
+    "english": "crowd",
+    "vietnamese": "đám đông",
+    "type": "noun",
+    "pronunciation": "/kraʊd/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 342,
+    "english": "crowded",
+    "vietnamese": "đông đúc, chật chội",
+    "type": "adjective",
+    "pronunciation": "/ˈkraʊdɪd/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 343,
+    "english": "rely",
+    "vietnamese": "tin cậy, dựa vào",
+    "type": "verb",
+    "pronunciation": "/rɪˈlaɪ/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 344,
+    "english": "reliance",
+    "vietnamese": "sự tin cậy, sự phụ thuộc",
+    "type": "noun",
+    "pronunciation": "/rɪˈlaɪəns/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 345,
+    "english": "reliable",
+    "vietnamese": "đáng tin cậy",
+    "type": "adjective",
+    "pronunciation": "/rɪˈlaɪəbl/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 346,
+    "english": "reliably",
+    "vietnamese": "một cách đáng tin cậy",
+    "type": "adverb",
+    "pronunciation": "/rɪˈlaɪəbli/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 347,
+    "english": "construct",
+    "vietnamese": "xây dựng",
+    "type": "verb",
+    "pronunciation": "/kənˈstrʌkt/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 348,
+    "english": "construction",
+    "vietnamese": "sự xây dựng, công trình xây dựng",
+    "type": "noun",
+    "pronunciation": "/kənˈstrʌkʃn/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 349,
+    "english": "constructive",
+    "vietnamese": "có tính xây dựng",
+    "type": "adjective",
+    "pronunciation": "/kənˈstrʌktɪv/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 350,
+    "english": "constructively",
+    "vietnamese": "một cách xây dựng",
+    "type": "adverb",
+    "pronunciation": "/kənˈstrʌktɪvli/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 351,
+    "english": "attract",
+    "vietnamese": "thu hút",
+    "type": "verb",
+    "pronunciation": "/əˈtrækt/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 352,
+    "english": "attraction",
+    "vietnamese": "sự thu hút, điểm thu hút",
+    "type": "noun",
+    "pronunciation": "/əˈtrækʃn/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 353,
+    "english": "attractive",
+    "vietnamese": "hấp dẫn, thu hút",
+    "type": "adjective",
+    "pronunciation": "/əˈtræktɪv/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 354,
+    "english": "attractively",
+    "vietnamese": "một cách hấp dẫn",
+    "type": "adverb",
+    "pronunciation": "/əˈtræktɪvli/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 355,
+    "english": "live",
+    "vietnamese": "sống",
+    "type": "verb",
+    "pronunciation": "/lɪv/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 356,
+    "english": "life",
+    "vietnamese": "cuộc sống",
+    "type": "noun",
+    "pronunciation": "/laɪf/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 357,
+    "english": "lively",
+    "vietnamese": "sống động, đầy sức sống",
+    "type": "adjective",
+    "pronunciation": "/ˈlaɪvli/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 358,
+    "english": "live",
+    "vietnamese": "trực tiếp (phát sóng)",
+    "type": "adjective",
+    "pronunciation": "/laɪv/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 359,
+    "english": "peace",
+    "vietnamese": "hòa bình, sự bình yên",
+    "type": "noun",
+    "pronunciation": "/piːs/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 360,
+    "english": "peaceful",
+    "vietnamese": "bình yên, hòa bình",
+    "type": "adjective",
+    "pronunciation": "/ˈpiːsfl/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 361,
+    "english": "peacefully",
+    "vietnamese": "một cách bình yên",
+    "type": "adverb",
+    "pronunciation": "/ˈpiːsfəli/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 362,
+    "english": "pollute",
+    "vietnamese": "gây ô nhiễm",
+    "type": "verb",
+    "pronunciation": "/pəˈluːt/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 363,
+    "english": "pollution",
+    "vietnamese": "sự ô nhiễm",
+    "type": "noun",
+    "pronunciation": "/pəˈluːʃn/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 364,
+    "english": "pollutant",
+    "vietnamese": "chất gây ô nhiễm",
+    "type": "noun",
+    "pronunciation": "/pəˈluːtənt/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 365,
+    "english": "polluted",
+    "vietnamese": "bị ô nhiễm",
+    "type": "adjective",
+    "pronunciation": "/pəˈluːtɪd/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 366,
+    "english": "convenience",
+    "vietnamese": "sự tiện lợi",
+    "type": "noun",
+    "pronunciation": "/kənˈviːniəns/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 367,
+    "english": "convenient",
+    "vietnamese": "tiện lợi",
+    "type": "adjective",
+    "pronunciation": "/kənˈviːniənt/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 368,
+    "english": "conveniently",
+    "vietnamese": "một cách tiện lợi",
+    "type": "adverb",
+    "pronunciation": "/kənˈviːniəntli/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 369,
+    "english": "danger",
+    "vietnamese": "sự nguy hiểm",
+    "type": "noun",
+    "pronunciation": "/ˈdeɪndʒə/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 370,
+    "english": "endanger",
+    "vietnamese": "gây nguy hiểm",
+    "type": "verb",
+    "pronunciation": "/ɪnˈdeɪndʒə/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 371,
+    "english": "dangerous",
+    "vietnamese": "nguy hiểm",
+    "type": "adjective",
+    "pronunciation": "/ˈdeɪndʒərəs/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 372,
+    "english": "dangerously",
+    "vietnamese": "một cách nguy hiểm",
+    "type": "adverb",
+    "pronunciation": "/ˈdeɪndʒərəsli/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 373,
+    "english": "carry out",
+    "vietnamese": "tiến hành, thực hiện",
+    "type": "phrase",
+    "pronunciation": "/ˈkæri aʊt/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 374,
+    "english": "come down with",
+    "vietnamese": "bị ốm, mắc bệnh",
+    "type": "phrase",
+    "pronunciation": "/kʌm daʊn wɪð/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 375,
+    "english": "cut down on",
+    "vietnamese": "cắt giảm",
+    "type": "phrase",
+    "pronunciation": "/kʌt daʊn ɒn/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 376,
+    "english": "get around",
+    "vietnamese": "di chuyển, đi lại",
+    "type": "phrase",
+    "pronunciation": "/ɡet əˈraʊnd/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 377,
+    "english": "hang out with",
+    "vietnamese": "đi chơi (cùng ai)",
+    "type": "phrase",
+    "pronunciation": "/hæŋ aʊt wɪð/",
+    "unit": "unit2",
+    "level": 1
+  },
+  {
+    "id": 378,
+    "english": "packed with",
+    "vietnamese": "chật cứng, chật ních",
+    "type": "phrase",
+    "pronunciation": "/pækt wɪð/",
+    "unit": "unit2",
+    "level": 1
   }
 ]
