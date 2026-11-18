@@ -15,7 +15,7 @@
         "type": "noun",
         "pronunciation": "/'sɪti 'sentə/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "3",
@@ -24,7 +24,7 @@
         "type": "noun",
         "pronunciation": "/kə'mjuːnɪti/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "4",
@@ -33,7 +33,7 @@
         "type": "noun",
         "pronunciation": "/krɑːft/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "5",
@@ -51,7 +51,7 @@
         "type": "noun",
         "pronunciation": "/ɪ'lektrɪkəl waɪərz/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "7",
@@ -60,7 +60,7 @@
         "type": "noun",
         "pronunciation": "/ɪlek'trɪʃən/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "8",
@@ -87,7 +87,7 @@
         "type": "noun",
         "pronunciation": "/'freɪɡrəns/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "11",
@@ -96,7 +96,7 @@
         "type": "noun",
         "pronunciation": "/'fʌŋkʃən/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "12",
@@ -132,7 +132,7 @@
         "type": "adjective",
         "pronunciation": "/'ləʊkəl/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "16",
@@ -141,7 +141,7 @@
         "type": "noun",
         "pronunciation": "/'neɪbəhʊd/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "17",
@@ -168,7 +168,7 @@
         "type": "noun",
         "pronunciation": "/pə'liːs 'ɒfɪsə/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "20",
@@ -177,7 +177,7 @@
         "type": "noun",
         "pronunciation": "/'pɒtəri/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "21",
@@ -186,7 +186,7 @@
         "type": "verb",
         "pronunciation": "/prɪ'zɜːv/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "22",
@@ -204,7 +204,7 @@
         "type": "noun",
         "pronunciation": "/'ʃɒpɪŋ mɔːlz/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "24",
@@ -213,7 +213,7 @@
         "type": "verb",
         "pronunciation": "/'ʃɔːtn/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "25",
@@ -231,7 +231,7 @@
         "type": "noun",
         "pronunciation": "/ˌspeʃi'ælɪti fuːd/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "27",
@@ -249,7 +249,7 @@
         "type": "noun",
         "pronunciation": "/'tʊərɪst ə'trækʃən/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "29",
@@ -258,7 +258,7 @@
         "type": "adjective",
         "pronunciation": "/ˌwɜːld 'feɪməs/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "30",
@@ -267,7 +267,7 @@
         "type": "adjective",
         "pronunciation": "/ˈsɪl.ki/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "31",
@@ -276,7 +276,7 @@
         "type": "noun",
         "pronunciation": "/veɪs/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "32",
@@ -285,7 +285,7 @@
         "type": "noun",
         "pronunciation": "/pɒt/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "33",
@@ -303,7 +303,7 @@
         "type": "noun",
         "pronunciation": "/fɔːˈmeɪ.ʃən/",
         "unit": "unit1",
-        "level": 4
+        "level": 3
     },
     {
         "id": "35",
@@ -3593,7 +3593,7 @@
         "type": "noun",
         "pronunciation": "/æŋˈzaɪəti/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 385,
@@ -3665,7 +3665,7 @@
         "type": "noun",
         "pronunciation": "/ˈdjuː deɪt/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 393,
@@ -3674,7 +3674,7 @@
         "type": "noun",
         "pronunciation": "/ˈdedlaɪn/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 394,
@@ -3692,7 +3692,7 @@
         "type": "noun",
         "pronunciation": "/ɪnˈkʌrɪdʒmənt/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 396,
@@ -3773,7 +3773,7 @@
         "type": "noun",
         "pronunciation": "/əʊˈmɪʃn/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 405,
@@ -3827,7 +3827,7 @@
         "type": "noun",
         "pronunciation": "/ˈfɪzɪkl helθ/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 411,
@@ -3845,7 +3845,7 @@
         "type": "adverb",
         "pronunciation": "/ˈreɡjələli/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 413,
@@ -3863,7 +3863,7 @@
         "type": "noun",
         "pronunciation": "/ˈseʃn/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 415,
@@ -3881,7 +3881,7 @@
         "type": "adjective",
         "pronunciation": "/strest aʊt/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 417,
@@ -3890,7 +3890,7 @@
         "type": "verb",
         "pronunciation": "/ˈsʌfə(r)/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 418,
@@ -3908,7 +3908,7 @@
         "type": "adjective",
         "pronunciation": "/ˌwel ˈbælənst/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 420,
@@ -3944,7 +3944,7 @@
         "type": "adjective",
         "pronunciation": "/rɪˈlæksɪŋ/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 424,
@@ -3971,7 +3971,7 @@
         "type": "adjective",
         "pronunciation": "/ˈrezəluːt/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 427,
@@ -3980,7 +3980,7 @@
         "type": "adverb",
         "pronunciation": "/ˈrezəluːtli/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 428,
@@ -4034,7 +4034,7 @@
         "type": "adverb",
         "pronunciation": "/ˌɪndɪˈpendəntli/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 434,
@@ -4043,7 +4043,7 @@
         "type": "verb",
         "pronunciation": "/ˈkɒnsntreɪt/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 435,
@@ -4061,7 +4061,7 @@
         "type": "adjective",
         "pronunciation": "/ˈkɒnsntreɪtɪd/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 437,
@@ -4088,7 +4088,7 @@
         "type": "adjective",
         "pronunciation": "/dɪˈlaɪtfəl/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 440,
@@ -4097,7 +4097,7 @@
         "type": "adverb",
         "pronunciation": "/dɪˈlaɪtfəli/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 441,
@@ -4106,7 +4106,7 @@
         "type": "noun",
         "pronunciation": "/ˈkɒnfɪdəns/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 442,
@@ -4124,7 +4124,7 @@
         "type": "adverb",
         "pronunciation": "/ˈkɒnfɪdəntli/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 444,
@@ -4133,7 +4133,7 @@
         "type": "verb",
         "pronunciation": "/ˈpræktɪs/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 445,
@@ -4142,7 +4142,7 @@
         "type": "noun",
         "pronunciation": "/ˈpræktɪs/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 446,
@@ -4160,7 +4160,7 @@
         "type": "noun",
         "pronunciation": "/ɪmˈpreʃn/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 448,
@@ -4178,7 +4178,7 @@
         "type": "adverb",
         "pronunciation": "/ɪmˈpresɪvli/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 450,
@@ -4187,7 +4187,7 @@
         "type": "verb",
         "pronunciation": "/əˈdɪkt/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 451,
@@ -4232,7 +4232,7 @@
         "type": "noun",
         "pronunciation": "/ˈfɪzɪks/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 456,
@@ -4259,7 +4259,7 @@
         "type": "verb",
         "pronunciation": "/ɪnˈkʌrɪdʒ/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 459,
@@ -4322,7 +4322,7 @@
         "type": "noun",
         "pronunciation": "/tiːn/",
         "unit": "unit3",
-        "level": 1
+        "level": 2
     },
     {
         "id": 466,
@@ -4340,7 +4340,7 @@
         "type": "adjective",
         "pronunciation": "/ˈtiːneɪdʒ/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 468,
@@ -4349,7 +4349,7 @@
         "type": "noun",
         "pronunciation": "/dʒɪm/",
         "unit": "unit3",
-        "level": 4
+        "level": 3
     },
     {
         "id": 469,
@@ -4835,7 +4835,7 @@
         "type": "adjective",
         "pronunciation": "/ˈmɒdn/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 523,
@@ -4862,7 +4862,7 @@
         "type": "noun",
         "pronunciation": "/məˈdɜːnəti/",
         "unit": "unit3",
-        "level": 3
+        "level": 4
     },
     {
         "id": 526,
@@ -4925,7 +4925,7 @@
         "type": "verb",
         "pronunciation": "/ˌentəˈteɪn/",
         "unit": "unit4",
-        "level": 1
+        "level": 2
     },
     {
         "id": 533,
@@ -6302,7 +6302,7 @@
         "type": "adjective",
         "pronunciation": "/ˈeɪnʃənt/",
         "unit": "unit4",
-        "level": 1
+        "level": 2
     },
     {
         "id": 693,
@@ -6365,7 +6365,7 @@
         "type": "noun",
         "pronunciation": "/ˈkɑːsl/",
         "unit": "unit4",
-        "level": 1
+        "level": 3
     },
     {
         "id": 700,
@@ -6392,7 +6392,7 @@
         "type": "verb",
         "pronunciation": "/kənˈtrɪbjuːt/",
         "unit": "unit4",
-        "level": 1
+        "level": 2
     },
     {
         "id": 703,
@@ -6446,7 +6446,7 @@
         "type": "verb",
         "pronunciation": "/faʊnd/",
         "unit": "unit4",
-        "level": 1
+        "level": 3
     },
     {
         "id": 709,
@@ -6473,7 +6473,7 @@
         "type": "noun",
         "pronunciation": "/ɪnˈɡriːdiənt/",
         "unit": "unit4",
-        "level": 1
+        "level": 2
     },
     {
         "id": 712,
@@ -6527,7 +6527,7 @@
         "type": "verb",
         "pronunciation": "/prɪˈzɜːv/",
         "unit": "unit4",
-        "level": 1
+        "level": 3
     },
     {
         "id": 718,
@@ -6671,7 +6671,7 @@
         "type": "verb",
         "pronunciation": "/əˈtend/",
         "unit": "unit4",
-        "level": 1
+        "level": 4
     },
     {
         "id": 734,
@@ -6734,7 +6734,7 @@
         "type": "noun",
         "pronunciation": "/kənˈviːniəns/",
         "unit": "unit4",
-        "level": 1
+        "level": 4
     },
     {
         "id": 741,

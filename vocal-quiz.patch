@@ -1,0 +1,140 @@
+diff --git a/frontend/app.js b/frontend/app.js
+index 053c088..609afb8 100644
+--- a/frontend/app.js
++++ b/frontend/app.js
+@@ -76,5 +76,4 @@ async function loadFlashcards() {
+     currentCardIndex = 0;
+     displayFlashcard();
+-    updateQuizWordCountOptions(flashcards.length);
+   } catch (error) {
+     console.error("Lỗi khi tải flashcard:", error);
+@@ -154,23 +153,9 @@ document
+ // ==========================================
+ let quizWords = [];
++let quizUsesAllWords = false;
+ let currentQuizIndex = 0;
+ let quizTimer = null; // Biến lưu trữ bộ đếm thời gian liên tục cục bộ
+ let timeLeft = 10; // Mỗi câu có 10 giây (khởi tạo, sẽ được gán lại thành 15 ở hàm startCountdown)
+ 
+-function updateQuizWordCountOptions(totalWords) {
+-  const select = document.getElementById("quizWordCount");
+-  const selectedCount = select.value;
+-  const allOption = select.querySelector('option[value="all"]');
+-  select.replaceChildren();
+-
+-  const maxCount = Math.max(20, Math.ceil(totalWords / 20) * 20);
+-  for (let count = 20; count <= maxCount; count += 20) {
+-    select.add(new Option(`${count} câu`, String(count)));
+-  }
+-  select.add(allOption);
+-  select.value = selectedCount;
+-  if (!select.value) select.value = "20";
+-}
+-
+ // Nút Bắt đầu kiểm tra
+ document.getElementById("startQuizBtn").addEventListener("click", async () => {
+@@ -206,20 +191,22 @@ document.getElementById("startQuizBtn").addEventListener("click", async () => {
+     }
+ 
+-    if (wordCount === "all") {
+-      for (let i = words.length - 1; i > 0; i--) {
+-        const j = Math.floor(Math.random() * (i + 1));
+-        [words[i], words[j]] = [words[j], words[i]];
+-      }
+-    } else {
++    quizUsesAllWords = wordCount === "all";
++    if (!quizUsesAllWords) {
+       words = words.slice(0, Number(wordCount));
+     }
+ 
+-    // Khởi tạo lượt thi
+-    quizWords = words.map((w) => ({
++    // Giữ vị trí trong danh sách đã lọc để tổng kết theo nhóm.
++    quizWords = words.map((w, sourceIndex) => ({
+       ...w,
++      sourceIndex,
+       userAnswer: "",
+       isCorrect: false,
+     }));
+ 
++    for (let i = quizWords.length - 1; i > 0; i--) {
++      const j = Math.floor(Math.random() * (i + 1));
++      [quizWords[i], quizWords[j]] = [quizWords[j], quizWords[i]];
++    }
++
+     currentQuizIndex = 0;
+ 
+@@ -318,9 +305,11 @@ document.getElementById("finishQuizBtn").addEventListener("click", () => {
+ // Hàm xử lý Chấm điểm + Tăng cấp / Tụt cấp một lượt khi Kết thúc bài thi
+ async function finishQuizAndCalculate() {
++  const words = quizWords;
++  const usesAllWords = quizUsesAllWords;
+   let correctCount = 0;
+   let isAnyLevelChanged = false;
+ 
+   // Sử dụng vòng lặp để xử lý tuần tự từng từ
+-  for (let word of quizWords) {
++  for (const word of words) {
+     // Thêm .trim() cho chắc chắn để phòng trường hợp bạn lỡ gõ dư dấu cách
+     const answerLower = (word.userAnswer || "").toLowerCase().trim();
+@@ -389,7 +378,25 @@ async function finishQuizAndCalculate() {
+   }
+ 
++  if (words !== quizWords) return;
++
+   // Hiển thị điểm số tổng kết
+   document.getElementById("summaryScore").innerText =
+-    `Bạn đã trả lời đúng: ${correctCount} / ${quizWords.length} câu`;
++    `Bạn đã trả lời đúng: ${correctCount} / ${words.length} từ`;
++
++  const groupScores = document.getElementById("quizGroupScores");
++  groupScores.replaceChildren();
++  const groupSize = 20;
++  groupScores.hidden = usesAllWords || words.length <= groupSize;
++  if (!groupScores.hidden) {
++    const wordsInSourceOrder = [...words].sort((a, b) => a.sourceIndex - b.sourceIndex);
++    for (let start = 0; start < words.length; start += groupSize) {
++      const group = wordsInSourceOrder.slice(start, start + groupSize);
++      const correct = group.filter((word) => word.isCorrect).length;
++      const range = group.length === 1 ? start + 1 : `${start + 1}–${start + group.length}`;
++      const item = document.createElement("li");
++      item.textContent = `Từ ${range}: đúng ${correct}/${group.length} từ`;
++      groupScores.appendChild(item);
++    }
++  }
+ 
+   // Tạo bảng chi tiết so sánh đáp án
+@@ -397,5 +404,5 @@ async function finishQuizAndCalculate() {
+   summaryTableBody.innerHTML = "";
+ 
+-  quizWords.forEach((word) => {
++  words.forEach((word) => {
+     const row = document.createElement("tr");
+     const statusHTML = word.isCorrect
+diff --git a/frontend/index.html b/frontend/index.html
+index 8340de5..671f497 100644
+--- a/frontend/index.html
++++ b/frontend/index.html
+@@ -164,7 +164,13 @@
+ 
+                 <div class="filter-group">
+-                    <label for="quizWordCount">Số câu</label>
++                    <label for="quizWordCount">Số từ</label>
+                     <select id="quizWordCount">
+-                        <option value="20">20 câu</option>
++                        <option value="20">20 từ</option>
++                        <option value="40">40 từ</option>
++                        <option value="60">60 từ</option>
++                        <option value="80">80 từ</option>
++                        <option value="100">100 từ</option>
++                        <option value="120">120 từ</option>
++                        <option value="140">140 từ</option>
+                         <option value="all">Toàn bộ (xáo trộn)</option>
+                     </select>
+@@ -201,4 +207,5 @@
+                 <h3 style="color: #2c3e50; text-align: center; margin-bottom: 5px;">KẾT QUẢ BÀI KIỂM TRA</h3>
+                 <h4 id="summaryScore" style="text-align: center; font-size: 22px; color: #2ecc71; margin-top: 5px;">Bạn đúng: 0/0 từ</h4>
++                <ul id="quizGroupScores" hidden></ul>
+                 
+                 <div class="table-container">
+                 

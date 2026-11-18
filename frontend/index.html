@@ -162,6 +162,20 @@
                     </select>
                 </div>
 
+                <div class="filter-group">
+                    <label for="quizWordCount">Số từ</label>
+                    <select id="quizWordCount">
+                        <option value="20">20 từ</option>
+                        <option value="40">40 từ</option>
+                        <option value="60">60 từ</option>
+                        <option value="80">80 từ</option>
+                        <option value="100">100 từ</option>
+                        <option value="120">120 từ</option>
+                        <option value="140">140 từ</option>
+                        <option value="all">Toàn bộ (xáo trộn)</option>
+                    </select>
+                </div>
+
                 <button id="startQuizBtn" class="btn-secondary">Bắt đầu kiểm tra</button>
             </div>
 
@@ -192,6 +206,7 @@
             <div id="quizSummaryArea" class="quiz-summary-area" style="display: none; margin-top: 25px; padding-top: 20px; border-top: 2px dashed #bdc3c7;">
                 <h3 style="color: #2c3e50; text-align: center; margin-bottom: 5px;">KẾT QUẢ BÀI KIỂM TRA</h3>
                 <h4 id="summaryScore" style="text-align: center; font-size: 22px; color: #2ecc71; margin-top: 5px;">Bạn đúng: 0/0 từ</h4>
+                <ul id="quizGroupScores" hidden></ul>
                 
                 <div class="table-container">
                     <table class="vocab-table">
